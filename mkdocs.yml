@@ -1,0 +1,68 @@
+site_name: openkoutsi docs
+site_description: User guide for openkoutsi, the self-hosted cycling coaching platform.
+site_url: https://openkoutsi.github.io/openkoutsi-docs/
+site_author: openkoutsi
+
+repo_url: https://github.com/openkoutsi/openkoutsi-docs
+repo_name: openkoutsi/openkoutsi-docs
+edit_uri: edit/main/docs/
+
+copyright: Licensed under Apache-2.0.
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+  - Features:
+      - Overview: features/index.md
+      - Activities & sync: features/activities.md
+      - Fitness metrics: features/fitness-metrics.md
+      - Training plans & workouts: features/training-plans.md
+  - FAQ: faq.md
