@@ -1,0 +1,12 @@
+# MkDocs build output
+site/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+
+# Virtual environments
+.venv
+
+# Editor settings
+.vscode/
