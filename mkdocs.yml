@@ -32,7 +32,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.top
@@ -41,6 +40,29 @@ theme:
     - search.highlight
     - content.code.copy
     - toc.follow
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fi
+          name: Suomi
+          build: true
+          nav_translations:
+            Home: Etusivu
+            Getting started: Aloittaminen
+            Features: Ominaisuudet
+            Overview: Yleiskatsaus
+            Activities & sync: Aktiviteetit ja synkronointi
+            Fitness metrics: Kuntomittarit
+            Training plans & workouts: Harjoitusohjelmat ja harjoitukset
+            FAQ: UKK
 
 markdown_extensions:
   - admonition

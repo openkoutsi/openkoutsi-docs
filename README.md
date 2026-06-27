@@ -30,12 +30,26 @@ uv run mkdocs build --strict
 ```
 docs/                 Markdown content
   index.md            Landing / overview
+  index.fi.md         Finnish translation (.fi.md sibling)
   getting-started.md  First steps for a new user
   features/           One page per feature area
   faq.md
   assets/             Logo and favicon
 mkdocs.yml            Site configuration
 ```
+
+## Translations / localisation
+
+The site is available in **English** (default) and **Finnish**, built with the
+[`mkdocs-static-i18n`](https://github.com/ultrabug/mkdocs-static-i18n) plugin in
+suffix mode. English pages are the un-suffixed files (`docs/index.md`); the Finnish
+version of a page is a `.fi.md` sibling (`docs/index.fi.md`). A language switcher is
+shown in the header, and the Finnish site is published under `/fi/`.
+
+To translate a page, copy the English file to `<page>.fi.md` and translate its prose,
+keeping the structure and the un-suffixed `.md` link targets. Any page without a
+`.fi.md` falls back to English automatically. New pages also need a Finnish title
+under the `fi` locale's `nav_translations` in `mkdocs.yml`.
 
 ## Deployment
 

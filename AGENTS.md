@@ -15,8 +15,19 @@ MkDocs + Material and published to GitHub Pages.
 - When you add a page, add it to the `nav` in `mkdocs.yml`.
 - Keep the language end-user oriented and concise. Use admonitions
   (`!!! note`, `!!! tip`, `!!! info`) for asides.
-- Translate or localise content only if/when localisation is introduced (not set
-  up yet).
+## Localisation
+
+- The site is localised with the [`mkdocs-static-i18n`](https://github.com/ultrabug/mkdocs-static-i18n)
+  plugin in **suffix** mode. English is the default language and lives in the
+  un-suffixed pages (`docs/index.md`, …); Finnish lives in `.fi.md` siblings
+  (`docs/index.fi.md`, …). To translate a page, add a `<page>.fi.md` next to the
+  English file with the same structure. Pages without a `.fi.md` automatically fall
+  back to English, so partial translations are fine.
+- Keep internal links pointing at the un-suffixed `.md` targets (e.g.
+  `[…](features/activities.md)`) in both languages — the plugin rewrites them to the
+  reader's language.
+- When you add a page, add the un-suffixed file to the `nav` and add a Finnish title
+  for it under the `fi` locale's `nav_translations` in `mkdocs.yml`.
 
 ## Before pushing
 
