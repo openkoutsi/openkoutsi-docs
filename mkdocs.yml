@@ -57,6 +57,7 @@ plugins:
           nav_translations:
             Home: Etusivu
             Getting started: Aloittaminen
+            Your data & AI: Datasi ja tekoäly
             Features: Ominaisuudet
             Overview: Yleiskatsaus
             Activities & sync: Aktiviteetit ja synkronointi
@@ -87,4 +88,5 @@ nav:
       - Activities & sync: features/activities.md
       - Fitness metrics: features/fitness-metrics.md
       - Training plans & workouts: features/training-plans.md
+  - Your data & AI: data-and-ai.md
   - FAQ: faq.md

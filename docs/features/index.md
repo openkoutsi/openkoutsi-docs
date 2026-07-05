@@ -31,8 +31,10 @@ openkoutsi also includes, among other things:
 - **Activity labels & notes** — tag rides (for example *race* or *commute*) and add
   free-text notes.
 - **AI coaching analysis** — optional per-activity analysis and a daily training
-  status summary, powered by an OpenAI-compatible backend you configure.
-- **Privacy controls** — export your data or delete your account at any time.
+  status summary, powered by an OpenAI-compatible backend you configure. See
+  [Your data & AI](../data-and-ai.md) for what gets sent to a model.
+- **Privacy controls** — export your data or delete your account at any time. See
+  [Your data & AI](../data-and-ai.md).
 
 !!! note
     Each of these will get its own page as the documentation grows.
