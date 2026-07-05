@@ -10,9 +10,16 @@ palvelimelta pilvipalvelun sijaan.
 
 ### Mihin datani tallennetaan?
 
-openkoutsia pyörittävälle palvelimelle. Jokaisella tiimillä on oma tietokantansa
-ja tiedostotallennuksensa, ja voit viedä datasi tai poistaa tilisi milloin
+openkoutsia pyörittävälle palvelimelle. Jokaisella käyttäjällä on **oma
+yksityinen tietokantansa** ja tiedostotallennuksensa, joten aktiviteettisi ja
+ohjelmasi näkyvät vain sinulle. Voit viedä datasi tai poistaa tilisi milloin
 tahansa.
+
+### Voiko joku muu — valmentaja tai ylläpitäjä — nähdä aktiviteettini?
+
+Ei. openkoutsi toimii yhtenä instanssina, jossa jokainen käyttäjä säilyttää oman
+yksityisen datansa. Valmentajaroolia tai jaettua tiimidataa ei ole; ylläpitäjä
+hallinnoi tilejä ja instanssin asetuksia mutta ei näe harjoitusdataasi.
 
 ### Onko minun pakko yhdistää Strava tai Wahoo?
 

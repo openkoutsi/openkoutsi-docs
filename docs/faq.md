@@ -10,8 +10,15 @@ than a cloud service.
 
 ### Where is my data stored?
 
-On the server running openkoutsi. Each team has its own database and file storage,
-and you can export your data or delete your account at any time.
+On the server running openkoutsi. Each user has their **own private database** and
+file storage, so your activities and plans are visible only to you. You can export
+your data or delete your account at any time.
+
+### Can someone else — a coach or admin — see my activities?
+
+No. openkoutsi runs as a single instance where every user keeps their own private
+data. There is no coach role and no shared team data; an administrator manages
+accounts and instance settings but does not see your training data.
 
 ### Do I have to connect Strava or Wahoo?
 

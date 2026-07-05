@@ -27,8 +27,6 @@ below.
 
 openkoutsi also includes, among other things:
 
-- **Coach access** — coaches can view athlete profiles and activity lists within
-  their team.
 - **Goals** — set training or event goals with optional target metrics and dates.
 - **Activity labels & notes** — tag rides (for example *race* or *commute*) and add
   free-text notes.
