@@ -34,8 +34,10 @@ openkoutsi sisältää muun muassa myös:
   *kisa* tai *työmatka*) ja lisää vapaamuotoisia muistiinpanoja.
 - **Tekoälyvalmennuksen analyysi** — valinnainen aktiviteettikohtainen analyysi ja
   päivittäinen harjoitustilanteen yhteenveto, jonka tuottaa määrittämäsi
-  OpenAI-yhteensopiva taustajärjestelmä.
-- **Yksityisyysasetukset** — vie datasi tai poista tilisi milloin tahansa.
+  OpenAI-yhteensopiva taustajärjestelmä. Katso [Datasi ja tekoäly](../data-and-ai.md),
+  mitä mallille lähetetään.
+- **Yksityisyysasetukset** — vie datasi tai poista tilisi milloin tahansa. Katso
+  [Datasi ja tekoäly](../data-and-ai.md).
 
 !!! note
     Jokainen näistä saa oman sivunsa dokumentaation kasvaessa.
