@@ -12,22 +12,31 @@ jonka ylläpitäjäsi antoi). openkoutsi toimii sekä työpöydällä että mobi
 ## Ensimmäisen käynnistyksen asetukset
 
 Aivan ensimmäisellä kerralla, kun openkoutsi-instanssi avataan, se näyttää
-**ohjatun asennuksen**, joka luo ensimmäisen tiimin ja sen ylläpitäjätilin. Jos
-olet pystyttämässä instanssia, suorita tämä ohjattu toiminto luodaksesi
-ylläpitäjän kirjautumistietosi.
+**ohjatun asennuksen**, joka luo ensimmäisen **ylläpitäjätilin**. Jos olet
+pystyttämässä instanssia, suorita tämä ohjattu toiminto luodaksesi ylläpitäjän
+kirjautumistietosi. Tiimejä ei ole — yksi asennus on yksi instanssi, jonka sen
+käyttäjät jakavat.
 
 Jos instanssi on jo asetettu, näet sen sijaan tavallisen kirjautumissivun.
 
-## Tiimiin liittyminen
+## Tilin hankkiminen
 
-openkoutsi on järjestetty **tiimeihin**. Datasi sijaitsee tiimin sisällä, ja voit
-kuulua useampaan kuin yhteen.
+Rekisteröityminen on **vain kutsusta**. Julkista rekisteröitymistä tai
+liittymispyyntöjonoa ei ole:
 
-Tiimiin pääsee kahdella tavalla:
+1. Ylläpitäjä lähettää sinulle **kutsun**.
+2. Avaat kutsulinkin ja luot tilisi sen avulla.
 
-- **Kutsu** — ylläpitäjä lähettää sinulle kutsulinkin. Avaa se ja luo tilisi.
-- **Liittymispyyntö** — kirjautumissivulta voit pyytää liittymistä olemassa
-  olevaan tiimiin. Ylläpitäjä sitten hyväksyy tai hylkää pyynnön.
+Kun tilisi on olemassa, kirjaudut sisään instanssin kirjautumissivulta.
+Harjoitusdatasi on kokonaan omaasi — jokaisella käyttäjällä on **yksityinen
+tietokanta**, eikä kukaan muu (ei edes ylläpitäjä) näe aktiviteettejasi tai
+ohjelmiasi.
+
+!!! info "Roolit"
+    Rooleja on kaksi. Useimmat ovat **käyttäjiä**, jotka omistavat ja hallitsevat
+    omaa profiiliaan ja harjoitusdataansa. **Instanssin ylläpitäjä** voi lisäksi
+    hallita käyttäjiä, lähettää kutsuja ja muokata instanssin laajuisia asetuksia
+    (kuten valinnaista tekoälymääritystä).
 
 ## Urheilijaprofiilisi
 

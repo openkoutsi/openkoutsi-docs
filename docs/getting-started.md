@@ -12,22 +12,29 @@ URL your administrator gave you). openkoutsi works on both desktop and mobile.
 ## First-run setup
 
 The very first time an openkoutsi instance is opened, it shows a **setup wizard**
-that creates the first team and its administrator account. If you are the person
-standing up the instance, complete this wizard to create your admin login.
+that creates the first **administrator** account. If you are the person standing
+up the instance, complete this wizard to create your admin login. There are no
+teams — one deployment is a single instance shared by its users.
 
 If the instance is already set up, you will see the normal login page instead.
 
-## Joining a team
+## Getting an account
 
-openkoutsi is organised into **teams**. Your data lives inside a team, and you can
-belong to more than one.
+Registration is **invite-only**. There is no public sign-up and no join-request
+queue:
 
-There are two ways to get into a team:
+1. An administrator issues you an **invitation**.
+2. You open the invite link and create your account with it.
 
-- **Invitation** — an administrator sends you an invite link. Open it and create
-  your account.
-- **Join request** — from the login page you can request to join an existing
-  team. An administrator then approves or rejects the request.
+Once your account exists, you log in from the instance's login page. Your training
+data is entirely your own — each user has a **private database**, and no one else
+(not even an administrator) sees your activities or plans.
+
+!!! info "Roles"
+    There are two roles. Most people are a **user**, who owns and manages their
+    own profile and training data. An **instance administrator** can additionally
+    manage users, issue invitations, and edit instance-wide settings (such as the
+    optional AI configuration).
 
 ## Your athlete profile
 

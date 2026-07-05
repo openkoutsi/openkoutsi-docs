@@ -28,8 +28,6 @@ Valitse aihe alta.
 
 openkoutsi sisältää muun muassa myös:
 
-- **Valmentajien pääsy** — valmentajat voivat nähdä urheilijoiden profiilit ja
-  aktiviteettilistat tiiminsä sisällä.
 - **Tavoitteet** — aseta harjoitus- tai tapahtumatavoitteita valinnaisilla
   kohdemittareilla ja päivämäärillä.
 - **Aktiviteettien tunnisteet ja muistiinpanot** — merkitse lenkit (esimerkiksi

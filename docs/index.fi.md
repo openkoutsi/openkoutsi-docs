@@ -16,9 +16,13 @@ harjoitusohjelmaa — kaikki hallinnassasi olevalta palvelimelta.
 
 - **Urheilijoille**, jotka haluavat omistaa harjoitusdatansa sen sijaan, että
   luovuttaisivat sen pilvipalvelulle.
-- **Valmentajille**, joiden täytyy nähdä urheilijoidensa aktiviteetit ja
-  ohjelmat.
-- **Itse isännöiville**, jotka pyörittävät openkoutsia omalla laitteistollaan.
+- **Itse isännöiville**, jotka pyörittävät openkoutsia omalla laitteistollaan —
+  itselleen tai ryhmälle ystäviä tai perheenjäseniä, joista kukin haluaa oman
+  tilinsä.
+
+Yksi openkoutsi-asennus on **yksi instanssi**, jonka mikä tahansa määrä käyttäjiä
+voi jakaa. Jokaisella on oma tilinsä ja oma yksityinen harjoitusdatansa — katso
+[Aloittaminen](getting-started.md).
 
 ## Mitä voit tehdä
 

@@ -15,8 +15,12 @@ own goals — all from a server you control.
 
 - **Athletes** who want to own their training data instead of handing it to a
   cloud service.
-- **Coaches** who need to view their athletes' activities and plans.
-- **Self-hosters** running openkoutsi on their own hardware.
+- **Self-hosters** running openkoutsi on their own hardware — for themselves, or
+  for a group of friends or family who each want their own account.
+
+One openkoutsi deployment is a **single instance** that any number of users can
+share. Everyone gets their own account and their own private training data — see
+[Getting started](getting-started.md).
 
 ## What you can do
 
