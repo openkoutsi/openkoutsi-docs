@@ -16,6 +16,35 @@ openkoutsiin. Jokainen lataus analysoidaan automaattisesti seuraavien osalta:
 Harjoitukset luokitellaan myös automaattisesti Cogganin tyylisten alueiden
 mukaan, ja voit tarvittaessa korvata luokituksen käsin.
 
+## Aktiviteettien lisääminen käsin
+
+Kaikki harjoitukset eivät tule laitteelta. Kun harjoittelet ilman pyörätietokonetta
+— tai haluat kirjata suorituksen muistivihkosta tai taulukosta — käytä
+aktiviteettisivun **Lisää suoritus** -painiketta ja syötä tiedot käsin.
+
+Jokainen kenttä on valinnainen, joten täytä niin paljon tai vähän kuin muistat:
+
+- **Laji** ja **päivämäärä**
+- **Kesto** (minuutteina) ja **matka** (kilometreinä)
+- **Keski-** ja **maksimisyke**
+- **Keskiteho** ja **keskikadenssi**
+- **Nousu**, **nimi** sekä joko **RPE** (1–10) tai eksplisiittinen **TSS**
+
+Jos et anna TSS:ää, openkoutsi arvioi sen antamiesi tietojen perusteella tässä
+järjestyksessä:
+
+1. eksplisiittinen **TSS**-arvo, jos annoit sellaisen;
+2. muuten **RPE** (koettu rasitus) skaalattuna kestolla;
+3. muuten **keskisyke** käyttäen profiilisi maksimisykettä.
+
+Käsin lisätyt aktiviteetit merkitään **Manual**-lähdemerkinnällä, ja ne otetaan
+huomioon kuntomittareissasi ja harjoitusohjelman yhdistämisessä aivan kuten ladatut
+tai synkronoidut lenkit.
+
+!!! tip "Riittääkö pelkkä rasituksen kirjaaminen?"
+    Pelkän päivämäärän, keston ja RPE:n syöttäminen riittää pitämään CTL/ATL/TSB-
+    kuntokäyräsi ajan tasalla päivinä, jolloin harjoittelit ilman laitetta.
+
 ## Synkronointi Stravasta
 
 Yhdistä Strava-tilisi tuodaksesi historiasi ja antaaksesi uusien lenkkien virrata
