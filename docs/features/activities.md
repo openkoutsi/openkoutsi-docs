@@ -15,6 +15,34 @@ Each upload is analysed automatically for:
 Workouts are also categorised automatically using Coggan-style zones, and you can
 override the category by hand if needed.
 
+## Adding activities manually
+
+Not every workout comes from a device. When you train without a head unit — or want
+to log a session from a notebook or spreadsheet — use **Add activity** on the
+activities page to enter the details by hand.
+
+Every field is optional, so fill in as much or as little as you remember:
+
+- **Sport type** and **date**
+- **Duration** (minutes) and **distance** (kilometres)
+- **Average** and **maximum heart rate**
+- **Average power** and **average cadence**
+- **Elevation**, a **name**, and either an **RPE** (1–10) or an explicit **TSS**
+
+If you don't provide a TSS, openkoutsi estimates one from what you did enter, in this
+order of preference:
+
+1. an explicit **TSS** value, if you gave one;
+2. otherwise your **RPE** (perceived effort), scaled by duration;
+3. otherwise your **average heart rate**, using the maximum heart rate on your profile.
+
+Manually added activities are tagged with a **Manual** source badge and count towards
+your fitness metrics and training-plan matching just like uploaded or synced rides.
+
+!!! tip "Only need to log the effort?"
+    Entering just a date, duration and RPE is enough to keep your CTL/ATL/TSB fitness
+    curves accurate on days you trained without a device.
+
 ## Syncing from Strava
 
 Connect your Strava account to import your history and have new rides flow in
