@@ -66,6 +66,22 @@ Voit asettaa **oman** päätepisteesi kohdassa **Asetukset → Tekoäly / LLM**,
 ohittaa instanssin oletusarvon tilillesi. Ylläpitäjä asettaa instanssin
 oletuksen; palvelimen globaali asetus on viimeinen varavaihtoehto.
 
+## Mallin valinta
+
+Ylläpitäjä voi tarjota **useita malleja** valittavaksi — esimerkiksi nopean
+paikallisen mallin sekä yhden tai useamman isännöidyn palveluntarjoajan. Kun
+tarjolla on useampi kuin yksi, **Malli**-pudotusvalikko ilmestyy kohtaan
+**Profiili → Analyysi**. Valitse malli, jota haluat tekoälyominaisuuksien
+käyttävän, tai jätä se arvoon **Oletus** noudattaaksesi ylläpitäjän valintaa.
+
+!!! warning "Mallin valinta voi muuttaa sitä, minne datasi menee"
+    Jokainen ylläpitäjän määrittämä malli osoittaa omaan päätepisteeseensä.
+    **Paikallisen** mallin valinta pitää datasi palvelimella; **isännöidyn
+    palveluntarjoajan** valinta lähettää pyynnön (ks. *Mitä mallille lähetetään*
+    alla) kyseiselle palveluntarjoajalle sen tietosuoja- ja säilytysehtojen
+    mukaisesti. Jos et ole varma, missä malli toimii, kysy ylläpitäjältä tai
+    valitse malli, jonka tiedät olevan paikallinen.
+
 ## Mitä mallille lähetetään
 
 Vain käynnistämääsi ominaisuuteen liittyvä data sisällytetään — tiiviinä
@@ -130,6 +146,7 @@ Riippumatta käyttämästäsi ominaisuudesta openkoutsi **ei** lähetä:
 - **Etkö halua tekoälyä lainkaan?** Jätä LLM määrittämättä (tai älä käytä
   tekoälytoimintoja). Kaikki muu toimii täsmälleen samoin.
 - **Haluatko sen täysin yksityiseksi?** Osoita **Asetukset → Tekoäly / LLM**
-  paikalliseen malliin.
+  paikalliseen malliin, tai valitse paikallinen malli **Profiili → Analyysi**
+  -pudotusvalikosta, jos ylläpitäjä tarjoaa sellaisen.
 - **Muutitko mielesi?** Tyhjennä päätepiste asetuksistasi; tulevat toiminnot eivät
   lähetä mitään. Voit myös viedä tai poistaa datasi milloin tahansa.

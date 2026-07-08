@@ -63,6 +63,21 @@ You can set your **own** endpoint under **Settings → AI / LLM**, which overrid
 the instance-wide default for your account. An administrator sets the instance
 default; a global server setting is the final fallback.
 
+## Choosing which model to use
+
+Your administrator can offer **several models** to choose from — for example a
+fast local model alongside one or more hosted providers. When more than one is
+available, a **Model** dropdown appears under **Profile → Analysis**. Pick the
+one you'd like the AI features to use, or leave it on **Default** to follow the
+administrator's choice.
+
+!!! warning "Your model choice can change where your data goes"
+    Each model an administrator sets up points at its own endpoint. Picking a
+    **local** model keeps your data on the server; picking a **hosted provider**
+    sends the request (see *What is sent to the model* below) to that provider,
+    under their privacy and data-retention terms. If you're unsure where a model
+    runs, ask your administrator or choose one you know is local.
+
 ## What is sent to the model
 
 Only the data relevant to the feature you triggered is included — as a compact
@@ -125,6 +140,8 @@ Regardless of which feature you use, openkoutsi does **not** send:
 
 - **Don't want AI at all?** Leave the LLM unconfigured (or don't use the AI
   actions). Everything else works exactly the same.
-- **Want it fully private?** Point **Settings → AI / LLM** at a local model.
+- **Want it fully private?** Point **Settings → AI / LLM** at a local model, or
+  pick a local model from the **Profile → Analysis** dropdown if your
+  administrator offers one.
 - **Changed your mind?** Clear the endpoint in your settings; future actions send
   nothing. You can also export or delete your data at any time.
