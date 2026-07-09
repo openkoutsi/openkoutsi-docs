@@ -59,9 +59,10 @@ server*:
     local model. If an external provider is configured, treat anything the
     features send (see below) as shared with that provider.
 
-You can set your **own** endpoint under **Settings → AI / LLM**, which overrides
-the instance-wide default for your account. An administrator sets the instance
-default; a global server setting is the final fallback.
+You can set your **own** endpoint under **Settings → AI / LLM** — see
+[Using your own AI model (BYOK)](features/using-your-own-ai-model.md). Once you
+do, only *your* configuration is used for your account; otherwise the AI features
+use whatever endpoint your administrator has configured instance-wide.
 
 ## Choosing which model to use
 

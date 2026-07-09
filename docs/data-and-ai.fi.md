@@ -62,9 +62,11 @@ lähteekö mitään dataa palvelimeltasi*:
     kaikkea, mitä ominaisuudet lähettävät (katso alla), kyseisen palveluntarjoajan
     kanssa jaettuna.
 
-Voit asettaa **oman** päätepisteesi kohdassa **Asetukset → Tekoäly / LLM**, mikä
-ohittaa instanssin oletusarvon tilillesi. Ylläpitäjä asettaa instanssin
-oletuksen; palvelimen globaali asetus on viimeinen varavaihtoehto.
+Voit asettaa **oman** päätepisteesi kohdassa **Asetukset → Tekoäly / LLM** —
+katso [Oman tekoälymallin käyttö (BYOK)](features/using-your-own-ai-model.md).
+Kun teet niin, tilisi käyttää vain *sinun* määrityksiäsi; muutoin
+tekoälyominaisuudet käyttävät sitä päätepistettä, jonka ylläpitäjäsi on
+määrittänyt instanssin laajuisesti.
 
 ## Mallin valinta
 
