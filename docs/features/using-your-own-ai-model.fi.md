@@ -4,16 +4,32 @@ openkoutsin [tekoälyominaisuudet](../data-and-ai.md) — aktiviteettianalyysi,
 päivittäinen harjoitustila sekä tekoälyn tekemät ohjelmat ja harjoitukset —
 toimivat minkä tahansa **OpenAI-yhteensopivan** chat-rajapinnan kanssa. Sen
 sijaan että luottaisit siihen, mitä instanssisi ylläpitäjä on määrittänyt, voit
-osoittaa openkoutsin **omaan** päätepisteeseesi: paikalliseen malliin omalla
-koneellasi tai palveluntarjoajaan, jolla sinulla on tili. Tästä käytetään usein
-nimitystä **BYOK — "bring your own key"** (tuo oma avaimesi).
+osoittaa openkoutsin **omaan** päätepisteeseesi kohdassa **Asetukset → Tekoäly /
+LLM**. Tästä käytetään usein nimitystä **BYOK — "bring your own key"** (tuo oma
+avaimesi).
 
 !!! info "Milloin tätä kannattaa käyttää?"
-    - Käytät **paikallista mallia** (Ollama, LM Studio, llama.cpp…) ja haluat
-      tekoälyominaisuuksien käyttävän sitä, jolloin mikään ei poistu koneeltasi.
-    - Sinulla on **oma tili** palveluntarjoajalla ja haluat käyttää omaa
-      API-avaintasi instanssin avaimen sijaan.
-    - Instanssisi edellyttää oman mallin tuomista tekoälyominaisuuksien käyttöön.
+    **Jaetussa/julkisessa instanssissa** — yleisin tapaus. Pyynnön tekee
+    openkoutsin palvelin, joten BYOK antaa sinun valita, **mille
+    palveluntarjoajalle ja mallille** se menee:
+
+    - Käytä palveluntarjoajaa (ja **aluetta**), johon luotat — esim. pitääksesi
+      datasi tietyllä lainkäyttöalueella, kuten **EU:ssa**.
+    - Käytä **omaa tiliäsi ja API-avaintasi** hostatulla palveluntarjoajalla
+      instanssin avaimen sijaan.
+    - Jotkin instanssit **edellyttävät** oman mallin tuomista tekoälyominaisuuksien
+      käyttöön.
+
+    **Itse hostatussa instanssissa, jossa olet ylläpitäjä** — voit osoittaa
+    **paikalliseen malliin** (Ollama, LM Studio, llama.cpp…), joka toimii samalla
+    koneella, jolloin mikään ei poistu omalta laitteistoltasi.
+
+!!! warning "Mistä pyyntö tulee"
+    Syöttämääsi päätepistettä kutsuu **openkoutsin taustapalvelu**, ei selaimesi.
+    Julkisessa instanssissa taustapalvelu toimii jollakin palvelimella, joten
+    omalla koneellasi oleva malli (`http://localhost:11434/v1`) **ei** ole
+    tavoitettavissa, ellet altista sitä internetiin. Käytä julkisessa instanssissa
+    hostattua palveluntarjoajaa (tai itse hostattua mallia julkisella URL:lla).
 
 ## Käyttöönotto
 
@@ -35,15 +51,22 @@ kertoo, käytätkö **omaa LLM-palvelintasi** vai **tämän instanssin LLM:ää*
 
 === "Paikallinen malli (Ollama)"
 
+    Paras **itse hostattuun instanssiin**, jossa openkoutsi ja Ollama toimivat
+    samalla koneella (tai samassa verkossa), jotta taustapalvelu tavoittaa
+    paikallisen URL:n.
+
     1. Asenna [Ollama](https://ollama.com/) ja lataa malli, esim.
        `ollama pull llama3.2`.
     2. Aseta kohdassa **Asetukset → Tekoäly / LLM**:
-        - **Perus-URL**: `http://localhost:11434/v1`
+        - **Perus-URL**: `http://localhost:11434/v1` (osoite, jolla *taustapalvelu*
+          tavoittaa Ollaman)
         - **Malli**: `llama3.2`
         - **API-avain**: jätä tyhjäksi
     3. **Testaa yhteys** ja sitten **Tallenna**.
 
-    Pyynnöt paikalliseen malliin eivät koskaan poistu koneeltasi.
+    Pyynnöt paikalliseen malliin eivät koskaan poistu koneeltasi — mutta
+    julkisessa instanssissa taustapalvelu ei tavoita koneesi `localhost`-osoitetta,
+    joten tämä toimii vain, kun palvelin itse tavoittaa URL:n.
 
 === "Hostattu palveluntarjoaja"
 

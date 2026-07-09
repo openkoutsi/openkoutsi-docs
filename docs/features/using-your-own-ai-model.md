@@ -3,16 +3,30 @@
 openkoutsi's [AI features](../data-and-ai.md) — activity analysis, daily training
 status, and AI plan/workout generation — run against any **OpenAI-compatible**
 chat API. Instead of relying on whatever your instance's administrator has set
-up, you can point openkoutsi at **your own** endpoint: a local model on your
-machine, or a hosted provider you have an account with. This is often called
-**BYOK — "bring your own key"**.
+up, you can point openkoutsi at **your own** endpoint from **Settings → AI /
+LLM**. This is often called **BYOK — "bring your own key"**.
 
 !!! info "When would I use this?"
-    - You run a **local model** (Ollama, LM Studio, llama.cpp…) and want the AI
-      features to use it, so nothing leaves your computer.
-    - You have your **own account** with a hosted provider and want to use your
-      own API key rather than the instance's.
-    - Your instance requires you to bring your own model to use the AI features.
+    **On a shared/public instance** — the common case. The AI request is made by
+    openkoutsi's server, so BYOK lets you choose **which provider and model** it
+    goes to:
+
+    - Use a provider (and **region**) you trust — e.g. to keep your data within a
+      particular jurisdiction such as the **EU**.
+    - Use your **own account and API key** with a hosted provider, rather than the
+      instance's.
+    - Some instances **require** you to bring your own model to use the AI features.
+
+    **On a self-hosted instance where you're the admin** — you can point at a
+    **local model** (Ollama, LM Studio, llama.cpp…) running on the same machine so
+    nothing leaves your own hardware.
+
+!!! warning "Where the request comes from"
+    The endpoint you enter is called by **openkoutsi's backend**, not your browser.
+    On a public instance the backend runs on a server somewhere, so a model on your
+    own computer (`http://localhost:11434/v1`) is **not** reachable unless you
+    expose it to the internet. For a public instance, use a hosted provider (or a
+    self-hosted model with a public URL).
 
 ## Setting it up
 
@@ -34,15 +48,21 @@ replies, then **Save**. The banner at the top of the card shows whether you're
 
 === "Local model (Ollama)"
 
+    Best for a **self-hosted instance** where openkoutsi and Ollama run on the
+    same machine (or the same network), so the backend can reach the local URL.
+
     1. Install [Ollama](https://ollama.com/) and pull a model, e.g.
        `ollama pull llama3.2`.
     2. In **Settings → AI / LLM** set:
-        - **Base URL**: `http://localhost:11434/v1`
+        - **Base URL**: `http://localhost:11434/v1` (the address the *backend* uses
+          to reach Ollama)
         - **Model**: `llama3.2`
         - **API key**: leave blank
     3. **Test connection**, then **Save**.
 
-    Requests to a local model never leave your machine.
+    Requests to a local model never leave your machine — but on a public instance
+    the backend can't reach your computer's `localhost`, so this only works when
+    the server itself can reach the URL.
 
 === "Hosted provider"
 
