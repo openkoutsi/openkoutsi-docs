@@ -64,6 +64,7 @@ plugins:
             Fitness metrics: Kuntomittarit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
+            AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
             FAQ: UKK
 
 markdown_extensions:
@@ -90,5 +91,6 @@ nav:
       - Fitness metrics: features/fitness-metrics.md
       - Training plans & workouts: features/training-plans.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
+      - AI features, subscriptions and BYOK: features/ai-subscriptions.md
   - Your data & AI: data-and-ai.md
   - FAQ: faq.md
