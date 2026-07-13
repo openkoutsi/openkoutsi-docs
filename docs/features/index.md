@@ -27,7 +27,9 @@ below.
 
 openkoutsi also includes, among other things:
 
-- **Goals** — set training or event goals with optional target metrics and dates.
+- **Goals** — set training or event goals with optional target metrics and dates,
+  and ask the AI coach for a realism verdict and concrete steps to reach each one
+  (see [Goal guidance](goal-guidance.md)).
 - **Activity labels & notes** — tag rides (for example *race* or *commute*) and add
   free-text notes.
 - **AI coaching analysis** — optional per-activity analysis and a daily training

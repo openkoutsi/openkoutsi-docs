@@ -29,7 +29,9 @@ Valitse aihe alta.
 openkoutsi sisältää muun muassa myös:
 
 - **Tavoitteet** — aseta harjoitus- tai tapahtumatavoitteita valinnaisilla
-  kohdemittareilla ja päivämäärillä.
+  kohdemittareilla ja päivämäärillä, ja pyydä tekoälyvalmentajalta
+  realistisuusarvio ja konkreettiset askeleet kunkin saavuttamiseksi
+  (katso [Tavoiteopastus](goal-guidance.md)).
 - **Aktiviteettien tunnisteet ja muistiinpanot** — merkitse lenkit (esimerkiksi
   *kisa* tai *työmatka*) ja lisää vapaamuotoisia muistiinpanoja.
 - **Tekoälyvalmennuksen analyysi** — valinnainen aktiviteettikohtainen analyysi ja
