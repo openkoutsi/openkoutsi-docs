@@ -39,7 +39,7 @@ pysyy suostumusnäkymän takana.
 
 ## Oikeutesi tietoihisi
 
-openkoutsi on rakennettu niin, että tietosi pysyvät sinun. Voit käyttää
+openkoutsi on rakennettu niin, että tietosi pysyvät ominasi. Voit käyttää
 keskeisiä GDPR-oikeuksia suoraan sovelluksessa.
 
 ### Vie tietosi
