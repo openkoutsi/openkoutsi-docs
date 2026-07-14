@@ -63,6 +63,7 @@ plugins:
             Activities & sync: Aktiviteetit ja synkronointi
             Fitness metrics: Kuntomittarit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
+            Goal guidance: Tavoiteopastus
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
             AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
             FAQ: UKK
@@ -90,6 +91,7 @@ nav:
       - Activities & sync: features/activities.md
       - Fitness metrics: features/fitness-metrics.md
       - Training plans & workouts: features/training-plans.md
+      - Goal guidance: features/goal-guidance.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
   - Your data & AI: data-and-ai.md
