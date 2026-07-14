@@ -58,6 +58,7 @@ plugins:
             Home: Etusivu
             Getting started: Aloittaminen
             Your data & AI: Datasi ja tekoäly
+            Privacy & consent: Tietosuoja ja suostumus
             Features: Ominaisuudet
             Overview: Yleiskatsaus
             Activities & sync: Aktiviteetit ja synkronointi
@@ -95,4 +96,5 @@ nav:
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
   - Your data & AI: data-and-ai.md
+  - Privacy & consent: privacy.md
   - FAQ: faq.md
