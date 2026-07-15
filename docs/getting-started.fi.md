@@ -21,11 +21,22 @@ Jos instanssi on jo asetettu, näet sen sijaan tavallisen kirjautumissivun.
 
 ## Tilin hankkiminen
 
-Rekisteröityminen on **vain kutsusta**. Julkista rekisteröitymistä tai
-liittymispyyntöjonoa ei ole:
+Tilin hankkiminen riippuu siitä, miten instanssi on määritetty.
+
+**Kutsulla (aina käytettävissä):**
 
 1. Ylläpitäjä lähettää sinulle **kutsun**.
 2. Avaat kutsulinkin ja luot tilisi sen avulla.
+
+**Itserekisteröinnillä (vain jos ylläpitäjä on ottanut sen käyttöön):**
+
+1. Valitse kirjautumissivulla **Luo tili** ja rekisteröidy
+   **sähköpostiosoitteellasi**.
+2. Avaa sähköpostiisi lähetetty vahvistuslinkki vahvistaaksesi osoitteesi ja
+   aktivoidaksesi tilisi.
+
+Jos et näe rekisteröitymisvaihtoehtoa, instanssi toimii vain kutsusta — pyydä
+ylläpitäjältä kutsu.
 
 Kun tilisi on olemassa, kirjaudut sisään instanssin kirjautumissivulta.
 Harjoitusdatasi on kokonaan omaasi — jokaisella käyttäjällä on **yksityinen

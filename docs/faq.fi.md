@@ -21,6 +21,22 @@ Ei. openkoutsi toimii yhtenä instanssina, jossa jokainen käyttäjä säilyttä
 yksityisen datansa. Valmentajaroolia tai jaettua tiimidataa ei ole; ylläpitäjä
 hallinnoi tilejä ja instanssin asetuksia mutta ei näe harjoitusdataasi.
 
+### Miten rekisteröidyn?
+
+Se riippuu instanssista. Jokainen instanssi tukee **kutsuja** — ylläpitäjä
+lähettää sinulle kutsulinkin tilin luomiseksi. Osa instansseista mahdollistaa myös
+**itserekisteröinnin**: valitse kirjautumissivulla **Luo tili**, rekisteröidy
+sähköpostiosoitteellasi ja avaa sähköpostiisi lähetetty vahvistuslinkki
+aktivoidaksesi tilisi. Jos rekisteröitymisvaihtoehtoa ei ole, pyydä ylläpitäjältä
+kutsu. Katso [Aloittaminen](getting-started.md).
+
+### Unohdin salasanani.
+
+Napsauta kirjautumissivulla **Unohditko salasanan?**. Jos instanssissa on
+sähköposti käytössä, anna sähköpostiosoitteesi, niin lähetämme palautuslinkin (se
+vanhenee tunnissa). Muussa tapauksessa sivu näyttää, miten tavoitat ylläpitäjän,
+joka voi luoda sinulle palautuslinkin.
+
 ### Onko minun pakko yhdistää Strava tai Wahoo?
 
 Ei. Integraatiot ovat valinnaisia. Voit ladata FIT-tiedostot käsin ja käyttää
