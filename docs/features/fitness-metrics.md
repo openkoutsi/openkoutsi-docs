@@ -30,6 +30,25 @@ If you delete activities, the metrics that depended on them can become stale.
 openkoutsi detects this and recalculates automatically when you load your
 dashboard, so your charts stay accurate.
 
+## Power curve
+
+The Power view shows your **power curve** — your best average power for each
+duration, from a one-second sprint to multi-hour efforts. You can switch the
+curve between two units:
+
+- **Watts** — your best absolute power for each duration.
+- **W/kg** — watts per kilogram, ranked by your best *power-to-weight* effort.
+
+The W/kg view uses the bodyweight that applied **at the time of each effort**,
+taken from your weight history, rather than your current weight. That way a
+strong effort from when you were lighter shows up as the W/kg record it was,
+instead of being hidden behind a higher-wattage ride at a heavier weight.
+
+!!! tip "Keep your weight up to date"
+    Efforts from before your first logged weight have no W/kg value and are left
+    out of the W/kg curve. Update your weight in **Profile** whenever it changes
+    so your power-to-weight records stay accurate.
+
 ## FTP estimation
 
 From your power data, openkoutsi can estimate your FTP using either:

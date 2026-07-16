@@ -31,6 +31,25 @@ Jos poistat aktiviteetteja, niistä riippuneet mittarit voivat vanhentua.
 openkoutsi havaitsee tämän ja laskee ne automaattisesti uudelleen, kun lataat
 kojelautasi, joten kaaviosi pysyvät tarkkoina.
 
+## Tehokäyrä
+
+Teho-näkymä esittää **tehokäyräsi** — parhaan keskitehosi kullekin kestolle,
+sekunnin spurtista useiden tuntien suorituksiin. Voit vaihtaa käyrän yksikköä
+kahden vaihtoehdon välillä:
+
+- **Watteja** — paras absoluuttinen tehosi kullekin kestolle.
+- **W/kg** — wattia kilogrammaa kohti, järjestettynä parhaan *teho–paino* -suorituksesi mukaan.
+
+W/kg-näkymä käyttää sitä painoa, joka oli voimassa **kunkin suorituksen hetkellä**,
+painohistoriasi perusteella nykyisen painosi sijaan. Näin kevyempänä tehty vahva
+suoritus näkyy sinä W/kg-ennätyksenä, joka se oli, eikä jää raskaammalla painolla
+tehdyn suuritehoisemman lenkin varjoon.
+
+!!! tip "Pidä painosi ajan tasalla"
+    Ennen ensimmäistä kirjattua painoa tehdyillä suorituksilla ei ole W/kg-arvoa,
+    ja ne jätetään pois W/kg-käyrästä. Päivitä painosi **Profiilissa** aina sen
+    muuttuessa, jotta teho–paino-ennätyksesi pysyvät tarkkoina.
+
 ## FTP-arvio
 
 Tehodatastasi openkoutsi voi arvioida FTP:si käyttäen jompaakumpaa seuraavista:
