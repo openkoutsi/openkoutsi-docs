@@ -46,8 +46,16 @@ rights directly in the app.
 ### Export your data
 
 Go to **Profile → Data export** and choose **Download**. You'll get a
-`openkoutsi_export.zip` archive containing your profile and activity data in
-open, machine-readable formats — a complete copy you can keep or take elsewhere.
+`openkoutsi_export.zip` archive — a complete copy of your data in open,
+machine-readable formats that you can keep or take elsewhere. It includes:
+
+- your **profile** and analysis settings (your AI/LLM key is never included),
+- your **activities**, with their notes, labels, and AI analysis,
+- your **training plans** and **goals**,
+- your **structured workouts**,
+- your **daily fitness metrics** (fitness/fatigue/form) and **personal records**,
+- your **inbox** messages and **weight log**, and
+- the original **`.fit` files** for every activity that has one.
 
 ### Delete your account
 

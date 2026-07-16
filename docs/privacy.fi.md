@@ -46,9 +46,16 @@ keskeisiä GDPR-oikeuksia suoraan sovelluksessa.
 ### Vie tietosi
 
 Mene kohtaan **Profiili → Tietojen vienti** ja valitse **Lataa**. Saat
-`openkoutsi_export.zip`-arkiston, joka sisältää profiili- ja harjoitustietosi
-avoimissa, koneluettavissa muodoissa — täydellisen kopion, jonka voit säilyttää
-tai siirtää muualle.
+`openkoutsi_export.zip`-arkiston — täydellisen kopion tiedoistasi avoimissa,
+koneluettavissa muodoissa, jonka voit säilyttää tai siirtää muualle. Se sisältää:
+
+- **profiilisi** ja analyysiasetukset (tekoäly-/LLM-avaintasi ei koskaan sisällytetä),
+- **harjoituksesi** muistiinpanoineen, tunnisteineen ja tekoälyanalyyseineen,
+- **harjoitusohjelmasi** ja **tavoitteesi**,
+- **strukturoidut harjoituksesi**,
+- **päivittäiset kuntomittarisi** (kunto/väsymys/muoto) ja **ennätyksesi**,
+- **saapuneet**-viestisi ja **painohistoriasi**, sekä
+- alkuperäiset **`.fit`-tiedostot** jokaiselle harjoitukselle, jolla sellainen on.
 
 ### Poista tilisi
 
