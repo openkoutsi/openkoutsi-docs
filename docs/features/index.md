@@ -9,11 +9,11 @@ below.
 - :material-bike-fast: **[Activities & sync](activities.md)**
 
     Upload FIT files or sync automatically from Strava and Wahoo. See your
-    activities analysed for TSS, normalized power, and time in zones.
+    activities analysed for training load, weighted power, and time in zones.
 
 - :material-chart-line: **[Fitness metrics](fitness-metrics.md)**
 
-    Track CTL, ATL, and TSB — your fitness, fatigue, and form — as interactive
+    Track your fitness, fatigue, and form — as interactive
     charts on your dashboard.
 
 - :material-calendar-check: **[Training plans & workouts](training-plans.md)**

@@ -9,7 +9,7 @@ automaattisesti.
 Lataa `.fit`-tiedosto pyörätietokoneestasi tai harjoitussovelluksestasi suoraan
 openkoutsiin. Jokainen lataus analysoidaan automaattisesti seuraavien osalta:
 
-- **TSS** (Training Stress Score, harjoituskuormituspiste)
+- **Harjoituskuormitus**
 - **Normalisoitu teho**
 - **Aluejakauma** — kuinka kauan vietit aikaa kullakin teho- tai sykealueella
 
@@ -28,12 +28,12 @@ Jokainen kenttä on valinnainen, joten täytä niin paljon tai vähän kuin muis
 - **Kesto** (minuutteina) ja **matka** (kilometreinä)
 - **Keski-** ja **maksimisyke**
 - **Keskiteho** ja **keskikadenssi**
-- **Nousu**, **nimi** sekä joko **RPE** (1–10) tai eksplisiittinen **TSS**
+- **Nousu**, **nimi** sekä joko **RPE** (1–10) tai eksplisiittinen **harjoituskuormitus**
 
-Jos et anna TSS:ää, openkoutsi arvioi sen antamiesi tietojen perusteella tässä
+Jos et anna harjoituskuormitusta, openkoutsi arvioi sen antamiesi tietojen perusteella tässä
 järjestyksessä:
 
-1. eksplisiittinen **TSS**-arvo, jos annoit sellaisen;
+1. eksplisiittinen **harjoituskuormitus**-arvo, jos annoit sellaisen;
 2. muuten **RPE** (koettu rasitus) skaalattuna kestolla;
 3. muuten **keskisyke** käyttäen profiilisi maksimisykettä.
 
@@ -42,7 +42,7 @@ huomioon kuntomittareissasi ja harjoitusohjelman yhdistämisessä aivan kuten la
 tai synkronoidut lenkit.
 
 !!! tip "Riittääkö pelkkä rasituksen kirjaaminen?"
-    Pelkän päivämäärän, keston ja RPE:n syöttäminen riittää pitämään CTL/ATL/TSB-
+    Pelkän päivämäärän, keston ja RPE:n syöttäminen riittää pitämään kunto-, väsymä- ja muoto-
     kuntokäyräsi ajan tasalla päivinä, jolloin harjoittelit ilman laitetta.
 
 ## Synkronointi Stravasta
@@ -74,7 +74,7 @@ profiilisi pysyy yhdenmukaisena sen laitteen kanssa, jolla harjoittelet.
 
 Kun sinulla on [harjoitusohjelma](training-plans.md), ladatut aktiviteetit
 yhdistetään automaattisesti kyseisen päivän suunniteltuun harjoitukseen (lajin
-mukaan ja kun TSS ja kesto ovat riittävän lähellä). Voit myös linkittää tai
+mukaan ja kun harjoituskuormitus ja kesto ovat riittävän lähellä). Voit myös linkittää tai
 poistaa linkityksen käsin ohjelmakalenterista tai kojelaudan
 aktiviteettikalenterista.
 

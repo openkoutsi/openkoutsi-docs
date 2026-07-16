@@ -8,7 +8,7 @@ training plan. You can add them manually or have them appear automatically.
 Upload a `.fit` file from your head unit or training app directly into openkoutsi.
 Each upload is analysed automatically for:
 
-- **TSS** (Training Stress Score)
+- **Training load**
 - **Normalized power**
 - **Zone distribution** — how long you spent in each power/heart-rate zone
 
@@ -27,12 +27,12 @@ Every field is optional, so fill in as much or as little as you remember:
 - **Duration** (minutes) and **distance** (kilometres)
 - **Average** and **maximum heart rate**
 - **Average power** and **average cadence**
-- **Elevation**, a **name**, and either an **RPE** (1–10) or an explicit **TSS**
+- **Elevation**, a **name**, and either an **RPE** (1–10) or an explicit **training load**
 
-If you don't provide a TSS, openkoutsi estimates one from what you did enter, in this
+If you don't provide a training load, openkoutsi estimates one from what you did enter, in this
 order of preference:
 
-1. an explicit **TSS** value, if you gave one;
+1. an explicit **training load** value, if you gave one;
 2. otherwise your **RPE** (perceived effort), scaled by duration;
 3. otherwise your **average heart rate**, using the maximum heart rate on your profile.
 
@@ -40,7 +40,7 @@ Manually added activities are tagged with a **Manual** source badge and count to
 your fitness metrics and training-plan matching just like uploaded or synced rides.
 
 !!! tip "Only need to log the effort?"
-    Entering just a date, duration and RPE is enough to keep your CTL/ATL/TSB fitness
+    Entering just a date, duration and RPE is enough to keep your fitness, fatigue and form
     curves accurate on days you trained without a device.
 
 ## Syncing from Strava
@@ -72,7 +72,7 @@ your profile stays consistent with the device you train with.
 
 When you have a [training plan](training-plans.md), uploaded activities are
 matched automatically to the planned workout for that day (by sport, and when the
-TSS and duration are close enough). You can also link or unlink manually from the
+training load and duration are close enough). You can also link or unlink manually from the
 plan calendar or the dashboard activity calendar.
 
 !!! note "More detail coming"

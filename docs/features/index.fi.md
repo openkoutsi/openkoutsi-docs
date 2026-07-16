@@ -9,12 +9,12 @@ Valitse aihe alta.
 - :material-bike-fast: **[Aktiviteetit ja synkronointi](activities.md)**
 
     Lataa FIT-tiedostot tai synkronoi automaattisesti Stravasta ja Wahoosta. Näe
-    aktiviteettisi analysoituina TSS:n, normalisoidun tehon ja alueilla vietetyn
+    aktiviteettisi analysoituina harjoituskuormituksen, painotetun tehon ja alueilla vietetyn
     ajan osalta.
 
 - :material-chart-line: **[Kuntomittarit](fitness-metrics.md)**
 
-    Seuraa CTL:ää, ATL:ää ja TSB:tä — kuntoasi, väsymystäsi ja muotoasi —
+    Seuraa kuntoasi, väsymystäsi ja muotoasi —
     interaktiivisina kaavioina kojelaudallasi.
 
 - :material-calendar-check: **[Harjoitusohjelmat ja harjoitukset](training-plans.md)**

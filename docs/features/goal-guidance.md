@@ -13,7 +13,7 @@ track — see [Goals](index.md) for the basics.
 ## Asking Koutsi for guidance
 
 Each active goal has a **Get AI guidance** button. When you press it, Koutsi looks
-at the goal alongside your current fitness (CTL/ATL/TSB), your recent training, and
+at the goal alongside your current fitness, fatigue and form, your recent training, and
 your active plan, and writes back a short piece of coaching advice.
 
 The guidance is generated on demand — it is not refreshed automatically — so it
