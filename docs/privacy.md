@@ -12,10 +12,11 @@ For the specifics of what the optional AI features send and where, see
 
 The first time you sign in, openkoutsi asks you to **explicitly accept** the
 processing of your personal and health data before you can use the app. The
-consent screen summarises what is stored and processed — account details,
-profile picture, health metrics (weight, heart-rate and power zones), training
-activities, data from any providers you connect, and any AI analysis you enable
-— and links to the full **privacy policy**.
+consent screen summarises what is stored and processed — account details
+(including your email address if you sign up or verify one), profile picture,
+health metrics (weight, heart-rate and power zones), training activities, data
+from any providers you connect, and any AI analysis you enable — and links to the
+full **privacy policy**.
 
 !!! tip "Read the full policy"
     The consent screen has a **Read the full privacy policy** link, and the same

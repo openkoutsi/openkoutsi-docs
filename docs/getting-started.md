@@ -20,11 +20,21 @@ If the instance is already set up, you will see the normal login page instead.
 
 ## Getting an account
 
-Registration is **invite-only**. There is no public sign-up and no join-request
-queue:
+How you get an account depends on how the instance is configured.
+
+**By invitation (always available):**
 
 1. An administrator issues you an **invitation**.
 2. You open the invite link and create your account with it.
+
+**By self-serve sign-up (only if the administrator has enabled it):**
+
+1. On the login page, choose **Sign up** and register with your **email address**.
+2. Open the verification link we email you to confirm your address and activate
+   your account.
+
+If you don't see a sign-up option, the instance is invite-only — ask an
+administrator for an invitation.
 
 Once your account exists, you log in from the instance's login page. Your training
 data is entirely your own — each user has a **private database**, and no one else

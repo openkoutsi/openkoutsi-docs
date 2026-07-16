@@ -13,7 +13,8 @@ sivulla [Datasi ja tekoäly](data-and-ai.md).
 Kun kirjaudut sisään ensimmäistä kertaa, openkoutsi pyytää sinua **nimenomaisesti
 hyväksymään** henkilö- ja terveystietojesi käsittelyn ennen kuin voit käyttää
 sovellusta. Suostumusnäkymä kertoo tiivistetysti, mitä tallennetaan ja käsitellään
-— tilin tiedot, profiilikuva, terveysmittarit (paino, syke- ja tehoalueet),
+— tilin tiedot (mukaan lukien sähköpostiosoitteesi, jos rekisteröidyt tai
+vahvistat sellaisen), profiilikuva, terveysmittarit (paino, syke- ja tehoalueet),
 harjoitukset, yhdistämiesi palveluiden tiedot ja käyttöön ottamasi tekoälyanalyysi
 — ja linkittää koko **tietosuojaselosteeseen**.
 
