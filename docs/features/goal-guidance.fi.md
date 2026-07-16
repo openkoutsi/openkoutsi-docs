@@ -14,7 +14,7 @@ Tavoitteet ovat sinun seurattavinasi — katso perusteet kohdasta
 ## Opastuksen pyytäminen Koutsilta
 
 Jokaisella aktiivisella tavoitteella on **Hanki tekoälyopastus** -painike. Kun
-painat sitä, Koutsi tarkastelee tavoitetta yhdessä nykyisen kuntosi (CTL/ATL/TSB),
+painat sitä, Koutsi tarkastelee tavoitetta yhdessä nykyisen kuntosi, väsymäsi ja muotosi,
 viimeaikaisen harjoittelusi ja aktiivisen ohjelmasi kanssa ja kirjoittaa lyhyen
 valmennusneuvon.
 

@@ -89,9 +89,9 @@ text summary, never your raw files. In detail:
     A summary of the **one** activity you analysed:
 
     - sport, date/time, duration, distance, elevation gain
-    - average / normalized power, intensity factor, TSS, average / peak heart rate
+    - average / weighted power, intensity, training load, average / peak heart rate
     - your FTP and max heart rate
-    - your fitness/fatigue/form (CTL/ATL/TSB) going into the ride
+    - your fitness/fatigue/form going into the ride
     - the interval breakdown and any personal records set
     - the activity's **labels and your notes** on it (free text you wrote)
 
@@ -100,8 +100,8 @@ text summary, never your raw files. In detail:
     A snapshot of your recent training:
 
     - your FTP and max heart rate
-    - your current CTL/ATL/TSB
-    - the **last 28 days** of activities (date, sport, duration, TSS)
+    - your current fitness, fatigue and form
+    - the **last 28 days** of activities (date, sport, duration, training load)
     - your active plan's name, dates, and this week's planned workouts
     - your active **goals** (title, target, status)
 
@@ -111,14 +111,14 @@ text summary, never your raw files. In detail:
 
     - length, periodization style, intensity preference, training days per week
     - your **goal/event** and any **extra description** you typed
-    - your FTP and current fitness (CTL)
+    - your FTP and current fitness
 
 === "AI workout generation"
 
     The description of the planned day being expanded:
 
     - workout type and sport
-    - the planned description, target duration, and target TSS
+    - the planned description, target duration, and target training load
     - your FTP
 
 ## What is never sent

@@ -5,18 +5,18 @@ over time. They are shown as interactive charts on your dashboard.
 
 ## The three metrics
 
-| Metric | Name | What it tells you |
-|---|---|---|
-| **CTL** | Chronic Training Load | Your long-term **fitness** — a rolling average of training stress. Rises slowly as you build form. |
-| **ATL** | Acute Training Load | Your short-term **fatigue** — how tired recent training has made you. |
-| **TSB** | Training Stress Balance | Your **form** (freshness) — the gap between fitness and fatigue. Positive means fresh, negative means loaded. |
+| Metric | What it tells you |
+|---|---|
+| **Fitness** | Your long-term fitness — a 42-day rolling average of training load. Rises slowly as you build form. |
+| **Fatigue** | Your short-term fatigue — a 7-day rolling average showing how tired recent training has made you. |
+| **Form** | Your freshness — the gap between fitness and fatigue. Positive means fresh, negative means loaded. |
 
-These are computed from the TSS of your activities, so the more of your rides
-openkoutsi sees, the more accurate they are.
+These are computed from the **training load** of your activities, so the more of
+your rides openkoutsi sees, the more accurate they are.
 
 ## The fitness history card
 
-Your dashboard shows a fitness history card with the CTL/ATL/TSB charts for a
+Your dashboard shows a fitness history card with the fitness, fatigue and form charts for a
 period you choose. The same card also summarises your cycling totals for that
 period:
 
@@ -41,5 +41,5 @@ The estimate is shown on the Power view, and you can accept either one to set it
 as your profile FTP.
 
 !!! note "More detail coming"
-    A worked example of reading the form (TSB) curve to time your rest will be
+    A worked example of reading the form curve to time your rest will be
     added here.

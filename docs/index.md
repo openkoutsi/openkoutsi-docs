@@ -26,7 +26,7 @@ share. Everyone gets their own account and their own private training data — s
 
 - **Bring in your rides** — upload FIT files directly, or sync automatically
   from Strava and Wahoo. See [Activities & sync](features/activities.md).
-- **Track your fitness** — watch CTL/ATL/TSB (fitness, fatigue, and form) trend
+- **Track your fitness** — watch your fitness, fatigue, and form trend
   over time. See [Fitness metrics](features/fitness-metrics.md).
 - **Follow a plan** — generate a periodized training plan, build structured
   interval workouts, and push them to your head unit. See

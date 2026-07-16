@@ -28,7 +28,7 @@ voi jakaa. Jokaisella on oma tilinsä ja oma yksityinen harjoitusdatansa — kat
 
 - **Tuo lenkkisi** — lataa FIT-tiedostot suoraan tai synkronoi automaattisesti
   Stravasta ja Wahoosta. Katso [Aktiviteetit ja synkronointi](features/activities.md).
-- **Seuraa kuntoasi** — tarkkaile, miten CTL/ATL/TSB (kunto, väsymys ja muoto)
+- **Seuraa kuntoasi** — tarkkaile, miten kuntosi, väsymyksesi ja muotosi
   kehittyvät ajan myötä. Katso [Kuntomittarit](features/fitness-metrics.md).
 - **Noudata ohjelmaa** — luo jaksotettu harjoitusohjelma, rakenna strukturoituja
   intervalliharjoituksia ja siirrä ne pyörätietokoneeseesi. Katso

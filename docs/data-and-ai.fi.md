@@ -94,9 +94,9 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
     Yhteenveto **yhdestä** analysoimastasi aktiviteetista:
 
     - laji, päivämäärä/aika, kesto, matka, nousumetrit
-    - keskiteho / normalisoitu teho, intensiteettikerroin, TSS, keski- / huippusyke
+    - keskiteho / painotettu teho, intensiteetti, harjoituskuormitus, keski- / huippusyke
     - FTP:si ja maksimisykkeesi
-    - kuntosi/väsymyksesi/muotosi (CTL/ATL/TSB) ennen lenkkiä
+    - kuntosi/väsymyksesi/muotosi ennen lenkkiä
     - intervallierittely ja mahdolliset tehdyt ennätykset
     - aktiviteetin **tunnisteet ja muistiinpanosi** (kirjoittamaasi vapaata tekstiä)
 
@@ -105,8 +105,8 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
     Tilannekuva viimeaikaisesta harjoittelustasi:
 
     - FTP:si ja maksimisykkeesi
-    - nykyinen CTL/ATL/TSB:si
-    - **viimeiset 28 päivää** aktiviteetteja (päivämäärä, laji, kesto, TSS)
+    - nykyinen kuntosi, väsymäsi ja muotosi
+    - **viimeiset 28 päivää** aktiviteetteja (päivämäärä, laji, kesto, harjoituskuormitus)
     - aktiivisen ohjelmasi nimi, päivämäärät ja tämän viikon suunnitellut harjoitukset
     - aktiiviset **tavoitteesi** (otsikko, kohde, tila)
 
@@ -116,14 +116,14 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
 
     - pituus, jaksotustyyli, intensiteettitoive, harjoituspäivät viikossa
     - **tavoitteesi/tapahtumasi** ja kirjoittamasi **lisäkuvaus**
-    - FTP:si ja nykyinen kuntosi (CTL)
+    - FTP:si ja nykyinen kuntosi
 
 === "Tekoälyn harjoitusten luonti"
 
     Laajennettavan suunnitellun päivän kuvaus:
 
     - harjoitustyyppi ja laji
-    - suunniteltu kuvaus, tavoitekesto ja tavoite-TSS
+    - suunniteltu kuvaus, tavoitekesto ja tavoitekuormitus
     - FTP:si
 
 ## Mitä ei koskaan lähetetä
