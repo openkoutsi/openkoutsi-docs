@@ -36,6 +36,20 @@ enter your email address and we'll send you a reset link (it expires in 1 hour).
 Otherwise the page shows how to reach your administrator, who can generate a reset
 link for you.
 
+### How do I contact the instance operator?
+
+Every instance is run by an **operator** (the administrator who hosts it). The
+**Forgot password?** page shows an operator/admin contact when one is
+configured, and the same contact appears under **Settings → About**. Use it to
+reach the person running your instance — for account help, privacy requests, or
+anything the app can't do for you itself.
+
+!!! info "Operators: route your contact address into the app"
+    If you run an instance, you can have mail sent to your published operator
+    address show up directly in the administrator inbox. It's optional and off by
+    default; see the deployment guide in the main project repository. On the
+    public instance the published contact is `lassi@koutsi.dev`.
+
 ### Do I have to connect Strava or Wahoo?
 
 No. Integrations are optional. You can upload FIT files manually and use every
