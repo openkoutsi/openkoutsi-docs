@@ -44,11 +44,8 @@ configured, and the same contact appears under **Settings → About**. Use it to
 reach the person running your instance — for account help, privacy requests, or
 anything the app can't do for you itself.
 
-!!! info "Operators: route your contact address into the app"
-    If you run an instance, you can have mail sent to your published operator
-    address show up directly in the administrator inbox. It's optional and off by
-    default; see the deployment guide in the main project repository. On the
-    public instance the published contact is `lassi@koutsi.dev`.
+!!! info "Public instance"
+    On the public instance the operator contact is `lassi@koutsi.dev`.
 
 ### Do I have to connect Strava or Wahoo?
 
