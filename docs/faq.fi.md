@@ -37,6 +37,22 @@ sähköposti käytössä, anna sähköpostiosoitteesi, niin lähetämme palautus
 vanhenee tunnissa). Muussa tapauksessa sivu näyttää, miten tavoitat ylläpitäjän,
 joka voi luoda sinulle palautuslinkin.
 
+### Miten otan yhteyttä instanssin ylläpitäjään?
+
+Jokaista instanssia pyörittää **ylläpitäjä** (operaattori, joka isännöi sitä).
+**Unohditko salasanan?** -sivu näyttää ylläpitäjän yhteystiedon, kun sellainen on
+määritetty, ja sama yhteystieto löytyy kohdasta **Asetukset → Tietoja**. Käytä
+sitä tavoittaaksesi instanssiasi pyörittävän henkilön — tiliapuun,
+tietosuojapyyntöihin tai mihin tahansa, mitä sovellus ei itse voi tehdä
+puolestasi.
+
+!!! info "Ylläpitäjät: reitittäkää yhteysosoitteenne sovellukseen"
+    Jos pyörität instanssia, voit ohjata julkaistuun operaattoriosoitteeseesi
+    lähetetyn postin näkymään suoraan ylläpitäjän postilaatikossa. Ominaisuus on
+    valinnainen ja oletuksena pois päältä; katso käyttöönotto-opas pääprojektin
+    repositoriosta. Julkisessa instanssissa julkaistu yhteystieto on
+    `lassi@koutsi.dev`.
+
 ### Onko minun pakko yhdistää Strava tai Wahoo?
 
 Ei. Integraatiot ovat valinnaisia. Voit ladata FIT-tiedostot käsin ja käyttää

@@ -67,8 +67,9 @@ Toimintoa ei voi peruuttaa, joten vie tiedot ensin, jos haluat kopion.
 ### Peruuta suostumus
 
 Käsittelysuostumuksen peruuttaminen tarkoittaa, ettei sovellus voi enää toimia
-sinulle. Peruuttaaksesi **poista tilisi** (mikä poistaa kaikki tietosi) tai ota
-yhteyttä palvelun ylläpitäjään. Pelkän **tekoälyanalyysin** poistaminen käytöstä
+sinulle. Peruuttaaksesi **poista tilisi** (mikä poistaa kaikki tietosi) tai
+[ota yhteyttä instanssin ylläpitäjään](faq.md#miten-otan-yhteytta-instanssin-yllapitajaan).
+Pelkän **tekoälyanalyysin** poistaminen käytöstä
 on erillistä eikä vaikuta muuhun sovellukseen — katso
 [Datasi ja tekoäly](data-and-ai.md).
 

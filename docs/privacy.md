@@ -67,9 +67,10 @@ undone, so export first if you want a copy.
 ### Withdraw consent
 
 Withdrawing consent to processing means the app can no longer function for you.
-To withdraw, **delete your account** (which erases all your data), or contact the
-instance operator. Disabling only the **AI** analysis is separate and doesn't
-affect the rest of the app — see [Your data & AI](data-and-ai.md).
+To withdraw, **delete your account** (which erases all your data), or
+[contact the instance operator](faq.md#how-do-i-contact-the-instance-operator).
+Disabling only the **AI** analysis is separate and doesn't affect the rest of the
+app — see [Your data & AI](data-and-ai.md).
 
 ## Who can see your data
 
