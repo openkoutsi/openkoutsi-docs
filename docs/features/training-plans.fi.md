@@ -60,6 +60,46 @@ näytetään ja sen voi poistaa linkityksestä erikseen.
     kattaa päivän harjoituksen yksinään. Kun harjoitus jakautui osiin, jotka kukin
     jäävät vajaaksi, linkitä ylimääräiset aktiviteetit käsin.
 
+## Toteutumapisteet
+
+openkoutsi muuttaa kysymyksen "noudatanko suunnitelmaani?" kahdeksi konkreettiseksi
+prosenttiluvuksi, jotka päivittyvät jatkuvasti aktiviteettien saapuessa — ei vasta
+suunnitelman lopussa. Ne ovat **aina saatavilla** eivätkä vaadi tekoälytilausta.
+
+**Harjoituskohtaiset osumapisteet.** Jokainen suoritettu harjoitus saa pisteet
+0–100 % sen mukaan, kuinka tarkasti se osui suunnitelmaan. Pyöräilyharjoituksissa
+tarkastellaan sekä **kuormaa** että **kestoa**, ja — tärkeää — liian kovaa tai liian
+pitkää suoritusta rangaistaan yhtä lailla kuin vajaaksi jäämistä: rauhallinen
+palautusajo raakana intervalliharjoituksena ei ole täydellinen osuma. Tavoitteeseen
+osuminen antaa 100 %; 20 % ohi kumpaan tahansa suuntaan jää noin 80 %:iin.
+Muut kuin pyöräilyharjoitukset ("täydentävät" — voima, jooga, uinti) pisteytetään
+yksinkertaisesti tehty/tekemättä. Kun yksi sessio jakautui useaan linkitettyyn
+aktiviteettiin, niiden kuorma ja kesto lasketaan yhteen ennen pisteytystä.
+
+**Suunnitelman toteutumapisteet.** Harjoituspisteesi kootaan yhdeksi "tähän
+mennessä" -prosentiksi koko suunnitelmalle, kattaen jo kuluneen osan. Se on
+**kuormapainotettu**, joten suuren avainharjoituksen väliin jättäminen laskee sitä
+enemmän kuin kevyen palautusajon. Väliin jäänyt harjoitus lasketaan nollaksi.
+
+Ohitettuja harjoituksia kohdellaan lempeästi, ja syy vaikuttaa:
+
+| Ohituksen syy | Vaikutus pisteisiin |
+|---|---|
+| Sairaus, loukkaantuminen | Lähes täysin anteeksiannettu |
+| Väsymys, matkustus | Kohtalainen vähennys |
+| Sää | Lievä vähennys |
+| Muu / ei syytä | Lähes täysi väliin jääminen |
+
+!!! info "Tätä päivää arvioidaan lempeästi"
+    **Tälle päivälle** ajoitettua harjoitusta, jota et ole vielä tehnyt, pidetään
+    armonajassa — sitä ei lasketa väliin jääneeksi ennen kuin päivä on ohi. Heti kun
+    linkität aktiviteetin, se pisteytetään tähän mennessä tehdyn perusteella.
+    Lepopäivät ja tulevat harjoitukset eivät koskaan ole sinua vastaan.
+
+Näet nykyisen "tähän mennessä" -prosentin suunnitelman otsikossa, värikoodatun
+merkin jokaisessa harjoituksessa sekä toteutuman trendikaavion kojelaudallasi, joten
+voit seurata luvun liikettä suunnitelman edetessä.
+
 ## Strukturoidut harjoitukset
 
 Rakenna intervalliharjoituksia ja vie ne laitteellesi:
