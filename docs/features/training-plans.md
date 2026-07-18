@@ -71,6 +71,10 @@ around 80%. Non-cycling "supplemental" workouts (strength, yoga, a swim) are sim
 scored as done or missed. When one session was split across several linked
 activities, their Load and duration are added together before scoring.
 
+A workout you actually **completed** never drops below **50%**, no matter how far
+off target it was — turning a planned 85-minute endurance ride into a four-hour easy
+spin still beats skipping it. Only missed and skipped workouts can go lower.
+
 **Plan adherence score.** Your workout scores are rolled up into a single "so far"
 percentage for the whole plan, covering the part of the plan that has already
 elapsed. It is **Load-weighted**, so missing a big key session pulls it down more

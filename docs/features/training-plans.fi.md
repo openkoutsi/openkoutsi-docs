@@ -76,6 +76,12 @@ Muut kuin pyöräilyharjoitukset ("täydentävät" — voima, jooga, uinti) pist
 yksinkertaisesti tehty/tekemättä. Kun yksi sessio jakautui useaan linkitettyyn
 aktiviteettiin, niiden kuorma ja kesto lasketaan yhteen ennen pisteytystä.
 
+Harjoitus, jonka **suoritit**, ei koskaan jää alle **50 %:n**, olipa se kuinka
+kaukana tavoitteesta tahansa — suunnitellun 85 minuutin peruskestävyysajon
+muuttaminen neljän tunnin rauhalliseksi ajoksi on silti parempi kuin harjoituksen
+väliin jättäminen. Vain väliin jääneet ja ohitetut harjoitukset voivat mennä
+alemmas.
+
 **Suunnitelman toteutumapisteet.** Harjoituspisteesi kootaan yhdeksi "tähän
 mennessä" -prosentiksi koko suunnitelmalle, kattaen jo kuluneen osan. Se on
 **kuormapainotettu**, joten suuren avainharjoituksen väliin jättäminen laskee sitä
