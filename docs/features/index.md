@@ -16,6 +16,11 @@ below.
     Track your fitness, fatigue, and form — as interactive
     charts on your dashboard.
 
+- :material-chart-bar-stacked: **[Time in zones](time-in-zones.md)**
+
+    See weekly accumulated time in each power and heart-rate zone, so you can
+    tell easy weeks from hard ones at a glance.
+
 - :material-calendar-check: **[Training plans & workouts](training-plans.md)**
 
     Generate periodized plans, build structured interval workouts, and push them
