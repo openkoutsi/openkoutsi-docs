@@ -63,6 +63,7 @@ plugins:
             Overview: Yleiskatsaus
             Activities & sync: Aktiviteetit ja synkronointi
             Fitness metrics: Kuntomittarit
+            Time in zones: Aika vyöhykkeillä
             Power models: Tehomallit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
             Goal guidance: Tavoiteopastus
@@ -92,6 +93,7 @@ nav:
       - Overview: features/index.md
       - Activities & sync: features/activities.md
       - Fitness metrics: features/fitness-metrics.md
+      - Time in zones: features/time-in-zones.md
       - Power models: features/power-models.md
       - Training plans & workouts: features/training-plans.md
       - Goal guidance: features/goal-guidance.md

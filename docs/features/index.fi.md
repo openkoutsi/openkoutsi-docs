@@ -17,6 +17,11 @@ Valitse aihe alta.
     Seuraa kuntoasi, väsymystäsi ja muotoasi —
     interaktiivisina kaavioina kojelaudallasi.
 
+- :material-chart-bar-stacked: **[Aika vyöhykkeillä](time-in-zones.md)**
+
+    Näe viikoittain kertynyt aika kullakin teho- ja sykevyöhykkeellä, niin
+    erotat kevyet viikot kovista yhdellä silmäyksellä.
+
 - :material-calendar-check: **[Harjoitusohjelmat ja harjoitukset](training-plans.md)**
 
     Luo jaksotettuja ohjelmia, rakenna strukturoituja intervalliharjoituksia ja
