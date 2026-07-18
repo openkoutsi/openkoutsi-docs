@@ -56,6 +56,45 @@ be unlinked on its own.
     workout on its own. When the session was split into parts that each fall short,
     link the extra activities by hand.
 
+## Adherence score
+
+openkoutsi turns "am I sticking to my plan?" into two concrete percentages,
+updated continuously as your activities come in — not just at the end of the plan.
+They are **always available** and don't require an AI subscription.
+
+**Per-workout match score.** Each completed workout gets a score from 0–100% for
+how closely it hit the plan. For cycling workouts this looks at both the **Load**
+and the **duration**, and — importantly — it penalises going *too hard or too long*
+just as much as falling short: an easy spin done as a brutal interval session is
+not a perfect match. Hitting the target gives 100%; being 20% off either way lands
+around 80%. Non-cycling "supplemental" workouts (strength, yoga, a swim) are simply
+scored as done or missed. When one session was split across several linked
+activities, their Load and duration are added together before scoring.
+
+**Plan adherence score.** Your workout scores are rolled up into a single "so far"
+percentage for the whole plan, covering the part of the plan that has already
+elapsed. It is **Load-weighted**, so missing a big key session pulls it down more
+than missing an easy recovery ride. A missed session counts as zero.
+
+Skipped workouts are treated gently, and the reason matters:
+
+| Skip reason | Effect on the score |
+|---|---|
+| Illness, injury | Almost fully excused |
+| Fatigue, travel | A moderate dent |
+| Weather | A mild dent |
+| Anything else / no reason | Counts close to a full miss |
+
+!!! info "Today is judged kindly"
+    A workout scheduled for **today** that you haven't done yet is held in grace —
+    it isn't counted as missed until the day is over. The moment you link an
+    activity, it's scored on what you've done so far. Rest days and future workouts
+    never count against you.
+
+You'll see the current "so far" percentage on the plan header, a colour-coded badge
+on each workout, and an adherence-trend chart on your dashboard so you can watch the
+number move through the plan.
+
 ## Structured workouts
 
 Build interval workouts and export them for your device:
