@@ -37,6 +37,29 @@ Kun ohitat harjoituksen, voit kirjata syyn (sairaus, vamma, väsymys, matkustus,
 sää ja niin edelleen). Tämä pitää harjoituspäiväkirjasi tarkkana ja antaa
 tekoälyvalmennuksen ominaisuuksille hyödyllistä kontekstia.
 
+### Yksi harjoitus, useita aktiviteetteja
+
+Joskus yksi harjoituskerta päätyy tallentumaan useampana aktiviteettina — pysäytit
+tallennuksen vahingossa, pidit kahvitauon tai teit pari virtuaalilenkkiä peräkkäin.
+Voit linkittää **jokaisen** näistä aktiviteeteista samaan suunniteltuun
+harjoitukseen, jolloin niiden kestot ja kuormat lasketaan yhteen tavoitetta
+kohti.
+
+Avaa suunniteltu harjoitus kalenterista, linkitä ensimmäinen aktiviteetti ja lisää
+loput painikkeella **Linkitä toinen harjoitus**. Jokainen linkitetty aktiviteetti
+näytetään ja sen voi poistaa linkityksestä erikseen.
+
+!!! tip "Esimerkki"
+    Ohjelmassa on pitkä lenkki, mutta pysäytät tallennuksen vahingossa puolivälissä
+    ja saat kaksi keskipitkää lenkkiä. Linkitä molemmat suunniteltuun harjoitukseen,
+    niin niiden yhteenlaskettu aika ja kuorma täyttävät sen — tiedostoja ei tarvitse
+    yhdistää.
+
+!!! note
+    Automaattinen tunnistus linkittää edelleen yksittäisen aktiviteetin, joka
+    kattaa päivän harjoituksen yksinään. Kun harjoitus jakautui osiin, jotka kukin
+    jäävät vajaaksi, linkitä ylimääräiset aktiviteetit käsin.
+
 ## Strukturoidut harjoitukset
 
 Rakenna intervalliharjoituksia ja vie ne laitteellesi:

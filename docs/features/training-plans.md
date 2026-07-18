@@ -34,6 +34,28 @@ When you skip a workout you can record a reason (illness, injury, fatigue, trave
 weather, and so on). This keeps your training log accurate and gives the AI
 coaching features useful context.
 
+### One workout, several activities
+
+Sometimes a single session ends up recorded as more than one activity — you
+accidentally stopped the recording, paused for a coffee break, or did a couple of
+back-to-back virtual rides. You can link **each** of those activities to the same
+planned workout, and their durations and Load are counted together towards the
+goal.
+
+Open the planned workout from the calendar, link the first activity, then use
+**Link another activity** to add the rest. Each linked activity is listed and can
+be unlinked on its own.
+
+!!! tip "Example"
+    A long ride is planned, but you accidentally stop recording halfway and end up
+    with two medium rides. Link both to the planned workout and their combined time
+    and Load satisfy it — no need to merge the files.
+
+!!! note
+    Automatic matching still links a single activity that already covers the day's
+    workout on its own. When the session was split into parts that each fall short,
+    link the extra activities by hand.
+
 ## Structured workouts
 
 Build interval workouts and export them for your device:
