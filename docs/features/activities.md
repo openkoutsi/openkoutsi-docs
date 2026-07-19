@@ -43,6 +43,46 @@ your fitness metrics and training-plan matching just like uploaded or synced rid
     Entering just a date, duration and RPE is enough to keep your fitness, fatigue and form
     curves accurate on days you trained without a device.
 
+## Rating perceived effort (RPE)
+
+Power and heart rate tell openkoutsi how hard a ride *was*; **RPE** (Rate of Perceived
+Exertion, a 1–10 score) tells it how hard the ride actually **felt**. Illness, heat, poor
+sleep and life stress can all make an easy-looking ride feel brutal — recording your own
+read on the session gives the AI coaching analysis a signal the numbers can't provide (for
+example, a modest intensity paired with a high RPE points to a fatigued day).
+
+### The after-ride prompt
+
+After a significant **cycling** ride lands — whether it synced in the background or you
+uploaded a FIT file — the next time you open your dashboard openkoutsi gently asks you to
+rate it:
+
+- **Rate** — pick an effort from **1** (very easy) to **10** (maximal). You can also add a
+  short **note** and tick **"This was a commute"** to tag the ride.
+- **Skip** — move on without rating this ride.
+- **Ask again later** — dismiss the prompt; the same ride leads the queue next time.
+
+If several rides are waiting, the prompt works through them one after another in a single
+sitting until the queue is empty or you dismiss it. Only cycling rides are prompted, and
+rides tagged as a **commute** drop out of the queue — so everyday commutes and easy spins
+don't nag you.
+
+!!! note "No backfilling your history"
+    The prompt only ever asks about rides that arrive *after* you start using the feature —
+    it will never march you through your entire past activity history.
+
+### Setting RPE from the activity
+
+You can also set or change the RPE on **any** activity at any time. Open the activity and
+use the **1–10 selector** in the *Labels & Notes* card, right next to where you edit labels
+and notes. Tap a number to set it, or tap it again to clear it.
+
+### Turning the prompt on or off
+
+Prefer not to be asked? On your **profile**, toggle **"Ask me to rate effort after
+uploads"** off (or back on). Turning the prompt off doesn't stop you setting RPE by hand
+from the activity view.
+
 ## Syncing from Strava
 
 Connect your Strava account to import your history and have new rides flow in
