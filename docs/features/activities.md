@@ -113,7 +113,9 @@ your profile stays consistent with the device you train with.
 When you have a [training plan](training-plans.md), uploaded activities are
 matched automatically to the planned workout for that day (by sport, and when the
 training load and duration are close enough). You can also link or unlink manually from the
-plan calendar or the dashboard activity calendar.
+plan calendar or the dashboard activity calendar. When linking manually you can pick
+from activities recorded within two days of the planned workout, so a session done a
+day early or late still counts towards it.
 
 !!! note "More detail coming"
     Step-by-step screenshots for connecting providers will be added here.

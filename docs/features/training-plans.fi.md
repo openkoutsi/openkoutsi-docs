@@ -49,6 +49,12 @@ Avaa suunniteltu harjoitus kalenterista, linkitä ensimmäinen aktiviteetti ja l
 loput painikkeella **Linkitä toinen harjoitus**. Jokainen linkitetty aktiviteetti
 näytetään ja sen voi poistaa linkityksestä erikseen.
 
+!!! tip "Päivän tai parin heitto?"
+    Kun linkität käsin, valikko tarjoaa kaikki aktiviteetit, jotka olet tallentanut
+    **kahden päivän** sisällä suunnitellusta päivästä molempiin suuntiin, kukin
+    varustettuna täydellä päivämäärällä. Ohjelmat elävät usein hieman, joten
+    keskiviikkona ajettu lenkki voi silti täyttää tiistain suunnitellun harjoituksen.
+
 !!! tip "Esimerkki"
     Ohjelmassa on pitkä lenkki, mutta pysäytät tallennuksen vahingossa puolivälissä
     ja saat kaksi keskipitkää lenkkiä. Linkitä molemmat suunniteltuun harjoitukseen,
