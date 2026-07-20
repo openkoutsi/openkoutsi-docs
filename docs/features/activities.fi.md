@@ -118,7 +118,9 @@ Kun sinulla on [harjoitusohjelma](training-plans.md), ladatut aktiviteetit
 yhdistetään automaattisesti kyseisen päivän suunniteltuun harjoitukseen (lajin
 mukaan ja kun harjoituskuormitus ja kesto ovat riittävän lähellä). Voit myös linkittää tai
 poistaa linkityksen käsin ohjelmakalenterista tai kojelaudan
-aktiviteettikalenterista.
+aktiviteettikalenterista. Käsin linkittäessäsi voit valita aktiviteeteista, jotka on
+tallennettu kahden päivän sisällä suunnitellusta harjoituksesta, joten päivää aiemmin
+tai myöhemmin tehty suoritus lasketaan silti sen hyväksi.
 
 !!! note "Lisää yksityiskohtia tulossa"
     Vaiheittaiset kuvakaappaukset palveluiden yhdistämisestä lisätään tähän.

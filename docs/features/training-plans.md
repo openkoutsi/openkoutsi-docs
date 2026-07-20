@@ -46,6 +46,12 @@ Open the planned workout from the calendar, link the first activity, then use
 **Link another activity** to add the rest. Each linked activity is listed and can
 be unlinked on its own.
 
+!!! tip "Off by a day or two?"
+    When you link manually, the picker offers every activity you recorded within
+    **two days** either side of the planned day, each labelled with its full date.
+    Plans routinely slip a little, so a ride you did on Wednesday can still complete
+    Tuesday's planned workout.
+
 !!! tip "Example"
     A long ride is planned, but you accidentally stop recording halfway and end up
     with two medium rides. Link both to the planned workout and their combined time
