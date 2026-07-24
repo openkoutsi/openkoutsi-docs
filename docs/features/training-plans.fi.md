@@ -13,6 +13,43 @@ Luo **jaksotettu** ohjelma, joka etenee klassisten vaiheiden läpi:
 Annat ohjelmalle nimen, tavoitteen, aloituspäivän ja keston, ja openkoutsi
 jakaa harjoitukset viikkojen varrelle.
 
+### Rakenneparametrit
+
+Harjoituspäivien ja -tyyppien lisäksi voit säätää, miten ohjelma etenee. Järkevät
+oletukset ehdotetaan **kokemustasosi** perusteella, ja voit ohittaa minkä tahansa
+niistä:
+
+- **Viikoittainen nousu** — kuinka paljon kuorma ja aika kasvavat joka
+  rakennusviikko, yleensä **5–10 %**. Aloittelijat matalammassa päässä, kokeneet
+  ajajat korkeammassa.
+- **Rakennus : palautus -rytmi** — kuinka monta rakennusviikkoa on ennen jokaista
+  palautusviikkoa (**2 : 1** tai **3 : 1** -rytmi). Aloittelijoille sopii yleensä
+  2 : 1; keskitason ja kokeneet ajajat kestävät 3 : 1.
+- **Viikoittaiset tunnit käytettävissä** — väli, esim. **4–6 tuntia**. openkoutsi
+  pitää kunkin viikon kokonaisajoajan tällä välillä: palautusviikot lähellä alarajaa,
+  huippurakennusviikot lähellä ylärajaa. Jätä tyhjäksi, jos et halua rajaa.
+- **Viikoittainen peruskuorma** — lisäkuorma, jonka saat **muusta kuin
+  harjoitusajosta**, kuten työmatkoista. Sitä käsitellään kontekstina (näytetään
+  kunkin viikon yhteydessä ja annetaan tekoälylle), eikä sitä lisätä määrättyihin
+  harjoituksiin, joten ohjelma pysyy realistisena ilman kaksinkertaista laskentaa.
+
+!!! tip "Aseta tuntisi kerran"
+    Tyypillinen viikoittainen harjoitustuntiväli on **profiilissasi**. Uudet
+    ohjelmat esitäyttyvät siitä, joten asetat sen vain kerran.
+
+### Rakennus- ja palautusviikot
+
+Jokainen viikko merkitään **rakennus-**, **palautus-** tai **kevennysviikoksi**,
+ja ohjelmakalenterissa näkyy lyhyt fokusmerkintä sekä viikon tavoitetunnit ja
+-kuorma. Rakennusviikot kuormittavat asteittain enemmän; palautusviikot keventävät,
+jotta keho ehtii sopeutua harjoitteluun ennen seuraavaa jaksoa.
+
+!!! info "Järkevät kovat päivät"
+    Kynnys- ja VO2max-harjoitukset ovat vaativia — sarja kuten 3×15 min kynnysteholla
+    on todella kova oikein tehtynä. openkoutsi ei aseta näitä "kovia" päiviä
+    peräkkäisiksi ja rajoittaa niiden määrää viikossa keventäen ylimääräiset
+    tempoksi. Kunkin päivän kuvaus vastaa sen todellista kestoa ja tavoitekuormaa.
+
 ## Ohjelman muokkaaminen
 
 Ohjelmat eivät ole kiinteitä luomisen jälkeen. Voit:
