@@ -12,6 +12,43 @@ Create a **periodized** plan that progresses through the classic phases:
 You give the plan a name, a goal, a start date, and a length, and openkoutsi lays
 out the workouts across the weeks.
 
+### Structure parameters
+
+Beyond the training days and workout types, you can shape how the plan
+progresses. Sensible defaults are suggested from your **experience level**, and
+you can override any of them:
+
+- **Weekly progression** — how much load and time ramp up each build week,
+  usually **5–10%**. Novices sit at the low end, experienced riders at the high
+  end.
+- **Build : recovery cadence** — how many build weeks come before each recovery
+  week (a **2 : 1** or **3 : 1** rhythm). Novices generally do best with 2 : 1;
+  intermediate and experienced riders can handle 3 : 1.
+- **Weekly hours available** — a range, e.g. **4–6 hours**. openkoutsi keeps each
+  week's total ride time inside the band: recovery weeks sit near the low end,
+  peak build weeks near the high end. Leave it blank for no limit.
+- **Weekly base load** — extra weekly Load you pick up from **non-workout riding**
+  such as commuting. It's treated as context (shown alongside each week and given
+  to the AI) and is *not* added into the prescribed sessions, so the plan stays
+  realistic without double-counting.
+
+!!! tip "Set your hours once"
+    Your typical weekly training-hours range lives on your **profile**. New plans
+    prefill from it, so you only set it once.
+
+### Build and recovery weeks
+
+Each week is labelled as a **build**, **recovery**, or **taper** week, with a short
+focus note and the week's target hours and Load shown on the plan calendar. Build
+weeks progressively overload; recovery weeks ease off so your body absorbs the
+training before the next block.
+
+!!! info "Sensible hard days"
+    Threshold and VO2max sessions are demanding — a set like 3×15 min at your FTP is
+    very hard when done properly. openkoutsi keeps these "hard" days from being
+    scheduled back-to-back and caps how many land in a week, easing any extras to
+    tempo. Each day's description matches its actual duration and target Load.
+
 ## Editing a plan
 
 Plans are not fixed once created. You can:
