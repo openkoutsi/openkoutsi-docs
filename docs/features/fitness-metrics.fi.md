@@ -25,6 +25,38 @@ kyseiseltä ajanjaksolta:
 - aktiivinen kokonaisaika
 - kuljettu kokonaismatka
 
+## Katse eteenpäin
+
+Jos sinulla on aktiivinen harjoitusohjelma, kuntohistoriakaavio jatkuu tästä
+päivästä eteenpäin **katkoviivana**. Tuo osuus on ennuste: se ajaa saman mallin
+eteenpäin sillä harjoituskuormituksella, jonka ohjelmasi määrää jokaiselle
+jäljellä olevalle päivälle. Näet siis mihin kuntosi, väsymäsi ja muotosi ovat
+menossa jo ennen kuin ajat yhtään noista harjoituksista.
+
+Pystysuora **Tänään**-merkki erottaa nämä kaksi. Kaikki sen vasemmalla puolella
+on mitattu oikeista suorituksista, kaikki oikealla puolella on mallinnettua.
+
+Ennustetta hyödynnetään suoraan kahdessa paikassa:
+
+- **Tavoitenäkymä** — kun tavoitteen kohdepäivä osuu ennustejakson sisään,
+  kojelautasi näyttää muodon, joka sinulla on kyseisenä päivänä ennusteen mukaan.
+  Tämä on nopein tapa vastata kysymykseen *"olenko tuore kilpailupäivänä?"*.
+- **Nousuvauhdin varoitus** — jos ohjelman ennustettu kunto nousee jyrkemmin kuin
+  se viikkonousu, jolle ohjelma rakennettiin, ohjelmasivu kertoo siitä. Kyse on
+  vihjeestä, että ohjelma saattaa olla aiottua rankempi — ei virheestä.
+
+!!! note "Ennuste olettaa, että teet ohjelman"
+    Jokainen ennustettu päivä olettaa suunnitellun harjoituksen tehdyksi juuri
+    määrätyllä tavalla. Jos jätät harjoituksia väliin, todellinen käyrä jää
+    matalammalle; jos ajat suunniteltua enemmän, se nousee korkeammalle. Päivät
+    ilman suunniteltua harjoitusta — ja suunnitellut harjoitukset ilman
+    tavoitekuormitusta — lasketaan lepopäiviksi, joten viiva laskee niiden
+    kohdalla. Kun ohjelmasi päättyy, ennuste jatkuu täysin ilman harjoittelua,
+    minkä vuoksi loppuhäntä laskee: juuri siltä kunnon rapautuminen näyttää.
+
+Ennuste lasketaan uudelleen aina kun katsot sitä, joten ohjelman muokkaus
+päivittää sen välittömästi.
+
 ## Lukujen pitäminen luotettavina
 
 Jos poistat aktiviteetteja, niistä riippuneet mittarit voivat vanhentua.
