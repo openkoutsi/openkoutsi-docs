@@ -27,6 +27,11 @@ Valitse aihe alta.
     Luo jaksotettuja ohjelmia, rakenna strukturoituja intervalliharjoituksia ja
     siirrä ne Wahoo- tai Garmin-pyörätietokoneeseesi.
 
+- :material-trophy: **[Saavutukset ja putket](achievements.md)**
+
+    Ansaitse merkkejä virstanpylväistä — pitkistä lenkeistä, suurista nousuista,
+    loppuun viedyistä ohjelmista — ja pidä säännöllisten viikkojen putki käynnissä.
+
 </div>
 
 ## Muut ominaisuudet

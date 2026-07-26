@@ -66,6 +66,7 @@ plugins:
             Time in zones: Aika vyöhykkeillä
             Power models: Tehomallit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
+            Achievements & streaks: Saavutukset ja putket
             Goal guidance: Tavoiteopastus
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
             AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
@@ -96,6 +97,7 @@ nav:
       - Time in zones: features/time-in-zones.md
       - Power models: features/power-models.md
       - Training plans & workouts: features/training-plans.md
+      - Achievements & streaks: features/achievements.md
       - Goal guidance: features/goal-guidance.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
