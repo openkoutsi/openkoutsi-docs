@@ -26,6 +26,11 @@ below.
     Generate periodized plans, build structured interval workouts, and push them
     to your Wahoo or Garmin head unit.
 
+- :material-trophy: **[Achievements & streaks](achievements.md)**
+
+    Earn badges for milestones — long rides, big climbs, finished plans — and keep
+    a streak of consistent weeks going.
+
 </div>
 
 ## Other capabilities
