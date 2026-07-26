@@ -24,6 +24,37 @@ period:
 - total active time
 - total distance covered
 
+## Looking ahead
+
+If you have an active training plan, the fitness history chart continues past
+today as a **dashed line**. That section is a forecast: it runs the same model
+forward over the training load your plan prescribes for each remaining day, so
+you can see where your fitness, fatigue and form are heading before you ride any
+of it.
+
+A vertical **Today** marker separates the two. Everything to its left is measured
+from activities you actually did; everything to its right is modeled.
+
+Two places use the forecast directly:
+
+- **Goal outlook** — when a goal's target date falls inside the forecast window,
+  your dashboard shows the form you're projected to have on that day. This is the
+  quickest way to answer *"will I be fresh on race day?"*.
+- **Plan ramp warning** — if a plan's projected fitness climbs faster than the
+  week-over-week progression the plan was built with, the plan page says so. It's
+  a hint that the plan may be more aggressive than intended, not an error.
+
+!!! note "The forecast assumes you do the plan"
+    Every projected day counts the planned workout as completed exactly as
+    prescribed. Miss sessions and the real curve will sit lower; ride more than
+    planned and it will sit higher. Days with no planned workout — and planned
+    workouts with no target load — count as rest, so the line decays through
+    them. Once your plan ends, the forecast keeps going with no training at all,
+    which is why the tail falls away: that's what detraining looks like.
+
+The forecast is recalculated every time you look at it, so editing your plan
+updates it immediately.
+
 ## Keeping the numbers honest
 
 If you delete activities, the metrics that depended on them can become stale.
