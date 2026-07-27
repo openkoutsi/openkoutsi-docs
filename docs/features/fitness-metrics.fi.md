@@ -36,6 +36,11 @@ menossa jo ennen kuin ajat yhtään noista harjoituksista.
 Pystysuora **Tänään**-merkki erottaa nämä kaksi. Kaikki sen vasemmalla puolella
 on mitattu oikeista suorituksista, kaikki oikealla puolella on mallinnettua.
 
+Katkoviiva ulottuu yhtä pitkälle eteenpäin kuin valitsemasi jakso, enintään
+kolme kuukautta: **1W** näyttää viikon eteenpäin, **1M** kuukauden ja **3M** tai
+pidempi koko kolmen kuukauden ennusteen. Näin ennuste ei vie tilaa siltä
+historialta, jota halusit katsoa.
+
 Ennustetta hyödynnetään suoraan kahdessa paikassa:
 
 - **Tavoitenäkymä** — kun tavoitteen kohdepäivä osuu ennustejakson sisään,
