@@ -35,6 +35,11 @@ of it.
 A vertical **Today** marker separates the two. Everything to its left is measured
 from activities you actually did; everything to its right is modeled.
 
+The dashed part reaches as far ahead as the period you have selected, up to three
+months: pick **1W** and you see a week ahead, **1M** a month, and **3M** or longer
+the full three-month outlook. That way the forecast never crowds out the history
+you asked to look at.
+
 Two places use the forecast directly:
 
 - **Goal outlook** — when a goal's target date falls inside the forecast window,
