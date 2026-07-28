@@ -32,6 +32,11 @@ Valitse aihe alta.
     Ansaitse merkkejä virstanpylväistä — pitkistä lenkeistä, suurista nousuista,
     loppuun viedyistä ohjelmista — ja pidä säännöllisten viikkojen putki käynnissä.
 
+- :material-inbox: **[Postilaatikko](inbox.md)**
+
+    Viestit openkoutsilta — uudet saavutukset ja, jos ylläpidät instanssia, sitä
+    koskevat tapahtumat. Avaa viesti napsauttamalla ja lue se kokonaan.
+
 </div>
 
 ## Muut ominaisuudet

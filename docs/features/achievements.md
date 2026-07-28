@@ -120,6 +120,11 @@ in your files; Load badges need power or heart rate. Rather than showing you a w
 of badges you have no way to reach, openkoutsi simply leaves them out — they appear
 by themselves once a ride turns up with the right data.
 
+## Finding out you earned one
+
+New badges are announced in your [inbox](inbox.md) — one message per batch, however
+many you earned at once, naming each badge and how far you got.
+
 ## Turning it off
 
 Not everyone wants badges, and that's fine. You'll be asked during
@@ -137,3 +142,4 @@ before.
 - [Training plans & workouts](training-plans.md) — where plan adherence comes from.
 - [Activities & sync](activities.md) — labels, notes and RPE, which several badges
   count.
+- [Inbox](inbox.md) — where new badges are announced.
