@@ -17,6 +17,11 @@ Valitse aihe alta.
     Seuraa kuntoasi, väsymystäsi ja muotoasi —
     interaktiivisina kaavioina kojelaudallasi.
 
+- :material-heart-pulse: **[Aerobiset mittarit](aerobic-metrics.md)**
+
+    Tehokkuuskerroin, aerobinen erkaantuma, vaihtelukerroin ja W′-tase —
+    luvut, jotka kertovat *miten* lenkki meni, eivät vain kuinka paljon sitä oli.
+
 - :material-chart-bar-stacked: **[Aika vyöhykkeillä](time-in-zones.md)**
 
     Näe viikoittain kertynyt aika kullakin teho- ja sykevyöhykkeellä, niin
