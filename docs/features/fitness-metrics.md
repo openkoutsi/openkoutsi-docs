@@ -80,10 +80,16 @@ taken from your weight history, rather than your current weight. That way a
 strong effort from when you were lighter shows up as the W/kg record it was,
 instead of being hidden behind a higher-wattage ride at a heavier weight.
 
+Each effort keeps the weight it was ridden at. When you record a new weight it
+applies to activities **from that day onward** — earlier rides are not re-scored,
+so your W/kg history stays exactly as it was when you rode it.
+
 !!! tip "Keep your weight up to date"
     Efforts from before your first logged weight have no W/kg value and are left
-    out of the W/kg curve. Update your weight in **Profile** whenever it changes
-    so your power-to-weight records stay accurate.
+    out of the W/kg curve — and logging a weight later does not fill them in,
+    since openkoutsi has no way to know what you weighed back then. Update your
+    weight in **Profile** whenever it changes so your power-to-weight records
+    stay accurate.
 
 ## FTP estimation
 

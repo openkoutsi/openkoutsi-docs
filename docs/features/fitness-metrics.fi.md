@@ -82,10 +82,17 @@ painohistoriasi perusteella nykyisen painosi sijaan. Näin kevyempänä tehty va
 suoritus näkyy sinä W/kg-ennätyksenä, joka se oli, eikä jää raskaammalla painolla
 tehdyn suuritehoisemman lenkin varjoon.
 
+Jokainen suoritus säilyttää sen painon, jolla se tehtiin. Kun kirjaat uuden
+painon, se koskee suorituksia **kyseisestä päivästä eteenpäin** — aiempia lenkkejä
+ei lasketa uudelleen, joten W/kg-historiasi pysyy sellaisena kuin se suoritushetkellä
+oli.
+
 !!! tip "Pidä painosi ajan tasalla"
     Ennen ensimmäistä kirjattua painoa tehdyillä suorituksilla ei ole W/kg-arvoa,
-    ja ne jätetään pois W/kg-käyrästä. Päivitä painosi **Profiilissa** aina sen
-    muuttuessa, jotta teho–paino-ennätyksesi pysyvät tarkkoina.
+    ja ne jätetään pois W/kg-käyrästä — eikä myöhemmin kirjattu paino täydennä
+    niitä, koska openkoutsi ei voi tietää, mikä painosi silloin oli. Päivitä
+    painosi **Profiilissa** aina sen muuttuessa, jotta teho–paino-ennätyksesi
+    pysyvät tarkkoina.
 
 ## FTP-arvio
 
