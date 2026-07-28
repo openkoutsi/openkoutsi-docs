@@ -74,8 +74,10 @@ kortti kertoo, miksi se puuttuu:
 | Lenkki oli liian lyhyt | Erkaantuma vaatii noin tunnin tasaista ajoa. |
 | Ei tehodataa | Sekä teho että syke vaaditaan. |
 | Ei sykedataa | Kuten yllä. |
-| Sykedata ei ole käyttökelpoista | Esimerkiksi tasainen tai katkeileva käyrä. |
+| Sykedata ei ole käyttökelpoista | Esimerkiksi tasainen käyrä. |
+| Rekisteröinnit eivät osu yhteen | Tehoa ja sykettä on verrattava hetki hetkeltä; pitkä katkos toisessa tekee siitä epäluotettavaa. |
 | Tämä oli intervalliharjoitus | Mittaus kuvaisi intervalleja, ei kestävyyttäsi. |
+| Puoliskot ajettiin eri tavalla | Nouseva veto tai negatiivinen split tuottaa ison luvun, joka kuvaa vetoasi eikä kestävyyttäsi. |
 
 !!! warning "Sykkeen nousu ei ole pelkkä kuntosignaali"
     Kuumuus, nestehukka, kofeiini, korkeus, sairastelu ja huono uni nostavat
@@ -107,10 +109,17 @@ tehokäyräsi paranee.
 
 !!! note "Vaatii riittävästi tehohistoriaa"
     Kriittisen tehon arviointi vaatii kirjon kovia suorituksia kahdesta
-    kahteenkymmeneen minuuttiin. Ennen kuin sinulla on niitä, openkoutsi ei
-    näytä W′-tasetta lainkaan sen sijaan että arvaisi varannon koon —
-    keksittyyn lukuun perustuva W′-käyrä näyttäisi vakuuttavalta eikä
+    kahteenkymmeneen minuuttiin. Ennen kuin sinulla on niitä — ja ennen kuin ne
+    tuottavat uskottavan lukuparin, mitä pelkkä tasainen ajo ei tuota —
+    openkoutsi ei näytä W′-tasetta lainkaan sen sijaan että arvaisi varannon
+    koon. Keksittyyn lukuun perustuva W′-käyrä näyttäisi vakuuttavalta eikä
     tarkoittaisi mitään.
+
+!!! note "Vaatii 1 sekunnin tallennuksen"
+    W′-tase lasketaan sekunti sekunnilta, joten se vaatii pyörätietokoneeseesi
+    **1 sekunnin** (ei "smart") tallennusvälin. Harvemmalla välillä tallennetussa
+    tiedostossa laskenta menisi pieleen näytteenottosuhteen verran ja virhe
+    kasvaisi lenkin mittaan, joten openkoutsi jättää aikasarjan tuolloin pois.
 
 ## Näiden saaminen vanhemmille aktiviteeteille
 

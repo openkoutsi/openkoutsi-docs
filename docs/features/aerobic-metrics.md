@@ -74,8 +74,10 @@ it is missing:
 | The ride was too short | Decoupling needs roughly an hour of steady riding. |
 | No power data | Both power and heart rate are required. |
 | No heart-rate data | As above. |
-| The heart-rate data is unusable | For example, a flat or dropped-out trace. |
+| The heart-rate data is unusable | A flat trace, for example. |
+| The recordings don't line up | Power and heart rate have to be compared moment for moment; a long dropout on one of them makes that unreliable. |
 | This was an interval session | The measurement would describe the intervals, not your durability. |
+| The two halves were ridden differently | A ramp or a negative split produces a big number that reflects your pacing, not your durability. |
 
 !!! warning "Heart-rate drift is not purely a fitness signal"
     Heat, dehydration, caffeine, altitude, illness and poor sleep all push heart
@@ -106,9 +108,16 @@ rewritten every time your power curve improves.
 
 !!! note "Needs enough power history"
     Estimating critical power takes a spread of hard efforts from two to twenty
-    minutes. Until you have those, openkoutsi shows no W′ balance rather than
-    guessing at a reserve size — a W′ curve built on an invented number would
-    look convincing and mean nothing.
+    minutes. Until you have those — and until they produce a believable pair of
+    numbers, which a diet of purely steady riding does not — openkoutsi shows no
+    W′ balance rather than guessing at a reserve size. A W′ curve built on an
+    invented number would look convincing and mean nothing.
+
+!!! note "Needs 1-second recording"
+    W′ balance is calculated second by second, so it needs your head unit set to
+    **1-second** (not "smart") recording. On a file recorded at a lower rate the
+    arithmetic would be wrong by the sampling ratio and the error would grow
+    across the ride, so openkoutsi leaves the stream out instead.
 
 ## Getting these on older activities
 
