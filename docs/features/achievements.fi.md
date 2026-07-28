@@ -121,6 +121,12 @@ Sen sijaan että näyttäisi seinällisen merkkejä, joita et voi mitenkään sa
 openkoutsi jättää ne pois — ne ilmestyvät itsestään, kun sopivalla datalla varustettu
 lenkki tulee vastaan.
 
+## Mistä tiedät ansainneesi merkin
+
+Uusista merkeistä ilmoitetaan [postilaatikossasi](inbox.md) — yksi viesti erää
+kohden riippumatta siitä, montako ansaitsit kerralla, ja siinä nimetään jokainen
+merkki ja se, kuinka pitkälle pääsit.
+
 ## Ominaisuuden poistaminen käytöstä
 
 Kaikki eivät halua merkkejä, ja se on täysin kunnossa. Asiaa kysytään
@@ -139,3 +145,4 @@ entisellään.
   tulee.
 - [Aktiviteetit ja synkronointi](activities.md) — merkinnät, muistiinpanot ja RPE,
   joita useat merkit laskevat.
+- [Postilaatikko](inbox.md) — jossa uusista merkeistä ilmoitetaan.

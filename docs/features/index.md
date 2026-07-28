@@ -31,6 +31,11 @@ below.
     Earn badges for milestones — long rides, big climbs, finished plans — and keep
     a streak of consistent weeks going.
 
+- :material-inbox: **[Inbox](inbox.md)**
+
+    Messages from openkoutsi — new achievements and, if you administer the
+    instance, events on it. Click one to read it in full.
+
 </div>
 
 ## Other capabilities
