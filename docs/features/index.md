@@ -16,6 +16,11 @@ below.
     Track your fitness, fatigue, and form — as interactive
     charts on your dashboard.
 
+- :material-heart-pulse: **[Aerobic metrics](aerobic-metrics.md)**
+
+    Efficiency factor, aerobic decoupling, variability index and W′ balance —
+    the numbers that describe *how* a ride went, not just how much of it there was.
+
 - :material-chart-bar-stacked: **[Time in zones](time-in-zones.md)**
 
     See weekly accumulated time in each power and heart-rate zone, so you can

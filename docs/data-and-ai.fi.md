@@ -95,6 +95,11 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
 
     - laji, päivämäärä/aika, kesto, matka, nousumetrit
     - keskiteho / painotettu teho, intensiteetti, harjoituskuormitus, keski- / huippusyke
+    - lenkin aerobiset mittarit: tehokkuuskerroin, vaihtelukerroin ja aerobinen
+      erkaantumaluku — tai, jos erkaantumaa ei mitattu, syy siihen (katso
+      [Aerobiset mittarit](features/aerobic-metrics.md)). Nämä lasketaan omalla
+      palvelimellasi lenkin datasta; taustalla olevia sekuntikohtaisia
+      aikasarjoja ei koskaan lähetetä.
     - FTP:si ja maksimisykkeesi
     - kuntosi/väsymyksesi/muotosi ennen lenkkiä
     - intervallierittely ja mahdolliset tehdyt ennätykset

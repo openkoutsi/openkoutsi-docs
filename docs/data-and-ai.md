@@ -90,6 +90,11 @@ text summary, never your raw files. In detail:
 
     - sport, date/time, duration, distance, elevation gain
     - average / weighted power, intensity, training load, average / peak heart rate
+    - the ride's aerobic metrics: efficiency factor, variability index, and the
+      aerobic decoupling figure — or, when decoupling was not measured, the reason
+      why (see [Aerobic metrics](features/aerobic-metrics.md)). These are computed
+      on your server from the ride's data; the underlying per-second streams are
+      never sent.
     - your FTP and max heart rate
     - your fitness/fatigue/form going into the ride
     - the interval breakdown and any personal records set
