@@ -26,6 +26,11 @@ below.
     See weekly accumulated time in each power and heart-rate zone, so you can
     tell easy weeks from hard ones at a glance.
 
+- :material-chart-timeline-variant: **[Intensity distribution](intensity-distribution.md)**
+
+    Find out whether a whole block came out polarized, pyramidal or
+    threshold-heavy — the shape a single week can never show you.
+
 - :material-calendar-check: **[Training plans & workouts](training-plans.md)**
 
     Generate periodized plans, build structured interval workouts, and push them

@@ -111,6 +111,12 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
 
     - FTP:si ja maksimisykkeesi
     - nykyinen kuntosi, väsymäsi ja muotosi
+    - **intensiteettijakaumasi** viimeisten 12 viikon ajalta: kevyen,
+      vauhtikestävyys/kynnys- ja kovan työn osuudet, niiden muodostama muoto sekä
+      tieto siitä muuttuivatko vyöhykkeesi tuon jakson sisällä (katso
+      [Intensiteettijakauma](features/intensity-distribution.md)). Tämä lasketaan
+      palvelimellasi tallennetuista vyöhykesummista; taustalla olevia
+      sekuntikohtaisia datavirtoja ei koskaan lähetetä.
     - **viimeiset 28 päivää** aktiviteetteja (päivämäärä, laji, kesto, harjoituskuormitus)
     - aktiivisen ohjelmasi nimi, päivämäärät ja tämän viikon suunnitellut harjoitukset
     - aktiiviset **tavoitteesi** (otsikko, kohde, tila)
@@ -122,6 +128,9 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
     - pituus, jaksotustyyli, intensiteettitoive, harjoituspäivät viikossa
     - **tavoitteesi/tapahtumasi** ja kirjoittamasi **lisäkuvaus**
     - FTP:si ja nykyinen kuntosi
+    - **intensiteettijakaumasi** viimeisten 12 viikon ajalta yhtenä rivinä — muoto ja
+      kolme prosenttiosuutta — jotta ohjelma kirjoitetaan sen pohjalta mitä olet
+      todella tehnyt
 
 === "Tekoälyn harjoitusten luonti"
 

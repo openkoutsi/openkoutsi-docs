@@ -106,6 +106,12 @@ text summary, never your raw files. In detail:
 
     - your FTP and max heart rate
     - your current fitness, fatigue and form
+    - your **intensity distribution** over the last 12 weeks: the share of easy,
+      tempo/threshold and hard work, the shape it makes, and whether your zones
+      changed inside that window (see
+      [Intensity distribution](features/intensity-distribution.md)). This is computed
+      on your server from your stored zone totals; the underlying per-second streams
+      are never sent.
     - the **last 28 days** of activities (date, sport, duration, training load)
     - your active plan's name, dates, and this week's planned workouts
     - your active **goals** (title, target, status)
@@ -117,6 +123,9 @@ text summary, never your raw files. In detail:
     - length, periodization style, intensity preference, training days per week
     - your **goal/event** and any **extra description** you typed
     - your FTP and current fitness
+    - your **intensity distribution** over the last 12 weeks, as one line — the
+      shape and the three percentages — so the plan is written against what you
+      have actually been doing
 
 === "AI workout generation"
 
