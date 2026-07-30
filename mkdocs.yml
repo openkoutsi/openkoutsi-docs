@@ -65,6 +65,7 @@ plugins:
             Fitness metrics: Kuntomittarit
             Aerobic metrics: Aerobiset mittarit
             Time in zones: Aika vyöhykkeillä
+            Intensity distribution: Intensiteettijakauma
             Power models: Tehomallit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
             Achievements & streaks: Saavutukset ja putket
@@ -98,6 +99,7 @@ nav:
       - Fitness metrics: features/fitness-metrics.md
       - Aerobic metrics: features/aerobic-metrics.md
       - Time in zones: features/time-in-zones.md
+      - Intensity distribution: features/intensity-distribution.md
       - Power models: features/power-models.md
       - Training plans & workouts: features/training-plans.md
       - Achievements & streaks: features/achievements.md

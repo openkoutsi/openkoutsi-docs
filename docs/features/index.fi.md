@@ -27,6 +27,11 @@ Valitse aihe alta.
     Näe viikoittain kertynyt aika kullakin teho- ja sykevyöhykkeellä, niin
     erotat kevyet viikot kovista yhdellä silmäyksellä.
 
+- :material-chart-timeline-variant: **[Intensiteettijakauma](intensity-distribution.md)**
+
+    Selvitä, tuliko koko jaksosta polarisoitunut, pyramidimainen vai
+    kynnyspainotteinen — muoto, jota yksittäinen viikko ei koskaan näytä.
+
 - :material-calendar-check: **[Harjoitusohjelmat ja harjoitukset](training-plans.md)**
 
     Luo jaksotettuja ohjelmia, rakenna strukturoituja intervalliharjoituksia ja
