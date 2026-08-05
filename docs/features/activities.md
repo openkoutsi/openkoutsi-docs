@@ -54,8 +54,12 @@ example, a modest intensity paired with a high RPE points to a fatigued day).
 ### The after-ride prompt
 
 After a significant **cycling** ride lands — whether it synced in the background or you
-uploaded a FIT file — the next time you open your dashboard openkoutsi gently asks you to
-rate it:
+uploaded a FIT file — openkoutsi gently asks you to rate it the next time you look at your
+dashboard. That includes bringing the app back from the background: if you leave it open on
+your phone, ride, and come back to it later, the prompt is waiting for you. A ride that
+arrives while you are already looking at the dashboard is picked up within a minute, and the
+**refresh** button next to the "updated N min ago" label asks for anything pending straight
+away.
 
 - **Rate** — pick an effort from **1** (very easy) to **10** (maximal). You can also add a
   short **note** and tick **"This was a commute"** to tag the ride.
