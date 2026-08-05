@@ -57,8 +57,11 @@ päivään).
 ### Lenkin jälkeinen kysely
 
 Kun merkittävä **pyöräily**lenkki saapuu — synkronoituipa se taustalla tai latasitpa
-FIT-tiedoston — openkoutsi pyytää sinua seuraavalla kojelaudan avauskerralla arvioimaan sen
-hellävaraisesti:
+FIT-tiedoston — openkoutsi pyytää sinua hellävaraisesti arvioimaan sen, kun seuraavan kerran
+katsot kojelautaasi. Tämä koskee myös sovelluksen palaamista taustalta: jos jätät sen auki
+puhelimeesi, lähdet lenkille ja palaat siihen myöhemmin, kysely odottaa sinua. Lenkki, joka
+saapuu kun katselet jo kojelautaa, huomataan minuutin sisällä, ja **päivitä**-painike
+"päivitetty N min sitten" -tekstin vierestä hakee odottavat lenkit heti:
 
 - **Arvioi** — valitse rasitus välillä **1** (erittäin helppo) ja **10** (maksimaalinen).
   Voit myös lisätä lyhyen **muistiinpanon** ja rastittaa **"Tämä oli työmatka"** merkitäksesi
