@@ -47,6 +47,12 @@ Valitse aihe alta.
     Viestit openkoutsilta — uudet saavutukset ja, jos ylläpidät instanssia, sitä
     koskevat tapahtumat. Avaa viesti napsauttamalla ja lue se kokonaan.
 
+- :material-key-chain: **[Henkilökohtaiset käyttöoikeustunnisteet](personal-access-tokens.md)**
+
+    Rajattuja, peruttavissa olevia tunnisteita omille työkaluillesi —
+    varmuuskopiointiskriptille, ajastetulle työlle, tekoälysovellukselle — jotta
+    muukin kuin selaimesi yltää rajapintaan.
+
 </div>
 
 ## Muut ominaisuudet

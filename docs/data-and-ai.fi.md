@@ -19,6 +19,21 @@ Wahoosta, mittareidesi ja ohjelmiesi katselu — ei koskaan lähetä harjoitusda
 minnekään muualle kuin selaimesi ja oman palvelimesi välillä (sekä Stravaan ja
 Wahooon silloin, kun *sinä* yhdistät ne).
 
+!!! warning "Kaksi asiaa, jotka voit tehdä ja jotka lähettävät dataa muualle"
+    Molemmat ovat tarkoituksellisia tekoja, eikä kumpikaan tapahdu itsestään:
+
+    - **Stravan tai Wahoon yhdistäminen**, mikä on koko synkronoinnin edellytys.
+    - **[Henkilökohtaisen käyttöoikeustunnisteen](features/personal-access-tokens.md)
+      luominen** — pitkäikäinen tunniste, jonka annat omille työkaluillesi, jotta
+      ne voivat lukea (ja jos niin myönnät, kirjoittaa) dataasi selaimen
+      ulkopuolelta. Tunnisteen haltija voi noutaa dataasi instanssilta niin
+      kauan kuin tunniste elää, myöntämiesi oikeuksien rajoissa.
+
+    Tunniste ei ole vuoto: sinä luot sen, sinä valitset sen oikeudet, näet sen
+    listassa ja voit perua sen milloin tahansa. Se on kuitenkin ainoa tunniste,
+    jolla *jokin muu kuin selaimesi* yltää dataasi, joten kannattaa tietää mitkä
+    työkalut sellaisen omistavat — ja perua ne, joita et enää käytä.
+
 ## Tekoälyominaisuudet ovat valinnaisia
 
 openkoutsissa on neljä ominaisuutta, jotka käyttävät kielimallia:
@@ -166,3 +181,8 @@ Riippumatta käyttämästäsi ominaisuudesta openkoutsi **ei** lähetä:
   -pudotusvalikosta, jos ylläpitäjä tarjoaa sellaisen.
 - **Muutitko mielesi?** Tyhjennä päätepiste asetuksistasi; tulevat toiminnot eivät
   lähetä mitään. Voit myös viedä tai poistaa datasi milloin tahansa.
+- **Tarkista, mikä muu voi lukea dataasi.** **Asetukset → Henkilökohtaiset
+  käyttöoikeustunnisteet** listaa jokaisen luomasi pitkäikäisen tunnisteen, mitä
+  kukin saa tehdä ja milloin sitä on viimeksi käytetty. Peruminen astuu voimaan
+  välittömästi — ks.
+  [Henkilökohtaiset käyttöoikeustunnisteet](features/personal-access-tokens.md).

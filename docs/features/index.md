@@ -46,6 +46,11 @@ below.
     Messages from openkoutsi — new achievements and, if you administer the
     instance, events on it. Click one to read it in full.
 
+- :material-key-chain: **[Personal access tokens](personal-access-tokens.md)**
+
+    Scoped, revocable credentials for your own tooling — a backup script, a cron
+    job, an AI client — so something other than your browser can reach the API.
+
 </div>
 
 ## Other capabilities

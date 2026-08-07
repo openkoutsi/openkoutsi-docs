@@ -70,6 +70,7 @@ plugins:
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
             Achievements & streaks: Saavutukset ja putket
             Inbox: Postilaatikko
+            Personal access tokens: Henkilökohtaiset käyttöoikeustunnisteet
             Goal guidance: Tavoiteopastus
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
             AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
@@ -104,6 +105,7 @@ nav:
       - Training plans & workouts: features/training-plans.md
       - Achievements & streaks: features/achievements.md
       - Inbox: features/inbox.md
+      - Personal access tokens: features/personal-access-tokens.md
       - Goal guidance: features/goal-guidance.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
