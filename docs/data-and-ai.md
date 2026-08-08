@@ -18,6 +18,21 @@ Normal use of openkoutsi — uploading rides, syncing from Strava/Wahoo, viewing
 your metrics and plans — never sends your training data anywhere except between
 your browser and your own server (and to Strava/Wahoo when *you* connect them).
 
+!!! warning "Two things you can do that send data elsewhere"
+    Both are deliberate acts, and neither happens on its own:
+
+    - **Connecting Strava or Wahoo**, which is what makes the sync work.
+    - **Creating a [personal access token](features/personal-access-tokens.md)** —
+      a long-lived credential you hand to your own tooling so it can read (and,
+      if you grant it, write) your data from outside the browser. Whatever holds
+      that token can pull your data off the instance for as long as the token
+      lives, within the scopes you granted.
+
+    A token is not a leak: you create it, you choose its scopes, you see it in a
+    list, and you can revoke it at any moment. But it is the one credential that
+    lets something *other than your browser* reach your data, so it is worth
+    knowing which tools hold one — and revoking the ones you no longer use.
+
 ## The AI features are optional
 
 openkoutsi has four features that use a language model:
@@ -160,3 +175,7 @@ Regardless of which feature you use, openkoutsi does **not** send:
   administrator offers one.
 - **Changed your mind?** Clear the endpoint in your settings; future actions send
   nothing. You can also export or delete your data at any time.
+- **Check what else can read your data.** **Settings → Personal access tokens**
+  lists every long-lived credential you have issued, what each one may do, and
+  when it was last used. Revoking one takes effect immediately — see
+  [Personal access tokens](features/personal-access-tokens.md).
