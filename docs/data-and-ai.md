@@ -35,12 +35,13 @@ your browser and your own server (and to Strava/Wahoo when *you* connect them).
 
 ## The AI features are optional
 
-openkoutsi has four features that use a language model:
+openkoutsi has five features that use a language model:
 
 | Feature | What it does |
 |---|---|
 | **Activity analysis** | Written coaching feedback on a single ride. |
 | **Daily training status** | A short summary of your current form and what to do next. |
+| **[Goal guidance](features/goal-guidance.md)** | Judges how realistic a goal is and how to reach it. |
 | **AI plan generation** | Builds a training plan from your requirements. |
 | **AI workout generation** | Turns a planned day into a structured interval workout. |
 
@@ -54,6 +55,33 @@ openkoutsi has four features that use a language model:
 
     If no LLM is configured, or you never use these actions, **no data is ever
     sent to any model.** Every other feature keeps working without it.
+
+## How to tell what a model wrote
+
+Koutsi's coaching text is written by a language model, not by a person. Because
+it arrives in a chat bubble in a coach's voice, that is easy to forget — so
+every place the text appears carries a short **AI-generated** note underneath
+it. You will see it under:
+
+- the **AI Analysis** on an activity,
+- **Koutsi Daily Feedback** on the dashboard, and
+- **AI guidance** on a goal.
+
+The note is there from the moment the answer starts appearing, not only once it
+has finished. Training plans are marked differently — an **AI** tag next to the
+plan's name in the plan list — because a generated plan is a set of workouts
+rather than prose.
+
+!!! warning "Treat it as a suggestion"
+    A language model can be confidently wrong. It sees the summary described
+    below and nothing else — not how you slept, not that you were ill last week,
+    not a niggle you have been riding through. Use its feedback as one input
+    alongside your own judgement, and **do not treat it as medical or
+    professional advice.**
+
+If you are reading your data through the API or your own tooling rather than in
+the browser, the same disclosure is available there: the fields carrying
+generated prose ship a companion `*_ai_generated` flag.
 
 ## Where your data goes
 

@@ -20,6 +20,15 @@ No. openkoutsi runs as a single instance where every user keeps their own privat
 data. There is no coach role and no shared team data; an administrator manages
 accounts and instance settings but does not see your training data.
 
+### Is Koutsi's coaching feedback written by a person?
+
+No. Every piece of coaching prose — the activity analysis, the daily feedback,
+and goal guidance — is written by a language model, and each one carries an
+**AI-generated** note under it saying so. A model can be confidently wrong and
+only sees the summary openkoutsi sends it, so treat its feedback as a suggestion
+rather than medical or professional advice. See
+[Your data & AI](data-and-ai.md) for what is sent and where it goes.
+
 ### How do I sign up?
 
 It depends on the instance. Every instance supports **invitations** — an

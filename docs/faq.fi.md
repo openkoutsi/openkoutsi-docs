@@ -21,6 +21,15 @@ Ei. openkoutsi toimii yhtenä instanssina, jossa jokainen käyttäjä säilyttä
 yksityisen datansa. Valmentajaroolia tai jaettua tiimidataa ei ole; ylläpitäjä
 hallinnoi tilejä ja instanssin asetuksia mutta ei näe harjoitusdataasi.
 
+### Kirjoittaako Koutsin valmennuspalautteen ihminen?
+
+Ei. Kaiken valmennustekstin — aktiviteettianalyysin, päivittäisen palautteen ja
+tavoiteohjauksen — kirjoittaa kielimalli, ja jokaisen alla on siitä kertova
+merkintä **Tekoälyn tuottama**. Malli voi olla vakuuttavasti väärässä ja näkee
+vain sen yhteenvedon, jonka openkoutsi sille lähettää, joten käsittele sen
+palautetta ehdotuksena äläkä lääketieteellisenä tai ammatillisena neuvona. Katso
+[Datasi ja tekoäly](data-and-ai.md), mitä lähetetään ja minne.
+
 ### Miten rekisteröidyn?
 
 Se riippuu instanssista. Jokainen instanssi tukee **kutsuja** — ylläpitäjä

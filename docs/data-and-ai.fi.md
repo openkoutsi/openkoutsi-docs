@@ -36,12 +36,13 @@ Wahooon silloin, kun *sinä* yhdistät ne).
 
 ## Tekoälyominaisuudet ovat valinnaisia
 
-openkoutsissa on neljä ominaisuutta, jotka käyttävät kielimallia:
+openkoutsissa on viisi ominaisuutta, jotka käyttävät kielimallia:
 
 | Ominaisuus | Mitä se tekee |
 |---|---|
 | **Aktiviteettianalyysi** | Kirjallista valmennuspalautetta yksittäisestä lenkistä. |
 | **Päivittäinen harjoitustilanne** | Lyhyt yhteenveto nykyisestä muodostasi ja seuraavista askelista. |
+| **[Tavoiteohjaus](features/goal-guidance.md)** | Arvioi, kuinka realistinen tavoite on ja miten se saavutetaan. |
 | **Tekoälyn ohjelmanluonti** | Rakentaa harjoitusohjelman vaatimustesi pohjalta. |
 | **Tekoälyn harjoitusten luonti** | Muuntaa suunnitellun päivän strukturoiduksi intervalliharjoitukseksi. |
 
@@ -56,6 +57,33 @@ openkoutsissa on neljä ominaisuutta, jotka käyttävät kielimallia:
     Jos LLM:ää ei ole määritetty tai et koskaan käytä näitä toimintoja, **mitään
     dataa ei lähetetä millekään mallille.** Kaikki muut ominaisuudet toimivat
     silti.
+
+## Mistä tunnistat mallin kirjoittaman tekstin
+
+Koutsin valmennustekstin kirjoittaa kielimalli, ei ihminen. Koska teksti
+ilmestyy puhekuplaan valmentajan äänellä, sen unohtaa helposti — siksi joka
+paikassa, jossa teksti näkyy, on sen alla lyhyt merkintä **Tekoälyn tuottama**.
+Näet sen näissä:
+
+- aktiviteetin **tekoälyanalyysi**,
+- kojelaudan **Koutsin päivittäinen palaute** ja
+- tavoitteen **tekoälyohjaus**.
+
+Merkintä on näkyvissä heti kun vastaus alkaa ilmestyä, ei vasta sen
+valmistuttua. Harjoitusohjelmat merkitään eri tavalla — ohjelmalistassa
+ohjelman nimen vieressä on **AI**-merkki — koska luotu ohjelma on joukko
+harjoituksia eikä tekstiä.
+
+!!! warning "Käsittele sitä ehdotuksena"
+    Kielimalli voi olla vakuuttavasti väärässä. Se näkee vain alla kuvatun
+    yhteenvedon eikä mitään muuta — ei sitä, miten nukuit, ei sitä, että olit
+    viime viikolla kipeä, eikä vaivaa, jonka kanssa olet ajanut. Käytä sen
+    palautetta yhtenä syötteenä oman harkintasi rinnalla, äläkä **pidä sitä
+    lääketieteellisenä tai ammatillisena neuvona.**
+
+Jos luet dataasi rajapinnan tai omien työkalujesi kautta selaimen sijaan, sama
+merkintä on saatavilla siellä: tekstiä sisältävien kenttien rinnalla kulkee
+`*_ai_generated`-lippu.
 
 ## Minne datasi menee
 
