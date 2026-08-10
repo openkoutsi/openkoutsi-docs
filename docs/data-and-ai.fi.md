@@ -183,6 +183,65 @@ tekstiyhteenvetona, ei koskaan raakatiedostoinasi. Tarkemmin:
     - suunniteltu kuvaus, tavoitekesto ja tavoitekuormitus
     - FTP:si
 
+## Kun annat Koutsin etsiä tietoja itse
+
+Yllä olevat listat kuvaavat tavanomaisen tilanteen: openkoutsi päättää etukäteen,
+mitä valmentaja tarvitsee, kokoaa tuon kiinteän yhteenvedon ja lähettää sen
+kerran. On olemassa valinnainen asetus — **Profiili → Analyysi → Anna Koutsin
+etsiä tietoja itse** — joka muuttaa kahden valmennusominaisuuden toimintatapaa,
+ja samalla se muuttaa tämän sivun vastausta.
+
+Kun asetus on päällä, Koutsi ei saa valmista yhteenvetoa. Se saa lyhyen listan
+**kysymyksiä, joita se saa esittää omista harjoitustiedoistasi**, ja päättää
+itse, mitä niistä kysyy ennen kirjoittamista. Näin se voi seurata johtolankaa:
+jos kuntolukusi näyttää oudolta, se voi katsoa luvun taustalla olevat lenkit ja
+kertoa *miksi* sen sijaan, että toistaisi luvun sinulle.
+
+!!! info "Mikä muuttuu lähetettävässä tiedossa"
+    Yhden kiinteän yhteenvedon sijaan lähetetään useita pyyntöjä, joista jokainen
+    sisältää siihen mennessä kysyttyjen kysymysten vastaukset. Siispä:
+
+    - **Tarkka sisältö vaihtelee kerrasta toiseen.** Kaksi päivää samoilla
+      tiedoilla voi lähettää eri asioita, koska Koutsi kysyi eri kysymyksiä.
+    - **Kokonaisuudessaan lähetetään enemmän.** Kolmesta viiteen pyyntöä yhden
+      sijaan, ja jokainen niistä toistaa aiemman. Jos **ulkoinen
+      palveluntarjoaja** on määritetty, tämä tarkoittaa enemmän harjoitustietojasi
+      internetin yli ja useammin.
+    - **Raja on ennallaan.** Kaikki alla kohdassa *Mitä ei koskaan lähetetä*
+      pätee edelleen, ja Koutsin kysyttävissä olevat kysymykset ovat kiinteä,
+      lyhyt lista — se ei voi keksiä uutta.
+
+Käytettävissä olevat kysymykset ovat nämä, ja kaikki ovat **vain lukevia** ja
+rajattu **omiin** tietoihisi:
+
+| Koutsi voi kysyä | Ja saa vastaukseksi |
+|---|---|
+| Missä kunnossa olen juuri nyt? | Kunto, väsymys, muoto, viimeaikainen määrä, FTP ja maksimisyke |
+| Mitä olen tehnyt viime aikoina? | Viimeaikaiset harjoitukset — päivä, laji, kesto, kuormitus |
+| Mitä ajoin tiettynä päivänä? | Osuvat harjoitukset päivän, lajin, harjoitustyypin tai nimen mukaan |
+| Miten se harjoitus todella meni? | Yksi harjoitus tarkasti: vedot, aika tehoalueilla, muistiinpanot, RPE, aerobiset mittarit |
+| Olenko aikataulussa ohjelmani kanssa? | Aktiiviset ohjelmat, tämän viikon harjoitukset ja niiden suoritustilanne |
+| Saavutanko tavoitteeni? | Tavoitteesi, niiden kohdearvot ja edistyminen |
+| Kuinka kova olen? | Tehokäyräsi ja FTP-arviosi |
+| Olenko harjoitellut polarisoidusti? | Intensiteettijakaumasi |
+| Mihin aikani on mennyt? | Viikoittainen aika kullakin teho- ja sykealueella |
+
+Yhdelläkään kysymyksellä ei saa raakoja harjoitustiedostojasi, sijaintitietojasi
+eikä kenenkään muun käyttäjän tietoja — ne eivät ole listalla, joten niitä ei voi
+kysyä.
+
+!!! tip "Näet, mitä se tekee"
+    Kun Koutsi kerää tietoja, kortti kertoo, missä kysymyksessä se on menossa —
+    *"Koutsi tarkistaa tehokäyrääsi…"* — sen sijaan että näyttäisi pelkkää
+    latausanimaatiota. Kun vastaus alkaa saapua, kortti näyttää täsmälleen
+    tavalliselta.
+
+Asetus on **pois päältä, ellet erikseen kytke sitä**, ja pois kytkeminen vaikuttaa
+seuraavasta suorituksesta alkaen. Se vaatii myös mallin, joka tukee tätä
+toimintatapaa: jos omasi ei tue, openkoutsi palaa huomaamattomasti kiinteään
+yhteenvetoon ja ominaisuus toimii täsmälleen kuten ennenkin — sinun ei tarvitse
+tarkistaa mitään, eikä mikään mene rikki.
+
 ## Mitä ei koskaan lähetetä
 
 Riippumatta käyttämästäsi ominaisuudesta openkoutsi **ei** lähetä:

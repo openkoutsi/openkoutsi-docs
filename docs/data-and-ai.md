@@ -178,6 +178,64 @@ text summary, never your raw files. In detail:
     - the planned description, target duration, and target training load
     - your FTP
 
+## When you let Koutsi look things up
+
+The two lists above describe the normal case: openkoutsi decides in advance what
+the coach needs, assembles that fixed summary, and sends it once. There is an
+optional setting — **Profile → Analysis → Let Koutsi look things up** — that
+changes how the two coaching features work, and it changes this page's answer
+along with it.
+
+With it on, Koutsi is not handed a summary. It is given a short list of
+**questions it may ask about your own training data**, and it decides which ones
+to ask before writing. That lets it follow a thread: if your form number looks
+off, it can go and look at the rides behind it and tell you *why*, instead of
+repeating the number back to you.
+
+!!! info "What changes about what is sent"
+    Instead of one fixed summary, several requests are sent, each carrying the
+    answers to the questions asked so far. So:
+
+    - **The exact contents vary by run.** Two days with the same data can send
+      different things, because Koutsi asked different questions.
+    - **More is sent in total.** Three to five requests instead of one, and each
+      one repeats what came before. If an **external provider** is configured,
+      that means more of your training data crossing the internet, more often.
+    - **The boundary is unchanged.** Everything under *What is never sent* below
+      still holds, and the questions Koutsi may ask are a fixed, short list — it
+      cannot invent a new one.
+
+The questions available to it are these, and all of them are **read-only** and
+scoped to **your own** data:
+
+| Koutsi can ask | And gets back |
+|---|---|
+| How am I doing right now? | Fitness, fatigue, form, recent volume, your FTP and max heart rate |
+| What have I done lately? | Recent activities — date, sport, duration, load |
+| What did I ride on a given day? | Matching activities, searchable by date, sport, session type or name |
+| How did that session actually go? | One activity in detail: intervals, time in zones, notes, RPE, aerobic metrics |
+| Am I on track with my plan? | Active plans, this week's sessions, whether they were done |
+| Will I make my goals? | Your goals, their targets and current progress |
+| How strong am I? | Your power curve and FTP estimate |
+| Have I been training polarized? | Your intensity distribution |
+| Where has my time gone? | Weekly time in each power and heart-rate zone |
+
+There is no question that returns your raw ride files, your location data, or
+anything belonging to another user — those are not on the list, so they cannot
+be asked for.
+
+!!! tip "You will see what it is doing"
+    While Koutsi is gathering, the card tells you which question it is on —
+    *"Koutsi is checking your power curve…"* — rather than showing a bare
+    spinner. When the answer starts arriving, the card looks exactly as it always
+    does.
+
+The setting is **off unless you turn it on**, and turning it back off takes
+effect on the next run. It also needs a model that supports this way of working:
+if yours does not, openkoutsi quietly falls back to the fixed summary and the
+feature behaves exactly as it did before — you do not need to check, and nothing
+breaks.
+
 ## What is never sent
 
 Regardless of which feature you use, openkoutsi does **not** send:
