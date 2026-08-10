@@ -53,6 +53,12 @@ Valitse aihe alta.
     varmuuskopiointiskriptille, ajastetulle työlle, tekoälysovellukselle — jotta
     muukin kuin selaimesi yltää rajapintaan.
 
+- :material-robot-outline: **[Tekoälyavustajat (MCP)](mcp.md)**
+
+    Anna Clauden, VS Coden Copilotin tai muun MCP-asiakasohjelman kysyä
+    harjoittelustasi suoraan instanssiltasi — vain luku, rajatuin oikeuksin ja
+    milloin tahansa peruttavissa.
+
 </div>
 
 ## Muut ominaisuudet
