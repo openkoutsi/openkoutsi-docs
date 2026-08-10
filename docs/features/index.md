@@ -51,6 +51,11 @@ below.
     Scoped, revocable credentials for your own tooling — a backup script, a cron
     job, an AI client — so something other than your browser can reach the API.
 
+- :material-robot-outline: **[AI assistants (MCP)](mcp.md)**
+
+    Let Claude, Copilot in VS Code, or another MCP client ask your instance about
+    your training directly — read-only, scoped, and revocable at any time.
+
 </div>
 
 ## Other capabilities

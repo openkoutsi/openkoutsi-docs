@@ -71,6 +71,7 @@ plugins:
             Achievements & streaks: Saavutukset ja putket
             Inbox: Postilaatikko
             Personal access tokens: Henkilökohtaiset käyttöoikeustunnisteet
+            AI assistants (MCP): Tekoälyavustajat (MCP)
             Goal guidance: Tavoiteopastus
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
             AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
@@ -106,6 +107,7 @@ nav:
       - Achievements & streaks: features/achievements.md
       - Inbox: features/inbox.md
       - Personal access tokens: features/personal-access-tokens.md
+      - AI assistants (MCP): features/mcp.md
       - Goal guidance: features/goal-guidance.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
