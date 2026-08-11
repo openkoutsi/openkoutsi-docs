@@ -54,15 +54,23 @@ koneluettavissa muodoissa, jonka voit säilyttää tai siirtää muualle. Se sis
 - **harjoitusohjelmasi** ja **tavoitteesi**,
 - **strukturoidut harjoituksesi**,
 - **päivittäiset kuntomittarisi** (kunto/väsymys/muoto) ja **ennätyksesi**,
-- **saapuneet**-viestisi ja **painohistoriasi**, sekä
+- **saapuneet**-viestisi ja **painohistoriasi**,
+- **Kysy Koutsilta** -keskustelusi — jokainen esittämäsi kysymys ja jokainen
+  vastaus, tiedostona `chat.json` — sekä
 - alkuperäiset **`.fit`-tiedostot** jokaiselle harjoitukselle, jolla sellainen on.
 
 ### Poista tilisi
 
 Mene kohtaan **Profiili → Poista tili**. Tämä poistaa **pysyvästi** tilisi ja
 kaiken yksityisessä tietokannassasi olevan — harjoitukset, ohjelmat, tavoitteet,
-mittarit ja ladatut tiedostot — sekä katkaisee yhdistetyt Strava/Wahoo-tilit.
-Toimintoa ei voi peruuttaa, joten vie tiedot ensin, jos haluat kopion.
+mittarit, ladatut tiedostot ja Kysy Koutsilta -keskustelusi — sekä katkaisee
+yhdistetyt Strava/Wahoo-tilit. Toimintoa ei voi peruuttaa, joten vie tiedot
+ensin, jos haluat kopion.
+
+Voit myös poistaa yksittäisen keskustelun milloin tahansa
+[Kysy Koutsilta](features/chat.md) -näkymän sivupalkista poistamatta mitään
+muuta. Keskustelut säilyvät kunnes poistat ne — mikään ei vanhenna niitä
+puolestasi.
 
 ### Peruuta suostumus
 

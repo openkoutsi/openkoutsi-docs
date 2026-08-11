@@ -54,15 +54,21 @@ machine-readable formats that you can keep or take elsewhere. It includes:
 - your **training plans** and **goals**,
 - your **structured workouts**,
 - your **daily fitness metrics** (fitness/fatigue/form) and **personal records**,
-- your **inbox** messages and **weight log**, and
+- your **inbox** messages and **weight log**,
+- your **Ask Koutsi conversations** — every question you asked and every answer,
+  as `chat.json` — and
 - the original **`.fit` files** for every activity that has one.
 
 ### Delete your account
 
 Go to **Profile → Delete account**. This **permanently** removes your account
-and everything in your private database — activities, plans, goals, metrics, and
-uploaded files — and disconnects any linked Strava/Wahoo accounts. It cannot be
-undone, so export first if you want a copy.
+and everything in your private database — activities, plans, goals, metrics,
+uploaded files, and your Ask Koutsi conversations — and disconnects any linked
+Strava/Wahoo accounts. It cannot be undone, so export first if you want a copy.
+
+You can also delete a single conversation at any time, from the sidebar in
+[Ask Koutsi](features/chat.md), without deleting anything else. Conversations are
+kept until you do — nothing expires them on your behalf.
 
 ### Withdraw consent
 

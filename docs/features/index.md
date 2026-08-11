@@ -70,6 +70,9 @@ openkoutsi also includes, among other things:
 - **AI coaching analysis** — optional per-activity analysis and a daily training
   status summary, powered by an OpenAI-compatible backend you configure. See
   [Your data & AI](../data-and-ai.md) for what gets sent to a model.
+- **[Ask Koutsi](chat.md)** — put your own questions to the AI coach and have it
+  answer by looking at your actual training data. It stays a cycling coach:
+  health questions go to a doctor, not to Koutsi.
 - **Privacy controls** — export your data or delete your account at any time. See
   [Your data & AI](../data-and-ai.md).
 

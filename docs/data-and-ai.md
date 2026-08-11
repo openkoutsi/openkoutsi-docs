@@ -35,13 +35,14 @@ your browser and your own server (and to Strava/Wahoo when *you* connect them).
 
 ## The AI features are optional
 
-openkoutsi has five features that use a language model:
+openkoutsi has six features that use a language model:
 
 | Feature | What it does |
 |---|---|
 | **Activity analysis** | Written coaching feedback on a single ride. |
 | **Daily training status** | A short summary of your current form and what to do next. |
 | **[Goal guidance](features/goal-guidance.md)** | Judges how realistic a goal is and how to reach it. |
+| **[Ask Koutsi](features/chat.md)** | Answers questions you type, by looking up your training data. |
 | **AI plan generation** | Builds a training plan from your requirements. |
 | **AI workout generation** | Turns a planned day into a structured interval workout. |
 
@@ -50,8 +51,8 @@ openkoutsi has five features that use a language model:
 
     1. An LLM endpoint has been **configured** (by you, or instance-wide by your
        administrator), and
-    2. **You trigger the feature** — e.g. you click *Analyse* on an activity or
-       *Generate* on a plan.
+    2. **You trigger the feature** — e.g. you click *Analyse* on an activity,
+       *Generate* on a plan, or send a question in *Ask Koutsi*.
 
     If no LLM is configured, or you never use these actions, **no data is ever
     sent to any model.** Every other feature keeps working without it.
@@ -184,7 +185,8 @@ The two lists above describe the normal case: openkoutsi decides in advance what
 the coach needs, assembles that fixed summary, and sends it once. There is an
 optional setting — **Profile → Analysis → Let Koutsi look things up** — that
 changes how the two coaching features work, and it changes this page's answer
-along with it.
+along with it. The same setting is what turns on
+[Ask Koutsi](features/chat.md), which works this way and no other.
 
 With it on, Koutsi is not handed a summary. It is given a short list of
 **questions it may ask about your own training data**, and it decides which ones
@@ -235,6 +237,28 @@ effect on the next run. It also needs a model that supports this way of working:
 if yours does not, openkoutsi quietly falls back to the fixed summary and the
 feature behaves exactly as it did before — you do not need to check, and nothing
 breaks.
+
+### Ask Koutsi sends what you type
+
+[Ask Koutsi](features/chat.md) works the same way, with two differences worth
+knowing about.
+
+The first is that **you** choose what is sent. Everything else on this page is a
+summary openkoutsi assembled; a chat question is free text you wrote, and it goes
+to the model exactly as typed. The same advice as for activity notes applies, more
+strongly: if an external provider is configured, do not type anything into the box
+you would not want leaving your server.
+
+The second is that a conversation is **kept**. Your questions and Koutsi's answers
+are stored in your own database so you can come back to them, which nothing else
+here does — the daily card overwrites yesterday's. Earlier turns are replayed to
+the model on later questions so it can follow the thread, though older ones drop
+off as a conversation gets long. What Koutsi looked *up* is not stored or
+replayed: each question triggers a fresh look at your current data.
+
+You can delete any conversation, and deleting one removes everything in it.
+Conversations are included in your data export as `chat.json` and are deleted with
+your account.
 
 ## What is never sent
 

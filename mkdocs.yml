@@ -73,6 +73,7 @@ plugins:
             Personal access tokens: Henkilökohtaiset käyttöoikeustunnisteet
             AI assistants (MCP): Tekoälyavustajat (MCP)
             Goal guidance: Tavoiteopastus
+            Ask Koutsi: Kysy Koutsilta
             Using your own AI model (BYOK): Oman tekoälymallin käyttö (BYOK)
             AI features, subscriptions and BYOK: Tekoälyominaisuudet, tilaukset ja BYOK
             FAQ: UKK
@@ -109,6 +110,7 @@ nav:
       - Personal access tokens: features/personal-access-tokens.md
       - AI assistants (MCP): features/mcp.md
       - Goal guidance: features/goal-guidance.md
+      - Ask Koutsi: features/chat.md
       - Using your own AI model (BYOK): features/using-your-own-ai-model.md
       - AI features, subscriptions and BYOK: features/ai-subscriptions.md
   - Your data & AI: data-and-ai.md

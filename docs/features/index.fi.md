@@ -75,6 +75,9 @@ openkoutsi sisältää muun muassa myös:
   päivittäinen harjoitustilanteen yhteenveto, jonka tuottaa määrittämäsi
   OpenAI-yhteensopiva taustajärjestelmä. Katso [Datasi ja tekoäly](../data-and-ai.md),
   mitä mallille lähetetään.
+- **[Kysy Koutsilta](chat.md)** — esitä omat kysymyksesi tekoälyvalmentajalle ja
+  anna sen vastata katsomalla todellisia harjoitustietojasi. Se pysyy
+  pyöräilyvalmentajana: terveyskysymykset kuuluvat lääkärille, eivät Koutsille.
 - **Yksityisyysasetukset** — vie datasi tai poista tilisi milloin tahansa. Katso
   [Datasi ja tekoäly](../data-and-ai.md).
 
