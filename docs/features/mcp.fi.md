@@ -21,7 +21,7 @@ oikeasti haluaa tietää — ei tietokantatauluiksi:
 
 | Avustaja voi kysyä… | Ja saa |
 |---|---|
-| **Harjoitustilanne** | Kunto, väsymys ja muoto, viimeaikainen kuormitus ja kehityssuunta |
+| **Harjoitustilanne** | Kunto, väsymys ja muoto, viimeaikainen kuormitus ja kehityssuunta — tältä päivältä tai miltä tahansa menneeltä päivältä |
 | **Viimeisimmät aktiviteetit** | Tuoreimmat lenkkisi tärkeimpine lukuineen |
 | **Aktiviteetin haku** | Yksi lenkki päivämäärän tai kuvauksen perusteella |
 | **Aktiviteetin tiedot** | Yksittäinen lenkki tarkemmin — intervallit, vyöhykkeet, aerobiset luvut |
@@ -30,6 +30,16 @@ oikeasti haluaa tietää — ei tietokantatauluiksi:
 | **Tehoprofiili** | Parhaat tehot vakiokestoilla |
 | **Intensiteettijakauma** | Tuliko jaksosta polarisoitunut, pyramidimainen vai kynnyspainotteinen |
 | **Vyöhykesummat** | Kertynyt aika kullakin teho- ja sykevyöhykkeellä |
+
+!!! tip "Kysy myös menneestä, älä vain tästä päivästä"
+    **Harjoitustilanne** ottaa vastaan päivämäärän, joten *"missä kunnossa olin
+    viikkoa ennen viimevuotista gran fondoa?"* on kysymys, johon avustaja
+    todella osaa vastata — ja *"onko tämä nousujakso jyrkempi kuin edellinen?"*
+    on kaksi tällaista kysymystä rinnakkain. Kaikki siirtyy kysytyn päivän
+    mukana: kuntoluvut, kehityssuunta ja neljän viikon volyymisummat, joten
+    vastaukset ovat aidosti vertailukelpoisia. Jos kysyt päivää, joka on ennen
+    historiasi alkua, avustaja kertoo sen ja nimeää päivän, josta tietosi
+    alkavat — se ei raportoi hiljaisesti nollia.
 
 Mitä se **ei** tarkoituksella saa:
 

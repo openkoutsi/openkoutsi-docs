@@ -20,7 +20,7 @@ know rather than like database tables:
 
 | It can ask… | And gets |
 |---|---|
-| **Training status** | Fitness, fatigue and form, recent load, and how you are trending |
+| **Training status** | Fitness, fatigue and form, recent load, and how you are trending — for today, or for any past date |
 | **Recent activities** | Your latest rides with their headline numbers |
 | **Find an activity** | One ride, looked up by date or description |
 | **Activity detail** | A single ride in depth — intervals, zones, aerobic numbers |
@@ -29,6 +29,15 @@ know rather than like database tables:
 | **Power profile** | Your best power over the standard durations |
 | **Intensity distribution** | Whether a block came out polarized, pyramidal or threshold-heavy |
 | **Zone totals** | Accumulated time in each power and heart-rate zone |
+
+!!! tip "Ask about the past, not just today"
+    **Training status** takes a date, so *"what shape was I in the week before
+    last year's gran fondo?"* is a question the assistant can actually answer —
+    and *"is this build steeper than my last one?"* is two of those questions
+    side by side. Everything moves with the date you ask about: the fitness
+    numbers, the trend, and the four-week volume totals, so the two answers are
+    genuinely comparable. Ask for a date before your history begins and it says
+    so, naming the date your records start — it will not quietly report zeros.
 
 What it deliberately **cannot** get:
 
