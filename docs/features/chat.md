@@ -72,6 +72,16 @@ Type a question and press Enter. Koutsi may take a moment — it is often making
 several lookups before it writes anything, and it tells you what it is doing
 while it works ("Koutsi is checking your power curve…").
 
+Each lookup stays in the conversation as a short line — "Your power curve", "Your
+recent sessions" — in the order Koutsi made them, just above the answer they fed.
+They appear one at a time as it works, so you can see how far along it is rather
+than watching a spinner, and they stay afterwards as a record of what the answer
+was actually based on.
+
+!!! note "The lookups are names, not data"
+    A step tells you *that* Koutsi read your power curve, never what it found.
+    The answer is where the findings are.
+
 Answers stream in as they are written, and they are saved as they go. You can
 reload the page, close the tab, or pick the conversation up on your phone; the
 answer carries on and is there when you come back.
