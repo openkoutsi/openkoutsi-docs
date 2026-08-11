@@ -36,13 +36,14 @@ Wahooon silloin, kun *sinä* yhdistät ne).
 
 ## Tekoälyominaisuudet ovat valinnaisia
 
-openkoutsissa on viisi ominaisuutta, jotka käyttävät kielimallia:
+openkoutsissa on kuusi ominaisuutta, jotka käyttävät kielimallia:
 
 | Ominaisuus | Mitä se tekee |
 |---|---|
 | **Aktiviteettianalyysi** | Kirjallista valmennuspalautetta yksittäisestä lenkistä. |
 | **Päivittäinen harjoitustilanne** | Lyhyt yhteenveto nykyisestä muodostasi ja seuraavista askelista. |
 | **[Tavoiteohjaus](features/goal-guidance.md)** | Arvioi, kuinka realistinen tavoite on ja miten se saavutetaan. |
+| **[Kysy Koutsilta](features/chat.md)** | Vastaa kirjoittamiisi kysymyksiin hakemalla harjoitustietojasi. |
 | **Tekoälyn ohjelmanluonti** | Rakentaa harjoitusohjelman vaatimustesi pohjalta. |
 | **Tekoälyn harjoitusten luonti** | Muuntaa suunnitellun päivän strukturoiduksi intervalliharjoitukseksi. |
 
@@ -52,7 +53,8 @@ openkoutsissa on viisi ominaisuutta, jotka käyttävät kielimallia:
     1. LLM-päätepiste on **määritetty** (sinun toimestasi tai ylläpitäjän toimesta
        instanssin laajuisesti), ja
     2. **käynnistät ominaisuuden** — esimerkiksi napsautat aktiviteetissa
-       *Analysoi* tai ohjelmassa *Luo*.
+       *Analysoi*, ohjelmassa *Luo*, tai lähetät kysymyksen Kysy Koutsilta
+       -näkymässä.
 
     Jos LLM:ää ei ole määritetty tai et koskaan käytä näitä toimintoja, **mitään
     dataa ei lähetetä millekään mallille.** Kaikki muut ominaisuudet toimivat
@@ -241,6 +243,29 @@ seuraavasta suorituksesta alkaen. Se vaatii myös mallin, joka tukee tätä
 toimintatapaa: jos omasi ei tue, openkoutsi palaa huomaamattomasti kiinteään
 yhteenvetoon ja ominaisuus toimii täsmälleen kuten ennenkin — sinun ei tarvitse
 tarkistaa mitään, eikä mikään mene rikki.
+
+### Kysy Koutsilta lähettää sen mitä kirjoitat
+
+[Kysy Koutsilta](features/chat.md) toimii samalla tavalla, kahdella tietämisen
+arvoisella erolla.
+
+Ensimmäinen on että **sinä** valitset mitä lähetetään. Kaikki muu tällä sivulla on
+openkoutsin kokoama yhteenveto; keskustelukysymys on vapaata tekstiä jonka
+kirjoitit, ja se menee mallille juuri sellaisena. Sama ohje kuin
+aktiviteettimuistiinpanoista pätee, vielä vahvempana: jos käytössä on ulkoinen
+palveluntarjoaja, älä kirjoita kenttään mitään mitä et haluaisi lähtevän
+palvelimeltasi.
+
+Toinen on että keskustelu **säilytetään**. Kysymyksesi ja Koutsin vastaukset
+tallennetaan omaan tietokantaasi, jotta voit palata niihin — mitä mikään muu tässä
+ei tee, sillä päiväkortti korvaa eilisen. Aiemmat vuorot toistetaan mallille
+myöhemmissä kysymyksissä jotta se voi seurata johtolankaa, joskin vanhimmat
+tippuvat pois keskustelun pidentyessä. Sitä mitä Koutsi *haki*, ei tallenneta eikä
+toisteta: jokainen kysymys käynnistää uuden haun nykyisiin tietoihisi.
+
+Voit poistaa minkä tahansa keskustelun, ja poistaminen vie kaiken siinä olleen.
+Keskustelut sisältyvät tietojen vientiin nimellä `chat.json` ja poistetaan tilisi
+mukana.
 
 ## Mitä ei koskaan lähetetä
 
