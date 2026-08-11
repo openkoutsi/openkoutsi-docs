@@ -71,6 +71,16 @@ Kirjoita kysymys ja paina Enter. Koutsilla voi kestää hetki — se tekee usein
 useita hakuja ennen kuin kirjoittaa mitään, ja se kertoo mitä on tekemässä
 ("Koutsi tarkistaa tehokäyrääsi…").
 
+Jokainen haku jää keskusteluun lyhyenä rivinä — "Tehokäyräsi", "Viimeaikaiset
+harjoituksesi" — siinä järjestyksessä kuin Koutsi ne teki, heti vastauksen
+yläpuolelle. Rivit ilmestyvät yksi kerrallaan työn edetessä, joten näet miten
+pitkällä Koutsi on sen sijaan että tuijottaisit pyörivää kuvaketta, ja ne jäävät
+näkyviin merkinnäksi siitä mihin vastaus todella perustui.
+
+!!! note "Haut kertovat nimet, eivät tietoja"
+    Rivi kertoo *että* Koutsi luki tehokäyräsi, ei sitä mitä se sieltä löysi.
+    Löydökset ovat vastauksessa.
+
 Vastaukset ilmestyvät sitä mukaa kun ne kirjoitetaan, ja ne tallennetaan matkan
 varrella. Voit ladata sivun uudelleen, sulkea välilehden tai jatkaa keskustelua
 puhelimella; vastaus jatkuu ja on siellä kun palaat.
