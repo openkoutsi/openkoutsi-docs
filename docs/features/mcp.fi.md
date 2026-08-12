@@ -16,7 +16,7 @@ todellisen datasi pohjalta.
 
 ## Mitä avustaja voi kysyä
 
-Yhdeksän kysymystä, jotka on tarkoituksella muotoiltu sellaisiksi, joita valmentaja
+Kymmenen kysymystä, jotka on tarkoituksella muotoiltu sellaisiksi, joita valmentaja
 oikeasti haluaa tietää — ei tietokantatauluiksi:
 
 | Avustaja voi kysyä… | Ja saa |
@@ -30,6 +30,7 @@ oikeasti haluaa tietää — ei tietokantatauluiksi:
 | **Tehoprofiili** | Parhaat tehot vakiokestoilla |
 | **Intensiteettijakauma** | Tuliko jaksosta polarisoitunut, pyramidimainen vai kynnyspainotteinen |
 | **Vyöhykesummat** | Kertynyt aika kullakin teho- ja sykevyöhykkeellä |
+| **Profiilisi** | FTP, sykkeet, paino, ikä, harjoitusvyöhykkeet, viikoittain käytettävissä olevat tunnit ja pyytämäsi valmennussävy |
 
 !!! tip "Kysy myös menneestä, älä vain tästä päivästä"
     **Harjoitustilanne** ottaa vastaan päivämäärän, joten *"missä kunnossa olin
@@ -47,6 +48,8 @@ Mitä se **ei** tarkoituksella saa:
   näytettä kanavaa kohti. Avustaja saa laskettuja yhteenvetoja — se on koko
   suunnittelun idea, ei kierrettävä rajoitus.
 - **Sijaintiasi.** GPS-koordinaatteja ei palauteta koskaan.
+- **Nimeäsi tai syntymäaikaasi.** Profiilikysymys vastaa iälläsi täysinä vuosina,
+  ei koskaan päivämäärällä, josta se on laskettu.
 - **Postilaatikkoasi, tiliäsi tai mitään ylläpitoon liittyvää.**
 - **Täyttä vientiä.** Oikeutta `athlete:export` ei voi käyttää tätä kautta. Yksi
   kutsu, joka lataa koko tietueesi, on täsmäkysymyksen vastakohta — ks.

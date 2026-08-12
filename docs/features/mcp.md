@@ -15,7 +15,7 @@ from your real data.
 
 ## What the assistant can ask for
 
-Nine questions, deliberately shaped like the things a coach actually wants to
+Ten questions, deliberately shaped like the things a coach actually wants to
 know rather than like database tables:
 
 | It can ask… | And gets |
@@ -29,6 +29,7 @@ know rather than like database tables:
 | **Power profile** | Your best power over the standard durations |
 | **Intensity distribution** | Whether a block came out polarized, pyramidal or threshold-heavy |
 | **Zone totals** | Accumulated time in each power and heart-rate zone |
+| **Your profile** | Your FTP, heart rates, weight, age, training zones, the hours a week you have and the coaching tone you asked for |
 
 !!! tip "Ask about the past, not just today"
     **Training status** takes a date, so *"what shape was I in the week before
@@ -45,6 +46,8 @@ What it deliberately **cannot** get:
   per channel. The assistant gets computed summaries instead — that is the whole
   design, not a limitation to work around.
 - **Your location.** No GPS coordinates are ever returned.
+- **Your name or your date of birth.** The profile question answers with your age
+  in whole years, never the date it was worked out from.
 - **Your inbox, your account, or anything administrative.**
 - **A full export.** The `athlete:export` scope is not callable this way. One
   call that downloads your entire record is the opposite of a focused question —
