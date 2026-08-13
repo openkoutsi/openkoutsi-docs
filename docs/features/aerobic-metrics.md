@@ -4,8 +4,18 @@ Training load and fitness tell you *how much* work you did. These four numbers
 describe *how the work went* — whether your aerobic engine is getting stronger,
 how steady the ride was, and how much anaerobic capacity you spent along the way.
 
-They appear in the **Aerobic response** card on each activity, and the efficiency
+They appear in the **Aerobic response** card on each ride, and the efficiency
 trend is charted on the **Power** view.
+
+!!! note "Rides only — and training rides at that"
+    The card is shown on cycling activities only. Every figure in it is defined
+    against cycling power, so on a run, a swim or a gym session there is nothing
+    for it to say.
+
+    It is also hidden on rides you have labelled **commute**. Stops, traffic and
+    a loaded bike make these numbers describe the journey rather than your
+    aerobic fitness. Remove the label on the activity page if you want the card
+    back for a particular ride.
 
 ## The four metrics
 

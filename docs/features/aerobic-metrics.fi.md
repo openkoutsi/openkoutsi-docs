@@ -4,8 +4,18 @@ Harjoituskuormitus ja kunto kertovat, *kuinka paljon* teit työtä. Nämä nelj�
 lukua kertovat, *miten työ meni* — vahvistuuko aerobinen moottorisi, kuinka
 tasainen lenkki oli ja kuinka paljon anaerobista kapasiteettia kului matkalla.
 
-Ne näkyvät kunkin aktiviteetin **Aerobinen vaste** -kortissa, ja tehokkuuden
+Ne näkyvät kunkin lenkin **Aerobinen vaste** -kortissa, ja tehokkuuden
 kehitys piirretään **Teho**-näkymässä.
+
+!!! note "Vain pyöräilylenkit — ja niistäkin harjoituslenkit"
+    Kortti näytetään vain pyöräilyaktiviteeteilla. Jokainen sen luku on
+    määritelty pyöräilytehon pohjalta, joten juoksulla, uinnilla tai
+    salitreenillä sillä ei ole mitään sanottavaa.
+
+    Kortti on piilotettu myös lenkeiltä, jotka olet merkinnyt tunnisteella
+    **työmatkaliikunta**. Pysähdykset, liikenne ja kuormattu pyörä saavat nämä
+    luvut kuvaamaan matkaa eikä aerobista kuntoasi. Poista tunniste
+    aktiviteettisivulta, jos haluat kortin takaisin jollekin tietylle lenkille.
 
 ## Neljä mittaria
 
