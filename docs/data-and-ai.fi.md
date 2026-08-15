@@ -11,7 +11,14 @@ Kaikki, mitä syötät openkoutsiin, pysyy instanssiasi pyörittävällä palvel
 - Jokaisella käyttäjällä on **oma yksityinen tietokantansa**. Aktiviteettisi,
   ohjelmasi, mittarisi ja profiilisi näkyvät vain sinulle — eivät muille
   käyttäjille eivätkä ylläpitäjälle.
-- Ladatut **FIT-tiedostot ja profiilikuvat tallennetaan salattuina** palvelimelle.
+- Ladatut **harjoitustiedostot ja profiilikuvat tallennetaan salattuina**
+  palvelimelle — siinä muodossa, jossa ne lähetit (`.fit`, `.gpx` tai `.tcx`).
+- **Sijaintitietoja ei tallenneta missään muodossa.** GPX- ja TCX-tiedostot
+  koostuvat GPS-koordinaateista, eikä sellaisen tuonti muuta tätä: openkoutsi
+  lukee koordinaatit vain laskeakseen matkan ja nousumetrit ja hylkää ne ennen
+  kuin mitään tallennetaan. Tietokannassasi ei ole paikkaa, jossa reitti voisi
+  elää. Lataamasi tiedosto sisältää yhä oman jälkensä salattuna levyllä, koska
+  se on sinun tiedostosi ja voit ladata sen takaisin.
 - Voit **viedä datasi tai poistaa tilisi** milloin tahansa.
 
 openkoutsin tavallinen käyttö — lenkkien lataaminen, synkronointi Stravasta ja

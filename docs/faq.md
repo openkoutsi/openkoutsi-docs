@@ -56,10 +56,24 @@ anything the app can't do for you itself.
 !!! info "Public instance"
     On the public instance the operator contact is `lassi@koutsi.dev`.
 
+### How do I get my past training into openkoutsi?
+
+Import a **Strava bulk export** — the whole `.zip`, unopened — or any pile of
+`.fit`, `.gpx` or `.tcx` files, from the activities page. The import runs in the
+background and reports what happened to every file. See
+[bringing your history with you](getting-started.md).
+
 ### Do I have to connect Strava or Wahoo?
 
-No. Integrations are optional. You can upload FIT files manually and use every
-analysis feature without connecting any external provider.
+No. Integrations are optional. You can upload or import activity files by hand
+and use every analysis feature without connecting any external provider.
+
+### Why does an imported ride show no power?
+
+It came from a `.gpx` file, which records position and heart rate but no power —
+so there is no power for openkoutsi to show, whatever you were riding. Its
+training load comes from heart rate instead, and the ride counts normally. See
+[Activities & sync](features/activities.md).
 
 ### Why was my Wahoo connection not enough for pushing workouts?
 

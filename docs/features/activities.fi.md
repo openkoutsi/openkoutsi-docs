@@ -4,17 +4,52 @@ Aktiviteetit ovat lenkkejä, joita openkoutsi analysoi seuratakseen kuntoasi ja
 tarkistaakseen harjoitusohjelmasi. Voit lisätä ne käsin tai antaa niiden ilmestyä
 automaattisesti.
 
-## FIT-tiedostojen lataaminen
+## Harjoitustiedostojen lataaminen
 
-Lataa `.fit`-tiedosto pyörätietokoneestasi tai harjoitussovelluksestasi suoraan
-openkoutsiin. Jokainen lataus analysoidaan automaattisesti seuraavien osalta:
+Pudota pyörätietokoneesi tai harjoitussovelluksesi tiedosto suoraan
+harjoitussivulle. openkoutsi lukee kolmea muotoa:
+
+| Muoto | Tyypillisesti | Sisältää |
+|---|---|---|
+| `.fit` | pyörätietokoneet (Garmin, Wahoo, Zwift…) | kaiken — tehon, kierrokset, laitteen omat summat |
+| `.tcx` | harjoitusalustat ja vanhemmat laitteet | tehon, kierrokset, matkan |
+| `.gpx` | puhelinsovellukset ja reittiviennit | sijainnin, korkeuden, yleensä sykkeen — **ei tehoa** |
+
+Kaikki kolme analysoidaan automaattisesti samalla tavalla:
 
 - **Harjoituskuormitus**
-- **Normalisoitu teho**
+- **Normalisoitu teho** (jos tiedosto tallensi tehon)
 - **Aluejakauma** — kuinka kauan vietit aikaa kullakin teho- tai sykealueella
 
 Harjoitukset luokitellaan myös automaattisesti Cogganin tyylisten alueiden
 mukaan, ja voit tarvittaessa korvata luokituksen käsin.
+
+Voit myös pudottaa **monta tiedostoa kerralla**, gzip-pakattuja tiedostoja tai
+kokonaisen `.zip`-arkiston — katso
+[harjoitushistorian tuominen mukanasi](../getting-started.md) ja Stravan
+joukkovienti. Suuremmat pudotukset muuttuvat taustatuonniksi, jossa on
+edistymispaneeli ja tiedostokohtainen tulosluettelo, joten mitään ei tarvitse
+jäädä vahtimaan.
+
+!!! note "Lenkki ilman tehoa on silti kokonainen lenkki"
+    `.gpx`-tiedostossa ei ole tehodataa luettavaksi, joten siitä tuodussa
+    harjoituksessa ei ole keskitehoa eikä painotettua tehoa, ei tehoennätyksiä
+    eikä tehoalueaikaa. Kyse on tiedostosta, ei epäonnistuneesta tuonnista:
+    **kuormitus lasketaan sykkeestä**, ja lenkki kerryttää kuntoasi ja
+    väsymystäsi normaalisti. Harjoitussivu kertoo tämän itse.
+
+!!! info "Reittiäsi ei tallenneta"
+    GPX- ja TCX-tiedostot koostuvat GPS-koordinaateista. openkoutsi käyttää niitä
+    vain matkan ja nousumetrien laskemiseen ja hylkää ne sen jälkeen — reitti- tai
+    sijaintitietoja ei tallenneta koskaan. Katso
+    [Datasi ja tekoäly](../data-and-ai.md).
+
+### Alkuperäisen tiedoston lataaminen
+
+Jokainen ladattu tai tuotu harjoitus säilyttää **alkuperäisen tiedoston juuri
+sellaisena kuin sen lähetit** — GPX pysyy GPX:nä. Harjoituksen latauspainike
+antaa sen takaisin omassa muodossaan, ja se on sama tiedosto, jonka openkoutsi
+lukee uudelleen, jos käsittelet harjoituksen myöhemmin uudestaan.
 
 ## Aktiviteettien lisääminen käsin
 
