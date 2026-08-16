@@ -58,10 +58,24 @@ puolestasi.
 !!! info "Julkinen instanssi"
     Julkisessa instanssissa ylläpitäjän yhteystieto on `lassi@koutsi.dev`.
 
+### Miten saan aiemmat harjoitukseni openkoutsiin?
+
+Tuo **Stravan joukkovienti** — koko `.zip` avaamattomana — tai mikä tahansa
+joukko `.fit`-, `.gpx`- tai `.tcx`-tiedostoja harjoitussivulta. Tuonti tapahtuu
+taustalla ja raportoi, mitä kullekin tiedostolle tapahtui. Katso
+[harjoitushistorian tuominen mukanasi](getting-started.md).
+
 ### Onko minun pakko yhdistää Strava tai Wahoo?
 
-Ei. Integraatiot ovat valinnaisia. Voit ladata FIT-tiedostot käsin ja käyttää
-jokaista analyysiominaisuutta yhdistämättä mitään ulkoista palvelua.
+Ei. Integraatiot ovat valinnaisia. Voit ladata tai tuoda harjoitustiedostot käsin
+ja käyttää jokaista analyysiominaisuutta yhdistämättä mitään ulkoista palvelua.
+
+### Miksi tuodussa lenkissä ei näy tehoa?
+
+Se tuli `.gpx`-tiedostosta, joka tallentaa sijainnin ja sykkeen mutta ei tehoa —
+joten openkoutsilla ei ole tehoa näytettäväksi, ajoit millä tahansa. Kuormitus
+lasketaan sen sijaan sykkeestä, ja lenkki lasketaan normaalisti. Katso
+[Aktiviteetit ja synkronointi](features/activities.md).
 
 ### Miksi Wahoo-yhteyteni ei riittänyt harjoitusten siirtämiseen?
 

@@ -3,17 +3,49 @@
 Activities are the rides openkoutsi analyses to track your fitness and check your
 training plan. You can add them manually or have them appear automatically.
 
-## Uploading FIT files
+## Uploading activity files
 
-Upload a `.fit` file from your head unit or training app directly into openkoutsi.
-Each upload is analysed automatically for:
+Drop a file from your head unit or training app straight onto the activities page.
+openkoutsi reads three formats:
+
+| Format | Typically from | Carries |
+|---|---|---|
+| `.fit` | head units (Garmin, Wahoo, Zwift…) | everything — power, laps, the device's own totals |
+| `.tcx` | training platforms and older devices | power, laps, distance |
+| `.gpx` | phone apps and route exports | position, elevation, usually heart rate — **no power** |
+
+All three are analysed the same way, automatically, for:
 
 - **Training load**
-- **Normalized power**
+- **Normalized power** (where the file recorded power)
 - **Zone distribution** — how long you spent in each power/heart-rate zone
 
 Workouts are also categorised automatically using Coggan-style zones, and you can
 override the category by hand if needed.
+
+You can also drop **many files at once**, gzipped files, or a whole `.zip`
+archive — see [bringing your history with you](../getting-started.md) for the
+Strava bulk-export route. Large drops become a background import with a progress
+panel and a per-file result list, so nothing has to be watched.
+
+!!! note "A ride with no power is still a complete ride"
+    A `.gpx` file has no power data to read, so an activity imported from one has
+    no average or weighted power, no power records and no power-zone time. That is
+    the file, not a failed import: the **training load comes from heart rate**
+    instead, and the ride counts towards your fitness and fatigue as normal. The
+    activity says so on its own page.
+
+!!! info "Your route is not stored"
+    GPX and TCX files are made of GPS coordinates. openkoutsi uses them only to
+    derive distance and elevation gain and then discards them — no route or
+    location data is ever saved. See [Your data & AI](../data-and-ai.md).
+
+### Downloading the original
+
+Every uploaded or imported activity keeps the **original file, exactly as you
+sent it** — a GPX stays a GPX. The download button on an activity gives it back
+in its own format, and it is the file openkoutsi re-reads if you reprocess the
+activity later.
 
 ## Adding activities manually
 

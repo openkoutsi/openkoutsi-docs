@@ -11,7 +11,14 @@ Everything you put into openkoutsi stays on the server your instance runs on:
 - Each user has their **own private database**. Your activities, plans, metrics,
   and profile are visible only to you — not to other users, and not to an
   administrator.
-- Uploaded **FIT files and avatars are stored encrypted** on the server.
+- Uploaded **activity files and avatars are stored encrypted** on the server —
+  in whatever format you sent them (`.fit`, `.gpx` or `.tcx`).
+- **No location data is stored, in any format.** GPX and TCX files are made of
+  GPS coordinates, and importing one does not change this: openkoutsi reads the
+  coordinates only to work out how far you went and how much you climbed, and
+  discards them before anything is saved. There is nowhere in your database for
+  a route to live. The file you uploaded still contains its own track, encrypted
+  at rest, because it is your file and you can download it back.
 - You can **export your data or delete your account** at any time.
 
 Normal use of openkoutsi — uploading rides, syncing from Strava/Wahoo, viewing
