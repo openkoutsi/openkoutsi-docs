@@ -36,6 +36,12 @@ below.
     Generate periodized plans, build structured interval workouts, and push them
     to your Wahoo or Garmin head unit.
 
+- :material-map-marker-path: **[Course recon](course-recon.md)**
+
+    Upload the GPX of a course you are going to ride and get it back as a segment
+    table — power targets and predicted splits from your own numbers — plus a
+    written pacing plan.
+
 - :material-trophy: **[Achievements & streaks](achievements.md)**
 
     Earn badges for milestones — long rides, big climbs, finished plans — and keep

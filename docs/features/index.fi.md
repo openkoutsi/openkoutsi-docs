@@ -37,6 +37,12 @@ Valitse aihe alta.
     Luo jaksotettuja ohjelmia, rakenna strukturoituja intervalliharjoituksia ja
     siirrä ne Wahoo- tai Garmin-pyörätietokoneeseesi.
 
+- :material-map-marker-path: **[Reittianalyysi](course-recon.md)**
+
+    Lataa ajettavan reitin GPX ja saat sen takaisin osuustaulukkona — tehotavoitteet
+    ja ennustetut väliajat omilla luvuillasi — sekä kirjallisen
+    tahditussuunnitelman.
+
 - :material-trophy: **[Saavutukset ja putket](achievements.md)**
 
     Ansaitse merkkejä virstanpylväistä — pitkistä lenkeistä, suurista nousuista,

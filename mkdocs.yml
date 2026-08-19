@@ -68,6 +68,7 @@ plugins:
             Intensity distribution: Intensiteettijakauma
             Power models: Tehomallit
             Training plans & workouts: Harjoitusohjelmat ja harjoitukset
+            Course recon: Reittianalyysi
             Achievements & streaks: Saavutukset ja putket
             Inbox: Postilaatikko
             Personal access tokens: Henkilökohtaiset käyttöoikeustunnisteet
@@ -105,6 +106,7 @@ nav:
       - Intensity distribution: features/intensity-distribution.md
       - Power models: features/power-models.md
       - Training plans & workouts: features/training-plans.md
+      - Course recon: features/course-recon.md
       - Achievements & streaks: features/achievements.md
       - Inbox: features/inbox.md
       - Personal access tokens: features/personal-access-tokens.md
