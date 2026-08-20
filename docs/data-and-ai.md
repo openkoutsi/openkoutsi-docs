@@ -13,12 +13,25 @@ Everything you put into openkoutsi stays on the server your instance runs on:
   administrator.
 - Uploaded **activity files and avatars are stored encrypted** on the server —
   in whatever format you sent them (`.fit`, `.gpx` or `.tcx`).
-- **No location data is stored, in any format.** GPX and TCX files are made of
-  GPS coordinates, and importing one does not change this: openkoutsi reads the
-  coordinates only to work out how far you went and how much you climbed, and
-  discards them before anything is saved. There is nowhere in your database for
-  a route to live. The file you uploaded still contains its own track, encrypted
-  at rest, because it is your file and you can download it back.
+- **Your rides carry no location data, in any format.** GPX and TCX files are
+  made of GPS coordinates, and importing one does not change this: openkoutsi
+  reads the coordinates only to work out how far you went and how much you
+  climbed, and discards them before anything is saved. There is nowhere in a
+  ride for a route to live. The file you uploaded still contains its own track,
+  encrypted at rest, because it is your file and you can download it back.
+- **A course you upload is stored, because that is the point of uploading it.**
+  [Course recon](features/course-recon.md) is the one feature that keeps a
+  route: you hand over a course you are going to ride, and openkoutsi keeps it
+  so it can pace it for you and re-analyse it later without asking for the file
+  again. The route lives in your own database, and the file itself is encrypted
+  on disk exactly like your activity files. It is in your data export, and it is
+  deleted — file included — when you delete the course or your account.
+
+    The difference between the two is deliberate, and it is about what the
+    platform accumulates *without being asked*. A ride history silently records
+    where you live and when you leave the house; a course is one route you
+    handed over on purpose, for a job. If you would rather not store your
+    regular Sunday loop, don't upload it as a course — that stays your choice.
 - You can **export your data or delete your account** at any time.
 
 Normal use of openkoutsi — uploading rides, syncing from Strava/Wahoo, viewing
@@ -42,7 +55,7 @@ your browser and your own server (and to Strava/Wahoo when *you* connect them).
 
 ## The AI features are optional
 
-openkoutsi has six features that use a language model:
+openkoutsi has seven features that use a language model:
 
 | Feature | What it does |
 |---|---|
@@ -52,6 +65,7 @@ openkoutsi has six features that use a language model:
 | **[Ask Koutsi](features/chat.md)** | Answers questions you type, by looking up your training data. |
 | **AI plan generation** | Builds a training plan from your requirements. |
 | **AI workout generation** | Turns a planned day into a structured interval workout. |
+| **[Course pacing plan](features/course-recon.md)** | Writes how to ride a course you uploaded, from its computed segment table. |
 
 !!! info "Nothing is sent unless you opt in"
     These features only run when **both** of these are true:
@@ -272,7 +286,10 @@ your account.
 Regardless of which feature you use, openkoutsi does **not** send:
 
 - your **name, email, or login credentials**
-- your **raw FIT files** or any **GPS / route / location** data
+- your **raw activity files**, or any **GPS / route / location** data — including
+  from a course you uploaded. When Koutsi writes a pacing plan it is given the
+  **computed table** (distances, gradients, power targets, predicted splits) and
+  never the track itself: it has no use for coordinates, so it is not shown any
 - any **other user's** data
 - your stored **API key** to anywhere other than the endpoint it authenticates
   against (and keys are held **encrypted** at rest)

@@ -13,12 +13,26 @@ Kaikki, mitä syötät openkoutsiin, pysyy instanssiasi pyörittävällä palvel
   käyttäjille eivätkä ylläpitäjälle.
 - Ladatut **harjoitustiedostot ja profiilikuvat tallennetaan salattuina**
   palvelimelle — siinä muodossa, jossa ne lähetit (`.fit`, `.gpx` tai `.tcx`).
-- **Sijaintitietoja ei tallenneta missään muodossa.** GPX- ja TCX-tiedostot
-  koostuvat GPS-koordinaateista, eikä sellaisen tuonti muuta tätä: openkoutsi
-  lukee koordinaatit vain laskeakseen matkan ja nousumetrit ja hylkää ne ennen
-  kuin mitään tallennetaan. Tietokannassasi ei ole paikkaa, jossa reitti voisi
+- **Lenkkisi eivät sisällä sijaintitietoja missään muodossa.** GPX- ja
+  TCX-tiedostot koostuvat GPS-koordinaateista, eikä sellaisen tuonti muuta tätä:
+  openkoutsi lukee koordinaatit vain laskeakseen matkan ja nousumetrit ja hylkää
+  ne ennen kuin mitään tallennetaan. Lenkissä ei ole paikkaa, jossa reitti voisi
   elää. Lataamasi tiedosto sisältää yhä oman jälkensä salattuna levyllä, koska
   se on sinun tiedostosi ja voit ladata sen takaisin.
+- **Lataamasi reitti tallennetaan, koska juuri siksi sen lataat.**
+  [Reittianalyysi](features/course-recon.md) on ainoa ominaisuus, joka säilyttää
+  reitin: annat reitin, jonka aiot ajaa, ja openkoutsi säilyttää sen voidakseen
+  tahdittaa sen puolestasi ja analysoida sen myöhemmin uudelleen pyytämättä
+  tiedostoa toistamiseen. Reitti elää omassa tietokannassasi, ja itse tiedosto
+  on levyllä salattuna aivan kuten harjoitustiedostosi. Se sisältyy datavientiin,
+  ja se poistetaan — tiedosto mukaan lukien — kun poistat reitin tai tilisi.
+
+    Ero näiden kahden välillä on tarkoituksellinen, ja se koskee sitä, mitä
+    palvelu kerää *ilman että sitä pyydetään*. Lenkkihistoria tallentaisi
+    huomaamatta, missä asut ja milloin lähdet kotoa; reitti taas on yksi
+    reitti, jonka annoit tarkoituksella tiettyä tehtävää varten. Jos et halua
+    tallentaa tavallista sunnuntailenkkiäsi, älä lataa sitä reittinä — valinta
+    on sinun.
 - Voit **viedä datasi tai poistaa tilisi** milloin tahansa.
 
 openkoutsin tavallinen käyttö — lenkkien lataaminen, synkronointi Stravasta ja
@@ -43,7 +57,7 @@ Wahooon silloin, kun *sinä* yhdistät ne).
 
 ## Tekoälyominaisuudet ovat valinnaisia
 
-openkoutsissa on kuusi ominaisuutta, jotka käyttävät kielimallia:
+openkoutsissa on seitsemän ominaisuutta, jotka käyttävät kielimallia:
 
 | Ominaisuus | Mitä se tekee |
 |---|---|
@@ -53,6 +67,7 @@ openkoutsissa on kuusi ominaisuutta, jotka käyttävät kielimallia:
 | **[Kysy Koutsilta](features/chat.md)** | Vastaa kirjoittamiisi kysymyksiin hakemalla harjoitustietojasi. |
 | **Tekoälyn ohjelmanluonti** | Rakentaa harjoitusohjelman vaatimustesi pohjalta. |
 | **Tekoälyn harjoitusten luonti** | Muuntaa suunnitellun päivän strukturoiduksi intervalliharjoitukseksi. |
+| **[Reitin tahditussuunnitelma](features/course-recon.md)** | Kirjoittaa, miten lataamasi reitti ajetaan, lasketun osuustaulukon pohjalta. |
 
 !!! info "Mitään ei lähetetä ilman suostumustasi"
     Nämä ominaisuudet toimivat vain, kun **molemmat** seuraavista ovat totta:
@@ -279,7 +294,11 @@ mukana.
 Riippumatta käyttämästäsi ominaisuudesta openkoutsi **ei** lähetä:
 
 - **nimeäsi, sähköpostiasi tai kirjautumistietojasi**
-- **raakatiedostojasi** (FIT) tai mitään **GPS- / reitti- / sijaintidataa**
+- **raakoja harjoitustiedostojasi** tai mitään **GPS- / reitti- / sijaintidataa**
+  — ei myöskään lataamastasi reitistä. Kun Koutsi kirjoittaa
+  tahditussuunnitelman, sille annetaan **laskettu taulukko** (matkat, nousuprosentit,
+  tehotavoitteet, ennustetut väliajat) eikä koskaan itse reittijälkeä: se ei
+  tarvitse koordinaatteja, joten se ei niitä myöskään näe
 - kenenkään **muun käyttäjän** dataa
 - tallennettua **API-avaintasi** minnekään muualle kuin sille päätepisteelle, jota
   se todentaa (ja avaimet säilytetään **salattuina**)
