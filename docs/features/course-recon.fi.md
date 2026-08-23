@@ -22,7 +22,7 @@ ajaa:
 | Syöte | Miksi sitä kysytään |
 |---|---|
 | **Pyörä** | Renkaan leveys ja ajoasento määrittävät vierintävastuksen ja sen, kuinka paljon ilmaa työnnät. Soratpyörä 45 mm renkailla ja aika-ajopyörä 25 mm renkailla tuottavat aidosti eri suunnitelmat. |
-| **Tavoiteaika** *(valinnainen)* | Jätä pois, niin saat tasaisen, kestävän vedon. Aseta se, ja suunnitelma lasketaan maalista taaksepäin. |
+| **Tavoite** *(valinnainen)* | Jätä pois, niin saat tasaisen, kestävän vedon, tai tahdita reitti **maaliintuloaikaan** tai **keskitehoon**. Kumpaakin voi vaihtaa myöhemmin ilman uutta latausta. |
 | **Aloituspäivä ja -aika** *(valinnainen)* | Antaa suunnitelmalle päivän: milloin aloittaa syöminen, miltä viimeinen tunti näyttää. |
 | **Tavoite** *(valinnainen)* | Liittää reitin [tavoitteeseen](goal-guidance.md), jonka olet jo asettanut tapahtumalle. |
 
@@ -54,14 +54,19 @@ näin sama asia.
     poljet. Se on laskentaa, ei mielipide, eikä Koutsi saa tehdä siitä mitään:
     valmentaja saa valmiin taulukon ja kirjoittaa siitä.
 
-## Tavoiteajan pyytäminen
+## Tavoitteen pyytäminen
 
 Kun annat reitille tavoitteen, openkoutsi jakaa voimat sen yli sen sijaan, että
 levittäisi tehon tasaisesti: kovempaa nousuissa, joissa watti ostaa eniten aikaa,
-ja kevyemmin laskuissa, joissa se ostaa lähes mitään.
+ja kevyemmin laskuissa, joissa se ostaa lähes mitään. Tavoitteen voi kertoa
+kahdella tavalla, ja ne ovat vaihtoehtoja — reitti tahditetaan jompaankumpaan,
+ei koskaan molempiin.
 
-Jos tavoite ei ole saavutettavissa, **sinulle kerrotaan se** sen sijaan, että
-saisit imartelevan luvun:
+### Maaliintuloaika
+
+Kerro aika, jossa haluat tulla maaliin, niin suunnitelma lasketaan siitä
+taaksepäin. Jos aika ei ole saavutettavissa, **sinulle kerrotaan se** sen sijaan,
+että saisit imartelevan luvun:
 
 - **Nopeampi kuin fysiikka sallii** — millään inhimillisellä teholla ei kierretä
   siinä ajassa. Tilalle näytetään nopein mallinnettu ajo.
@@ -71,6 +76,34 @@ saisit imartelevan luvun:
 
 Kummassakin tapauksessa saat silti reitin ja sen osuustaulukon. Kieltäytyminen on
 vastaus, ei virhe.
+
+### Keskiteho
+
+Kerro sen sijaan watit, niin kysymys kääntyy toisin päin: sinä lyöt lukkoon
+vedon ja openkoutsi kertoo, minkä maaliintuloajan se tuottaa. Tämä on se luku,
+jonka mittarisi näyttää lopussa — **keskiarvo, ei teho jota pidetään kaikkialla.**
+Sama jako pätee yhä, joten nousuissa mennään sen yli ja laskuissa sen alle.
+
+Tehotavoite ei voi olla mahdoton samalla tavalla kuin aika: mikä tahansa
+wattimäärä on ajettavissa, kysymys on vain siitä kuinka kauan. Ainoa asia jota se
+voi olla, on enemmän kuin jaksaisit tuottamansa ajon ajan — ja silloinkin **saat
+koko suunnitelman**: väliajat ovat juuri se mitä pyysit, ja juuri ne näyttävät,
+kuinka kauan sinun olisi tuota pidettävä.
+
+!!! tip "Kumpaa kannattaa pyytää"
+    Aikatavoite vastaa kysymykseen *”pääsenkö tästä neljässä ja puolessa tunnissa,
+    ja mitä se maksaisi?”* Tehotavoite vastaa kysymykseen *”tiedän mitä jaksan
+    pitää — minkälainen päivä siitä tulee?”* Ensimmäinen on kysymys ennen
+    tapahtumaa, jossa on aikaraja; toinen on se kysymys hyvän testin jälkeen tai
+    pitkänä päivänä, jossa hyvin maaliin pääseminen merkitsee enemmän kuin nopeasti.
+
+### Mielen muuttaminen
+
+Tavoite ei ole päätös, joka tehdään kerran latauksen yhteydessä. Millä tahansa
+tallennetulla reitillä voit asettaa tavoitteen, vaihtaa ajan tehoksi (tai
+toisin päin) tai poistaa sen kokonaan, ja reitti ratkaistaan uudelleen jo
+tallennetusta — ilman uutta latausta. Kirjallinen suunnitelma tyhjennetään
+samalla, koska vanhoista luvuista kirjoitettu teksti koskee eri ajoa.
 
 ## Kirjallinen suunnitelma
 
@@ -99,10 +132,10 @@ itsekin.
 
 Reitit säilytetään, ja juuri se tekee niiden lataamisesta kannattavaa:
 
-- **Analysoi uudelleen ilman uutta latausta.** Vaihda pyörää, aseta tai poista
-  tavoiteaika — reitti ratkaistaan uudelleen jo tallennetusta. Kirjallinen
-  suunnitelma tyhjennetään samalla, koska vanhoista luvuista kirjoitettu teksti
-  koskee eri ajoa.
+- **Analysoi uudelleen ilman uutta latausta.** Vaihda pyörää tai aseta, vaihda
+  tai poista [tavoite](#mielen-muuttaminen) — reitti ratkaistaan uudelleen jo
+  tallennetusta. Kirjallinen suunnitelma tyhjennetään samalla, koska vanhoista
+  luvuista kirjoitettu teksti koskee eri ajoa.
 - **Poista mikä tahansa reitti**, jolloin analyysi ja alkuperäinen tiedosto
   poistuvat yhdessä.
 
