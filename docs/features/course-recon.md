@@ -21,7 +21,7 @@ to ride it:
 | Input | Why it is asked |
 |---|---|
 | **Bike** | Tyre width and riding position decide rolling resistance and how much air you push. A gravel bike on 45 mm tyres and a TT bike on 25s produce genuinely different plans. |
-| **Target time** *(optional)* | Leave it out for a steady, sustainable effort. Set it, and the plan works backwards from the finish. |
+| **Target** *(optional)* | Leave it out for a steady, sustainable effort, or pace the course to a **finish time** or an **average power**. Either one can be changed later without re-uploading. |
 | **Start date and time** *(optional)* | Lets the plan talk about your day — when to start eating, what the last hour looks like. |
 | **Goal** *(optional)* | Links the course to a [goal](goal-guidance.md) you have already set for the event. |
 
@@ -54,13 +54,18 @@ are the same thing.
     power you put in. It is arithmetic, not an opinion, and Koutsi is not allowed
     to do any of it: the coach is handed the finished table and writes about it.
 
-## Asking for a target time
+## Asking for a target
 
 Give the course a target and openkoutsi distributes the effort across it rather
 than spreading power evenly: harder on the climbs, where a watt buys the most
-time, and easier on the descents, where it buys almost none.
+time, and easier on the descents, where it buys almost none. There are two ways
+to say what you want, and they are alternatives — a course is paced to one or
+the other, never both.
 
-If the target is not reachable, **you get told so instead of a number that
+### A finish time
+
+Name the time you want to finish in, and the plan is solved backwards from it.
+If the time is not reachable, **you get told so instead of a number that
 flatters you**:
 
 - **Faster than the physics allows** — no human power gets you round in that
@@ -71,6 +76,34 @@ flatters you**:
 
 Either way you still get the course and its segment table. A refusal is an
 answer, not an error.
+
+### An average power
+
+Name the watts instead, and the question turns around: you fix the effort and
+openkoutsi reports the finish time it produces. This is the number your head
+unit shows at the end — **an average, not a power to hold everywhere.** The same
+distribution still applies, so the climbs run above it and the descents below.
+
+A power target cannot be impossible the way a time can: any number of watts is
+rideable, the only question is for how long. So the one thing it can be is more
+than you would sustain for the ride it produces, and when it is, **you still get
+the full plan** — the splits are exactly what you asked for, and they are what
+shows how long you would be holding it.
+
+!!! tip "Which one to ask for"
+    A time target answers *"can I get round in four and a half hours, and what
+    would it cost?"* A power target answers *"I know what I can hold — what does
+    that make the day look like?"* The first is the question before an event with
+    a cut-off; the second is the one after a good test, or on a long day where
+    finishing well matters more than finishing fast.
+
+### Changing your mind
+
+A target is not a decision you make once at upload. On any saved course you can
+set one, swap a time for a power (or the other way round) or clear it entirely,
+and the course is solved again from what is already stored — no re-upload. The
+written plan is cleared when you do, because prose about the old numbers is
+prose about a different ride.
 
 ## The written plan
 
@@ -99,10 +132,10 @@ to a number you can see.
 
 Courses are kept, which is what makes them worth uploading:
 
-- **Re-analyse without re-uploading.** Change bike, set or clear a target time —
-  the course is solved again from what is already stored. The written plan is
-  cleared when you do, because prose about the old numbers is prose about a
-  different ride.
+- **Re-analyse without re-uploading.** Change bike, or set, swap or clear the
+  [target](#changing-your-mind) — the course is solved again from what is
+  already stored. The written plan is cleared when you do, because prose about
+  the old numbers is prose about a different ride.
 - **Delete any course**, which removes the analysis and the original file
   together.
 
