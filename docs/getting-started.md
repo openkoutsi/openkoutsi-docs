@@ -75,7 +75,9 @@ the change from the same card if you mistyped the address.
 
     So if an approval request arrives that you didn't ask for: **don't open the
     link, and change your password.** Whoever asked knows it. Ignoring the
-    message is enough to stop the change.
+    message is enough to stop the change, and resetting your password cancels
+    it outright — the link stops working, so there is nothing left to click by
+    mistake later.
 
 !!! tip "No email address yet?"
     Accounts created from an invitation don't have one. The same card offers

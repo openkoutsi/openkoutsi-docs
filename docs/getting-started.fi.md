@@ -80,7 +80,8 @@ väärin.
 
     Jos siis saat hyväksymispyynnön, jota et ole pyytänyt: **älä avaa linkkiä ja
     vaihda salasanasi.** Pyytäjä tietää sen. Viestin sivuuttaminen riittää
-    estämään muutoksen.
+    estämään muutoksen, ja salasanan vaihtaminen peruu sen kokonaan — linkki
+    lakkaa toimimasta, joten mitään ei voi enää vahingossa klikata myöhemmin.
 
 !!! tip "Eikö sinulla ole vielä sähköpostiosoitetta?"
     Kutsulla luoduilla tileillä ei ole sellaista. Sama kortti tarjoaa
