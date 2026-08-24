@@ -49,6 +49,37 @@ ohjelmiasi.
     hallita käyttäjiä, lähettää kutsuja ja muokata instanssin laajuisia asetuksia
     (kuten valinnaista tekoälymääritystä).
 
+## Sähköpostiosoitteen vaihtaminen
+
+Voit siirtää tilisi toiseen sähköpostiosoitteeseen kohdasta **Profiili →
+Sähköpostiosoite**. Osoite vahvistetaan täsmälleen samoin kuin alkuperäinen:
+lähetämme linkin **uuteen** osoitteeseen, eikä mikään muutu ennen kuin avaat sen.
+
+1. Mene **Profiili**-sivulle ja etsi **Sähköpostiosoite**-kortti.
+2. Valitse **Vaihda sähköpostiosoite**, syötä uusi osoite ja **nykyinen
+   salasanasi**.
+3. Avaa vahvistuslinkki, jonka lähetämme uuteen osoitteeseen. Se vanhenee
+   **tunnissa** ja toimii kerran.
+
+Kunnes avaat linkin, vanha osoitteesi kirjaa sinut edelleen sisään, ja voit
+peruuttaa muutoksen samasta kortista, jos kirjoitit osoitteen väärin.
+
+!!! note "Vanhaan osoitteeseen ilmoitetaan"
+    Kun pyydät muutosta, lähetämme siitä viestin myös **nykyiseen**
+    osoitteeseesi. Siinä ei ole linkkiä — se on olemassa siksi, että saat
+    tietää, jos joku muu joskus aloittaa tämän. Jos saat sellaisen viestin
+    pyytämättä, vaihda salasanasi: pyytäjä tietää sen.
+
+!!! tip "Eikö sinulla ole vielä sähköpostiosoitetta?"
+    Kutsulla luoduilla tileillä ei ole sellaista. Sama kortti tarjoaa
+    vaihtoehdon **Lisää sähköpostiosoite**, ja osoitteen lisääminen antaa
+    sinun palauttaa salasanasi itse ja kirjautua sisään osoitteella
+    käyttäjätunnuksen lisäksi.
+
+Yksityisyytesi vuoksi vahvistusviesti on sama riippumatta siitä, voiko osoitetta
+tosiasiassa käyttää — jos osoite on jo toisella tilillä, linkkiä ei tule. Kortti
+näkyy vain, jos instanssiin on määritetty sähköposti.
+
 ## Harjoitushistorian tuominen mukanasi
 
 Kunto, väsymys ja muoto rakentuvat siitä, mitä olet jo tehnyt, joten openkoutsi on

@@ -46,6 +46,36 @@ data is entirely your own — each user has a **private database**, and no one e
     manage users, issue invitations, and edit instance-wide settings (such as the
     optional AI configuration).
 
+## Changing your email address
+
+You can move your account to a different email address from **Profile → Email
+address**, and it is confirmed exactly the way your original address was: we
+send a link to the **new** address, and nothing changes until you open it.
+
+1. Go to **Profile** and find the **Email address** card.
+2. Choose **Change email address**, enter the new one and your **current
+   password**.
+3. Open the confirmation link we send to the new address. It expires in **one
+   hour** and works once.
+
+Until you open that link, your old address still signs you in, and you can
+abandon the change from the same card if you mistyped it.
+
+!!! note "Your old address is told"
+    When you request a change, we also email your **current** address to say so.
+    That message has no link in it — it is there so that if somebody else ever
+    starts this, you find out. If you get one you didn't ask for, change your
+    password: whoever asked knows it.
+
+!!! tip "No email address yet?"
+    Accounts created from an invitation don't have one. The same card offers
+    **Add email address**, and adding one lets you reset your own password and
+    sign in with the address as well as your username.
+
+For your own privacy, the confirmation message is the same whether or not the
+address can actually be used — so if another account already has it, no link
+arrives. This card only appears if the instance has email configured.
+
 ## Bringing your history with you
 
 Fitness, fatigue and form are built from what you have already done, so openkoutsi
