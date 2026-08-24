@@ -9,6 +9,21 @@ server itself, see the deployment guide in the main project repository instead.
 Open the address of your openkoutsi instance in a web browser (for example, the
 URL your administrator gave you). openkoutsi works on both desktop and mobile.
 
+### Coming back to it
+
+Phones stop a web app from doing anything while it is in the background, so a
+screen left open would otherwise still be showing yesterday's numbers when you
+pick it up. openkoutsi handles that for you: if it has been in the background for
+more than a minute, it refreshes itself when you return, and you land on the page
+you left with current data. Switching away for a few seconds does not disturb it.
+
+!!! note "It will not interrupt you"
+
+    If you were part-way through something — a message you had typed but not
+    sent, a file uploading, a dialog open, the setup wizard — openkoutsi quietly
+    brings the data up to date instead of refreshing, so nothing you were doing
+    is lost.
+
 ## First-run setup
 
 The very first time an openkoutsi instance is opened, it shows a **setup wizard**

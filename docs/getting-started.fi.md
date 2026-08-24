@@ -9,6 +9,20 @@ palvelinta, katso sen sijaan asennusopas pääprojektin repositoriosta.
 Avaa openkoutsi-instanssisi osoite verkkoselaimessa (esimerkiksi se URL-osoite,
 jonka ylläpitäjäsi antoi). openkoutsi toimii sekä työpöydällä että mobiilissa.
 
+### Kun palaat siihen
+
+Puhelimet estävät verkkosovellusta tekemästä mitään sen ollessa taustalla, joten
+auki jätetty näkymä näyttäisi muuten yhä eilisiä lukuja, kun tartut siihen
+uudelleen. openkoutsi hoitaa tämän puolestasi: jos se on ollut taustalla yli
+minuutin, se päivittää itsensä kun palaat, ja päädyt samalle sivulle jolta
+lähdit ajantasaisin tiedoin. Muutaman sekunnin poikkeaminen ei häiritse sitä.
+
+!!! note "Se ei keskeytä sinua"
+
+    Jos olit kesken jotakin — kirjoittamasi mutta lähettämättä jäänyt viesti,
+    latautuva tiedosto, avoin ikkuna, ohjattu asennus — openkoutsi päivittää
+    hiljaa vain tiedot päivittämättä sivua, joten mikään tekemäsi ei katoa.
+
 ## Ensimmäisen käynnistyksen asetukset
 
 Aivan ensimmäisellä kerralla, kun openkoutsi-instanssi avataan, se näyttää
