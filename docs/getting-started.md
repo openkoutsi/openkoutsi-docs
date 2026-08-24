@@ -46,6 +46,56 @@ data is entirely your own — each user has a **private database**, and no one e
     manage users, issue invitations, and edit instance-wide settings (such as the
     optional AI configuration).
 
+## Changing your email address
+
+You can move your account to a different email address from **Profile → Email
+address**. **Both addresses have to approve it:** we send a link to the new one
+*and* a link to the one you are leaving, and nothing changes until you open both.
+
+1. Go to **Profile** and find the **Email address** card.
+2. Choose **Change email address**, enter the new one and your **current
+   password**.
+3. Open the confirmation link sent to the **new** address.
+4. Open the approval link sent to your **current** address.
+
+The card tracks which of the two is still outstanding, so you can tell at a
+glance what is left. The links expire in **24 hours** and each works once.
+Until both are open your old address still signs you in, and you can abandon
+the change from the same card if you mistyped the address.
+
+!!! warning "Asking your current address is what keeps the account yours"
+    It would be simpler to confirm only the new address, and it would not be
+    safe. Passwords are set through a reset link emailed to whatever address is
+    on the account, so that address is the way back in to your account. If one
+    confirmation were enough, anyone who learned your password could point the
+    account at their own mailbox and then use **Forgot password?** to take it
+    outright — and you would have no way back, because the reset link would go
+    to them. Needing your current mailbox too means knowing your password is
+    not enough on its own.
+
+    So if an approval request arrives that you didn't ask for: **don't open the
+    link, and change your password.** Whoever asked knows it. Ignoring the
+    message is enough to stop the change, and resetting your password cancels
+    it outright — the link stops working, so there is nothing left to click by
+    mistake later.
+
+!!! tip "No email address yet?"
+    Accounts created from an invitation don't have one. The same card offers
+    **Add email address**, and adding one lets you reset your own password and
+    sign in with the address as well as your username. There's no old address to
+    approve from in that case, so a single confirmation finishes it.
+
+!!! note "If you lose access to your old address"
+    Because a change needs your current mailbox, you can't do this yourself once
+    that mailbox is gone — a closed work account, say. Ask the person who runs
+    your instance: they can set or clear the address for you. Doing so signs you
+    out everywhere and cancels any personal access tokens, so you'll sign in
+    again afterwards.
+
+For your own privacy, the confirmation message is the same whether or not the
+address can actually be used — so if another account already has it, no link
+arrives. This card only appears if the instance has email configured.
+
 ## Bringing your history with you
 
 Fitness, fatigue and form are built from what you have already done, so openkoutsi

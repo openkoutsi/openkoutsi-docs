@@ -49,6 +49,58 @@ ohjelmiasi.
     hallita käyttäjiä, lähettää kutsuja ja muokata instanssin laajuisia asetuksia
     (kuten valinnaista tekoälymääritystä).
 
+## Sähköpostiosoitteen vaihtaminen
+
+Voit siirtää tilisi toiseen sähköpostiosoitteeseen kohdasta **Profiili →
+Sähköpostiosoite**. **Molempien osoitteiden on hyväksyttävä muutos:** lähetämme
+linkin uuteen osoitteeseen *ja* linkin siihen, josta olet luopumassa, eikä mikään
+muutu ennen kuin avaat molemmat.
+
+1. Mene **Profiili**-sivulle ja etsi **Sähköpostiosoite**-kortti.
+2. Valitse **Vaihda sähköpostiosoite**, syötä uusi osoite ja **nykyinen
+   salasanasi**.
+3. Avaa vahvistuslinkki, joka lähetettiin **uuteen** osoitteeseen.
+4. Avaa hyväksymislinkki, joka lähetettiin **nykyiseen** osoitteeseesi.
+
+Kortti näyttää, kumpi kahdesta on vielä avaamatta, joten näet yhdellä
+silmäyksellä mitä on jäljellä. Linkit vanhenevat **24 tunnissa** ja kumpikin
+toimii kerran. Kunnes molemmat on avattu, vanha osoitteesi kirjaa sinut edelleen
+sisään, ja voit peruuttaa muutoksen samasta kortista, jos kirjoitit osoitteen
+väärin.
+
+!!! warning "Nykyisen osoitteen hyväksyntä pitää tilin sinun hallussasi"
+    Olisi yksinkertaisempaa vahvistaa vain uusi osoite, eikä se olisi turvallista.
+    Salasana asetetaan palautuslinkillä, joka lähetetään tilillä olevaan
+    osoitteeseen, joten se osoite on reitti takaisin tilillesi. Jos yksi vahvistus
+    riittäisi, kuka tahansa salasanasi saanut voisi osoittaa tilin omaan
+    postilaatikkoonsa ja ottaa sen sitten kokonaan haltuunsa **Unohtuiko
+    salasana?** -toiminnolla — etkä pääsisi enää takaisin, koska palautuslinkki
+    menisi hänelle. Kun myös nykyistä postilaatikkoasi tarvitaan, pelkkä salasanan
+    tietäminen ei riitä.
+
+    Jos siis saat hyväksymispyynnön, jota et ole pyytänyt: **älä avaa linkkiä ja
+    vaihda salasanasi.** Pyytäjä tietää sen. Viestin sivuuttaminen riittää
+    estämään muutoksen, ja salasanan vaihtaminen peruu sen kokonaan — linkki
+    lakkaa toimimasta, joten mitään ei voi enää vahingossa klikata myöhemmin.
+
+!!! tip "Eikö sinulla ole vielä sähköpostiosoitetta?"
+    Kutsulla luoduilla tileillä ei ole sellaista. Sama kortti tarjoaa
+    vaihtoehdon **Lisää sähköpostiosoite**, ja osoitteen lisääminen antaa
+    sinun palauttaa salasanasi itse ja kirjautua sisään osoitteella
+    käyttäjätunnuksen lisäksi. Tällöin ei ole vanhaa osoitetta, jonka pitäisi
+    hyväksyä muutos, joten yksi vahvistus riittää.
+
+!!! note "Jos menetät pääsyn vanhaan osoitteeseesi"
+    Koska muutos vaatii nykyistä postilaatikkoasi, et voi tehdä tätä itse enää
+    sen jälkeen, kun postilaatikko on poissa — esimerkiksi suljettu työtili. Pyydä
+    apua instanssisi ylläpitäjältä: hän voi asettaa tai poistaa osoitteen
+    puolestasi. Se kirjaa sinut ulos kaikkialta ja mitätöi käyttötunnisteesi,
+    joten kirjaudut sen jälkeen uudelleen sisään.
+
+Yksityisyytesi vuoksi vahvistusviesti on sama riippumatta siitä, voiko osoitetta
+tosiasiassa käyttää — jos osoite on jo toisella tilillä, linkkiä ei tule. Kortti
+näkyy vain, jos instanssiin on määritetty sähköposti.
+
 ## Harjoitushistorian tuominen mukanasi
 
 Kunto, väsymys ja muoto rakentuvat siitä, mitä olet jo tehnyt, joten openkoutsi on
