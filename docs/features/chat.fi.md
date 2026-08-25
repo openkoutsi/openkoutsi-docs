@@ -90,6 +90,24 @@ keskustelleet. Mitä se *ei* säilytä, ovat hakemansa tiedot: joka vuorolla se 
 harjoittelusi uudestaan. Se on tarkoituksellista ja tarkoittaa että huomisen
 vastaus perustuu huomisen lenkkeihin eikä vanhentuneeseen kopioon.
 
+### Koutsi tietää mikä päivä on
+
+Voit kysyä "tämän päivän harjoituksesta", "eilisestä lenkistä" tai "loppuviikosta"
+kirjoittamatta päivämäärää — Koutsille kerrotaan nykyinen päivä ja kellonaika
+ennen kuin se vastaa, joten se tietää mistä päivistä puhut. Kello on **sinun**:
+selaimesi ilmoittama aikavyöhyke, jonka openkoutsi tallentaa profiiliisi, eikä sen
+palvelimen aika, jolla tekoälymalli sattuu pyörimään.
+
+Myös kellonajalla on merkitystä. Kysy tämän päivän harjoituksesta aamupalan
+ääressä, ja se on vielä edessäsi; kysy samaa yhdeksältä illalla, ja Koutsi
+tarkistaa kirjautuiko se todella tehdyksi sen sijaan että olettaisi suuntaan tai
+toiseen.
+
+!!! note "Vanhassa keskustelussa kannattaa sanoa päivämäärä"
+    "Huomenna" tarkoittaa sitä mitä se tarkoitti kirjoitushetkellä, ja Koutsi
+    laskee tämän päivän mukaan eikä sen päivän, jona keskustelu alkoi. Jos palaat
+    keskusteluun viikon päästä, päivämäärä on selvempi kuin "eilen".
+
 ### Keskustelut
 
 Jokainen keskustelu säilyy sivupalkissa, nimettynä aloituskysymyksesi mukaan,

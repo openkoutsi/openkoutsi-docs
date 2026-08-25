@@ -91,6 +91,23 @@ this conversation. What it does *not* keep is the data it looked up: each turn i
 goes and reads your training fresh. That is deliberate, and it means an answer
 tomorrow reflects tomorrow's rides rather than a stale copy.
 
+### Koutsi knows what day it is
+
+Ask about "today's session", "yesterday's ride" or "the rest of this week"
+without spelling out a date — Koutsi is told the current date and time before it
+answers, so it knows which days you mean. That is **your** clock: the timezone
+your browser reports, which openkoutsi saves to your profile, and not the one on
+whichever server the AI model runs on.
+
+The time of day counts too. Ask about today's workout over breakfast and it is
+still ahead of you; ask the same thing at nine in the evening and Koutsi will
+check whether it actually got recorded rather than assuming either way.
+
+!!! note "In an old conversation, give the date"
+    Words like "tomorrow" mean what they meant when you typed them, and Koutsi
+    works from today's date rather than the day the conversation started. If you
+    pick a thread up a week later, a date is clearer than a "yesterday".
+
 ### Conversations
 
 Every conversation is kept in the sidebar, named after your opening question, and
