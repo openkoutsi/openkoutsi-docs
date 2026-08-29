@@ -76,7 +76,9 @@ openkoutsi sisältää muun muassa myös:
   realistisuusarvio ja konkreettiset askeleet kunkin saavuttamiseksi
   (katso [Tavoiteopastus](goal-guidance.md)).
 - **Aktiviteettien tunnisteet ja muistiinpanot** — merkitse lenkit (esimerkiksi
-  *kisa* tai *työmatka*) ja lisää vapaamuotoisia muistiinpanoja.
+  *kisa* tai *työmatka*) ja lisää vapaamuotoisia muistiinpanoja. openkoutsi voi myös
+  tunnistaa työmatkasi kirjoittamiesi sääntöjen perusteella ja ehdottaa merkintää —
+  koskaan asettamatta sitä ilman lupaasi (katso [Aktiviteetit ja synkronointi](activities.md)).
 - **Tekoälyvalmennuksen analyysi** — valinnainen aktiviteettikohtainen analyysi ja
   päivittäinen harjoitustilanteen yhteenveto, jonka tuottaa määrittämäsi
   OpenAI-yhteensopiva taustajärjestelmä. Katso [Datasi ja tekoäly](../data-and-ai.md),

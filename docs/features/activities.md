@@ -119,6 +119,81 @@ Prefer not to be asked? On your **profile**, toggle **"Ask me to rate effort aft
 uploads"** off (or back on). Turning the prompt off doesn't stop you setting RPE by hand
 from the activity view.
 
+## Labels, and finding your commutes
+
+Every activity can carry a **label**: *race* or *commute*. Labels are more than
+decoration — a ride labelled **commute** drops out of the RPE prompt, hides its aerobic
+metrics (stops and traffic make the numbers meaningless), counts towards the *Commuter*
+badge, and can be filtered out of the activity list so you see only real training.
+
+Set a label by opening an activity and tapping it in the *Labels & Notes* card.
+
+### Letting openkoutsi find them for you
+
+Riding to work and back means tapping that label some five hundred times a year, so
+openkoutsi can spot commutes for you. Go to **Settings → Commute detection** and describe
+what your commute looks like:
+
+- **Sport types** — the exact ones, so an e-bike commute can be told apart from your
+  weekend road rides even when the distances overlap
+- **Distance** and **duration** bands
+- **Times of day** — your local clock. Most people want two windows: one out, one back
+- **Days** of the week
+
+!!! info "No GPS involved"
+    openkoutsi never stores where your rides went, so it cannot recognise a commute by its
+    route. It goes by the shape of the ride instead: the same short trip, at the same times,
+    on working days. That works well, and it means your address is never in the picture.
+
+### You always get the last word
+
+A rule **suggests** the label; it never applies it on its own. Suggestions reach you in
+three places:
+
+- **The after-ride prompt** arrives with *"This was a commute"* already ticked, and a line
+  saying why. Leave it ticked to confirm, untick it to say no.
+- **The activity page** shows the suggestion with **Yes** / **No** buttons.
+- **Activities → Suggested commutes** lets you work through a whole backlog at once.
+
+Saying **no** is permanent: that ride will never be suggested again, even if you reprocess
+it later. If you would rather stop being asked about a rule you trust, turn on **"Apply this
+label without asking"** for it.
+
+!!! tip "Let openkoutsi write the rule"
+    Once you have labelled **ten** rides as commutes, the settings screen offers to build a
+    rule from them — sensible distances, durations and time windows already filled in, ready
+    for you to adjust. Below ten rides there simply isn't enough to go on.
+
+### Your history
+
+New rides are checked as they arrive. To look at everything you have already imported, use
+**Scan my history** in the settings card. That is a deliberate button rather than something
+that happens by itself, because it can look at a decade of riding at once.
+
+Editing a rule re-checks everything still awaiting an answer: narrow a rule and the
+suggestions it no longer stands behind quietly disappear, widen it and rides it now covers
+are picked up. Answers you have already given are never touched.
+
+### Rides you tagged in Strava
+
+If you tick **Commute** on a ride in Strava, openkoutsi takes it at its word and labels the
+ride straight away — no confirmation needed. That is your own decision arriving with the
+ride, not a guess. Wahoo has no equivalent, and a **bulk export** from Strava arrives as
+plain activity files with the flag stripped out, so for imported history the rules above are
+what will find your commutes.
+
+### When a rule looks wrong
+
+The settings card watches for two things and tells you about them, without changing anything
+by itself:
+
+- rides you labelled by hand that a rule *nearly* caught — a sign the rule is a little too
+  tight
+- rules whose suggestions you keep turning down — a sign they are too loose
+
+You decide what, if anything, to change. Only you know whether that 9 km ride was the
+commute or the long way home.
+
 ## Syncing from Strava
 
 Connect your Strava account to import your history and have new rides flow in

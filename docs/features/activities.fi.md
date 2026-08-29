@@ -125,6 +125,84 @@ Etkö halua että sinulta kysytään? Kytke **profiilistasi** **"Pyydä arvioima
 latausten jälkeen"** pois päältä (tai takaisin päälle). Kyselyn poiskytkeminen ei estä sinua
 asettamasta RPE:tä käsin aktiviteettinäkymästä.
 
+## Merkinnät ja työmatkojen löytäminen
+
+Jokaiselle aktiviteetille voi antaa **merkinnän**: *kilpailu* tai *työmatka*. Merkinnät ovat
+muutakin kuin koristeita — työmatkaksi merkitty lenkki jää pois RPE-kyselystä, piilottaa
+aerobiset mittarinsa (pysähdykset ja liikenne tekevät luvuista merkityksettömiä), kerryttää
+*Työmatkalainen*-merkkiä ja voidaan suodattaa pois aktiviteettilistalta, jotta näet vain
+varsinaisen harjoittelun.
+
+Merkinnän asetat avaamalla aktiviteetin ja napauttamalla sitä *Merkinnät ja muistiinpanot*
+-kortissa.
+
+### Anna openkoutsin löytää ne puolestasi
+
+Töihin ja takaisin pyöräily tarkoittaa merkinnän napauttamista noin viisisataa kertaa
+vuodessa, joten openkoutsi voi tunnistaa työmatkat puolestasi. Mene kohtaan
+**Asetukset → Työmatkojen tunnistus** ja kuvaile millainen työmatkasi on:
+
+- **Lajit** — tarkat lajit, jotta sähköpyörällä tehty työmatka erottuu viikonlopun
+  maantielenkeistä silloinkin kun matkat menevät päällekkäin
+- **Matka**- ja **kesto**rajat
+- **Kellonajat** — paikallista aikaa. Useimmat tarvitsevat kaksi aikaväliä: meno ja paluu
+- Viikon **päivät**
+
+!!! info "GPS:ää ei käytetä"
+    openkoutsi ei koskaan tallenna missä lenkkisi kulkivat, joten se ei voi tunnistaa
+    työmatkaa reitistä. Sen sijaan se katsoo lenkin muotoa: sama lyhyt matka, samoihin
+    aikoihin, arkipäivinä. Se toimii hyvin — ja tarkoittaa ettei kotiosoitteesi ole missään
+    vaiheessa mukana.
+
+### Viimeinen sana on aina sinun
+
+Sääntö **ehdottaa** merkintää, ei koskaan aseta sitä itse. Ehdotukset tulevat vastaan
+kolmessa paikassa:
+
+- **Lenkin jälkeinen kysely** avautuu *"Tämä oli työmatka"* valmiiksi rastitettuna, ja
+  kertoo miksi. Jätä rasti vahvistaaksesi, poista se sanoaksesi ei.
+- **Aktiviteettisivu** näyttää ehdotuksen **Kyllä**- ja **Ei**-painikkeilla.
+- **Aktiviteetit → Ehdotetut työmatkat** antaa käydä koko jonon läpi kerralla.
+
+**Ei** on pysyvä: sitä lenkkiä ei ehdoteta enää koskaan, vaikka käsittelisit sen myöhemmin
+uudelleen. Jos et halua tulla kysytyksi säännöstä johon luotat, ota sille käyttöön
+**"Merkitse ilman kysymistä"**.
+
+!!! tip "Anna openkoutsin kirjoittaa sääntö"
+    Kun olet merkinnyt **kymmenen** lenkkiä työmatkoiksi, asetussivu tarjoutuu rakentamaan
+    niistä säännön — järkevät matkat, kestot ja aikavälit valmiiksi täytettyinä, valmiina
+    säädettäväksi. Alle kymmenellä lenkillä ei yksinkertaisesti ole tarpeeksi aineistoa.
+
+### Historiasi
+
+Uudet lenkit tarkistetaan sitä mukaa kun ne saapuvat. Jos haluat käydä läpi kaiken jo
+tuodun, käytä asetuskortin **Käy historiani läpi** -painiketta. Se on tarkoituksella
+painike eikä itsestään tapahtuva asia, koska se voi käydä läpi vuosikymmenen pyöräilyä
+kerralla.
+
+Säännön muokkaaminen tarkistaa uudelleen kaiken mikä vielä odottaa vastausta: kavenna
+sääntöä ja ehdotukset joita se ei enää tue katoavat hiljaa, laajenna sitä ja sen nyt
+kattamat lenkit poimitaan mukaan. Jo antamiisi vastauksiin ei kosketa.
+
+### Stravassa merkitsemäsi lenkit
+
+Jos rastitat Stravassa lenkin kohdalla **Commute**, openkoutsi uskoo sinua ja merkitsee
+lenkin heti — vahvistusta ei tarvita. Se on oma päätöksesi joka saapuu lenkin mukana, ei
+arvaus. Wahoossa ei ole vastaavaa, ja Stravan **massavienti** saapuu tavallisina
+harjoitustiedostoina ilman kyseistä tietoa, joten tuodun historian osalta yllä kuvatut
+säännöt ovat se mikä löytää työmatkasi.
+
+### Kun sääntö näyttää väärältä
+
+Asetuskortti tarkkailee kahta asiaa ja kertoo niistä muuttamatta itse mitään:
+
+- käsin merkitsemäsi lenkit jotka sääntö *melkein* nappasi — merkki siitä että sääntö on
+  hieman liian tiukka
+- säännöt joiden ehdotuksia hylkäät toistuvasti — merkki siitä että ne ovat liian väljiä
+
+Sinä päätät mitä, jos mitään, muutat. Vain sinä tiedät oliko se 9 kilometrin lenkki työmatka
+vai pidempi reitti kotiin.
+
 ## Synkronointi Stravasta
 
 Yhdistä Strava-tilisi tuodaksesi historiasi ja antaaksesi uusien lenkkien virrata

@@ -72,7 +72,9 @@ openkoutsi also includes, among other things:
   and ask the AI coach for a realism verdict and concrete steps to reach each one
   (see [Goal guidance](goal-guidance.md)).
 - **Activity labels & notes** — tag rides (for example *race* or *commute*) and add
-  free-text notes.
+  free-text notes. openkoutsi can also spot your commutes for you and suggest the label,
+  from rules you write — never applying it without your say-so (see
+  [Activities & sync](activities.md)).
 - **AI coaching analysis** — optional per-activity analysis and a daily training
   status summary, powered by an OpenAI-compatible backend you configure. See
   [Your data & AI](../data-and-ai.md) for what gets sent to a model.
