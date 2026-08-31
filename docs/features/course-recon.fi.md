@@ -44,6 +44,13 @@ osuus saa oman rivinsä:
 Lyhyet pätkät sulautetaan naapureihinsa tarkoituksella. Jatkuvasti aaltoileva tie
 tuottaisi muuten satoja rivejä, eikä kukaan tahdita 40 metrin osuuteen.
 
+!!! note "Jyrkkää pinnanmuutosta ei koskaan sulateta pois"
+    Sulattaminen koskee *tahditusrivejä*, eikä se päde lyhyeen pätkään, jossa tie
+    muuttuu huonoksi. Jos 130 metriä reitistä on mutaa keskellä 40 kilometrin
+    asfalttia, se säilyttää oman rivinsä, omat lukunsa, oman raitansa
+    korkeusprofiilissa ja oman lauseensa suunnitelmassa. Siihen ei voi tahdittaa,
+    mutta sen tulosta on ehdottomasti syytä tietää.
+
 Taulukon yläpuolella oleva korkeusprofiili on väritetty nousuprosentin mukaan, ja
 osuuden valitseminen korostaa sen profiilissa — numerorivi ja kuvaajan muoto ovat
 näin sama asia.
@@ -117,16 +124,80 @@ koordinaatteja, koska se ei niitä tarvitse. Näin se ei keksi paikallistuntemus
 tiestä, josta se ei tiedä mitään, ja kaikki sen sanoma juontuu lukuun, jonka näet
 itsekin.
 
-!!! warning "Suunnitelma olettaa tyynen ilman ja kuivan asfaltin"
-    Mallissa ei ole tuulta eikä vielä pinnan tunnistusta: jokaista reittiä
-    käsitellään kuivana asfalttina tyynenä päivänä. Vastatuuli siirtää väliaikoja,
-    ja se voi siirtää niitä paljon. Kohtele aikoja tahditusrunkona eikä ennusteena
-    — ja odota, että suunnitelma sanoo tämän itsekin.
+!!! warning "Suunnitelma olettaa tyynen ilman"
+    Mallissa ei ole tuulta: jokaista reittiä käsitellään tyynenä päivänä.
+    Vastatuuli siirtää väliaikoja, ja se voi siirtää niitä paljon. Kohtele aikoja
+    tahditusrunkona eikä ennusteena — ja odota, että suunnitelma sanoo tämän
+    itsekin. Ellei palvelimesi luokittele tienpintoja (alempana), jokaista
+    reittiä käsitellään myös kuivana asfalttina — minkä suunnitelma sanoo ääneen.
 
     **Myös ryhmäajo voittaa tämän mallin tasaisella.** Fysiikka asettaa sinut
     yksin tuuleen; letkassa istuminen on paljon halvempaa, joten vauhdikas
     ryhmälenkki alittaa ennusteen tasaisilla osuuksilla ja osuu siihen suunnilleen
     heti kun tie kääntyy ylöspäin.
+
+## Tienpinta
+
+Palvelimilla, joilla tämä on kytketty päälle, openkoutsi selvittää **mitä tien
+alla on** ja syöttää sen lukuihin. Sora on hitaampaa kuin asfaltti samalla
+teholla, joten sen tietäminen muuttaa tehotavoitteen, ennustetun väliajan ja
+varsin todennäköisesti myös renkaat, jotka laitat alle.
+
+Jokainen osuus saa pinnan — asfaltti, päällystetty, kova sora, mukulakivi, sora,
+maa tai nurmi — ja korkeusprofiilin alle ilmestyy samanvärinen raita, joten
+päivän muoto ja tien kunto ovat yksi kuva.
+
+### Vahvistettu vai arvio
+
+**Jokaisella pinnalla on luotettavuus, eivätkä ne ole sama väite.**
+
+OpenStreetMap on vapaaehtoisten kartta, ja se, kuinka tarkasti tiet on kuvattu,
+vaihtelee valtavasti — tiheästi Saksassa ja Alankomaissa, ohuesti Pohjois-Amerikan
+maaseudulla. Kun joku on kirjannut pinnan, openkoutsi sanoo **vahvistettu**. Kun
+kukaan ei ole, luokka tulee tien *tyypistä*, ja openkoutsi sanoo **arvio** ja
+merkitsee rivin.
+
+!!! info "Mitä ”arvio” oikeasti tarkoittaa"
+    Se tarkoittaa, että **openkoutsi ei pystynyt vahvistamaan pintamerkintää**
+    kyseiselle osuudelle — ei sitä, että tie olisi varmasti merkitsemätön, eikä
+    sitä, että vastaus olisi varmasti väärä. Myös aidosti asfaltiksi merkitty tie
+    näkyy usein arviona, koska ”nimenomaisesti päällystetty” ja ”kukaan ei
+    sanonut” näyttävät ulospäin samalta. Merkintä kallistuu tarkoituksella
+    aliarvioimisen puolelle: se kertoo joskus olevansa epävarma ollessaan oikeassa,
+    mutta se ei kerro olevansa varma ollessaan epävarma.
+
+    Käytännössä: kohtele **vahvistettua** soraosuutta tosiasiana, jonka ympärille
+    suunnittelet, ja **arviota** sellaisena, jonka kannattaa tarkistaa tapahtuman
+    omista tiedoista ennen rengasvalintaa.
+
+### Osuudet, joista sinua varoitetaan
+
+Kun tie muuttuu jyrkästi huonommaksi — asfaltista mutaan, asfaltista irtosoraan —
+reitti listaa kyseisen pätkän etäisyyksineen osuustaulukon yläpuolelle, ja
+kirjoitettu suunnitelma mainitsee sen erikseen. **Myös lyhyet.** 130 metrin osuus
+on liian lyhyt tahditettavaksi ja liian tärkeä jätettäväksi väriksi, jota et
+välttämättä katso.
+
+### Reittisi ei poistu palvelimeltasi
+
+Pinnan luokittelu tarkoittaa reitin sovittamista karttadataan, mikä vaatii
+koordinaatit. Tämä sovitus tapahtuu **omalla palvelimellasi**, reitityspalvelua
+vasten, jonka palvelimesi ylläpitäjä on pystyttänyt ja jonka karttadatan hän on
+rakentanut. Reittiäsi ei lähetetä karttayhtiölle, rajapintaan eikä kenellekään
+muulle — katso [Tietosi ja tekoäly](../data-and-ai.md).
+
+### Jos palvelimellasi ei ole tätä
+
+Silloin reittitiedustelu toimii täsmälleen niin kuin muualla tällä sivulla
+kuvataan, ja jokainen reitti ratkaistaan kuivana asfalttina — minkä kirjoitettu
+suunnitelma sanoo suoraan sen sijaan, että jättäisi sinut olettamaan. Mikään ei
+ole rikki eikä mistään puutu osaa, jonka se olisi luvannut; pinta ei vain kuulu
+vastaukseen.
+
+Pinnat selvitetään myös **osuustaulukon ilmestymisen jälkeen**, joten reitin
+lataaminen ei ole hitaampaa palvelimella, jolla ne ovat. Ja koska reittisi
+säilytetään, myöhemmin tämän käyttöön ottava palvelin voi luokitella aiemmin
+lataamasi reitit — ei uudelleenlatausta, vain **Lisää pintatiedot** reitillä.
 
 ## Tallennetut reitit
 
@@ -151,6 +222,8 @@ tarkoituksella — koko kuva löytyy sivulta [Datasi ja tekoäly](../data-and-ai
 - Reitit, niiden osuustaulukot ja alkuperäiset tiedostot sisältyvät kaikki
   **datavientiin**, ja ne poistetaan kun poistat reitin tai tilisi.
 - **Valmentaja saa lasketun taulukon, ei koskaan reittijälkeä.**
+- Tienpintojen selvittäminen sovittaa reittisi **omalla palvelimellasi**,
+  reitityspalvelua vasten, jota se itse ajaa. Reitti ei mene minnekään muualle.
 
 !!! note "Vaatii tekoälyn käytettävyyden"
     Osuustaulukko ja tahdituslukemat eivät tarvitse tekoälyä lainkaan — ne

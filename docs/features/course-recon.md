@@ -41,8 +41,15 @@ gets a row:
   point of the course
 
 Short pieces are folded into their neighbours on purpose. A road that rolls
-constantly would otherwise become hundreds of rows, and nobody paces to a 40-metre
-segment.
+constantly would otherwise become hundreds of rows, and nobody paces to a
+40-metre segment.
+
+!!! note "A sharp surface change is never folded away"
+    That folding is about *pacing* rows, and it does not apply to a short
+    stretch where the road turns bad. If 130 metres of the course is mud in the
+    middle of 40 kilometres of asphalt, it keeps its own row, its own numbers,
+    its own stripe on the profile and its own sentence in the plan. You cannot
+    pace to it, but you certainly need to know it is coming.
 
 The elevation profile above the table is shaded by gradient, and selecting a
 segment highlights it on the profile — so a row of numbers and a shape on a chart
@@ -117,16 +124,79 @@ coordinates, because it has no use for them. That means it will not invent local
 knowledge about a road it knows nothing about, and everything it says traces back
 to a number you can see.
 
-!!! warning "The plan assumes still air and dry pavement"
-    There is no wind in this model, and no surface classification yet: every
-    course is treated as dry tarmac on a calm day. A headwind will move the
-    splits, and it can move them a lot. Treat the times as a pacing structure
-    rather than a forecast, and expect the plan to say so itself.
+!!! warning "The plan assumes still air"
+    There is no wind in this model: every course is treated as a calm day. A
+    headwind will move the splits, and it can move them a lot. Treat the times
+    as a pacing structure rather than a forecast, and expect the plan to say so
+    itself. Unless your server classifies road surfaces (below), every course
+    is also treated as dry tarmac — which the plan says out loud too.
 
     **Group riding also beats this model on the flat.** The physics puts you
     alone in the wind; sitting in a bunch is far cheaper than that, so a fast
     group ride will come in under the prediction on flat sections and roughly on
     it once the road tilts up.
+
+## Road surface
+
+On servers that have it switched on, openkoutsi works out **what is under the
+road** and feeds it into the numbers. Gravel is slower than tarmac at the same
+power, so knowing which is which changes the target, the predicted split and
+quite possibly the tyres you fit.
+
+Each segment gets a surface — asphalt, paved, hardpack, cobbles, gravel, dirt or
+grass — and the elevation profile grows a ribbon underneath it in the same
+colours, so the shape of the day and the state of the road are one picture.
+
+### Confirmed, or a guess
+
+**Every surface comes with a confidence, and the two are not the same claim.**
+
+OpenStreetMap is a volunteer map, and how thoroughly roads are described varies
+enormously — dense across Germany and the Netherlands, thin across rural North
+America. Where somebody recorded a surface, openkoutsi says **confirmed**. Where
+nobody did, the class comes from the *type* of road instead, and openkoutsi says
+**inferred** and marks the row.
+
+!!! info "What “inferred” actually means"
+    It means **openkoutsi could not confirm a surface tag for that stretch** —
+    not that the road is definitely untagged, and not that the answer is
+    definitely wrong. A road genuinely recorded as asphalt often reads as
+    inferred too, because "explicitly paved" and "nobody said" look identical
+    from the outside. The label errs towards under-claiming, on purpose: it will
+    sometimes tell you it is unsure when it is right, and it will not tell you
+    it is sure when it is not.
+
+    In practice: treat a **confirmed** gravel sector as a fact to plan around,
+    and an **inferred** one as worth checking against the event's own
+    information before you choose tyres.
+
+### Sectors you are warned about
+
+Where the road turns sharply worse — tarmac to mud, asphalt to loose gravel —
+the course lists that stretch above the segment table with its distance, and the
+written plan mentions it explicitly. **Short ones included.** A 130-metre sector
+is too short to pace to and too important to leave as a colour you might not
+look at.
+
+### Your route does not leave your server
+
+Classifying a surface means matching your route against map data, which needs
+the coordinates. That matching runs **on your own server**, against a routing
+container your server administrator set up and built map data for. Your route is
+not sent to a mapping company, an API, or anyone else — see
+[Your data & AI](../data-and-ai.md).
+
+### If your server does not have it
+
+Then course recon works exactly as described everywhere else on this page, and
+every course is solved as dry tarmac — which the written plan states plainly
+rather than leaving you to assume. Nothing is broken and nothing is missing a
+piece it promised you; the surface simply is not part of the answer.
+
+Surfaces are also worked out **after** your segment table appears, so uploading
+a course is no slower on a server that has them. And because your courses are
+kept, a server that switches this on later can classify the ones you uploaded
+before — no re-upload, just **Add surface data** on the course.
 
 ## Saved courses
 
@@ -151,6 +221,8 @@ deliberately — see [Your data & AI](../data-and-ai.md) for the full picture:
 - Courses, their segment tables and the original files are all in your **data
   export**, and all removed when you delete a course or your account.
 - The **coach is given the derived table, never the track**.
+- Working out road surfaces matches your route **on your own server**, against a
+  routing container it runs itself. The route goes nowhere else.
 
 !!! note "Requires AI to be available"
     The segment table and the pacing numbers need no AI at all — they are
