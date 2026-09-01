@@ -43,6 +43,12 @@ Valitse aihe alta.
     ja ennustetut väliajat omilla luvuillasi — sekä kirjallisen
     tahditussuunnitelman.
 
+- :material-garage-variant: **[Talli](garage.md)**
+
+    Omistamasi pyörät — kuinka pitkälle kukin on ajanut, mitä sille on tehty ja
+    mitä siihen on kiinnitetty. Ajot liittyvät itsestään lajin perusteella, ja
+    yhdellä klikkauksella korjaat väärälle pyörälle päätyneet.
+
 - :material-trophy: **[Saavutukset ja putket](achievements.md)**
 
     Ansaitse merkkejä virstanpylväistä — pitkistä lenkeistä, suurista nousuista,
