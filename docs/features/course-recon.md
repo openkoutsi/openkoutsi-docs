@@ -155,7 +155,7 @@ OpenStreetMap is a volunteer map, and how thoroughly roads are described varies
 enormously — dense across Germany and the Netherlands, thin across rural North
 America. Where somebody recorded a surface, openkoutsi says **confirmed**. Where
 nobody did, the class comes from the *type* of road instead, and openkoutsi says
-**inferred** and marks the row.
+**inferred**.
 
 !!! info "What “inferred” actually means"
     It means **openkoutsi could not confirm a surface tag for that stretch** —
@@ -169,6 +169,15 @@ nobody did, the class comes from the *type* of road instead, and openkoutsi says
     In practice: treat a **confirmed** gravel sector as a fact to plan around,
     and an **inferred** one as worth checking against the event's own
     information before you choose tyres.
+
+!!! note "Asphalt is never confirmed"
+    Smooth tarmac and a road nobody has described look **identical** to
+    openkoutsi — the map gives the same answer for both — so asphalt can only
+    ever come out inferred. Marking that on every asphalt row would repeat one
+    sentence hundreds of times and bury the rows where confidence tells you
+    something, so it is said once, under the surface summary, instead. The rows
+    that do carry an **inferred** mark are the ones worth your attention: a
+    rougher surface openkoutsi found but could not pin down.
 
 ### Sectors you are warned about
 
