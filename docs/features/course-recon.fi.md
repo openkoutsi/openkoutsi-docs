@@ -154,8 +154,7 @@ päivän muoto ja tien kunto ovat yksi kuva.
 OpenStreetMap on vapaaehtoisten kartta, ja se, kuinka tarkasti tiet on kuvattu,
 vaihtelee valtavasti — tiheästi Saksassa ja Alankomaissa, ohuesti Pohjois-Amerikan
 maaseudulla. Kun joku on kirjannut pinnan, openkoutsi sanoo **vahvistettu**. Kun
-kukaan ei ole, luokka tulee tien *tyypistä*, ja openkoutsi sanoo **arvio** ja
-merkitsee rivin.
+kukaan ei ole, luokka tulee tien *tyypistä*, ja openkoutsi sanoo **arvio**.
 
 !!! info "Mitä ”arvio” oikeasti tarkoittaa"
     Se tarkoittaa, että **openkoutsi ei pystynyt vahvistamaan pintamerkintää**
@@ -169,6 +168,16 @@ merkitsee rivin.
     Käytännössä: kohtele **vahvistettua** soraosuutta tosiasiana, jonka ympärille
     suunnittelet, ja **arviota** sellaisena, jonka kannattaa tarkistaa tapahtuman
     omista tiedoista ennen rengasvalintaa.
+
+!!! note "Asfalttia ei koskaan vahvisteta"
+    Sileä asfaltti ja tie, jota kukaan ei ole kuvaillut, näyttävät openkoutsille
+    **täsmälleen samalta** — kartta antaa molemmille saman vastauksen — joten
+    asfaltti voi tulla ulos vain arviona. Sen merkitseminen jokaiselle
+    asfalttiriville toistaisi yhtä lausetta satoja kertoja ja hautaisi alleen ne
+    rivit, joilla luotettavuus kertoo jotain, joten se sanotaan sen sijaan
+    kerran pintakoosteen alla. Ne rivit, joissa **arvio**-merkintä on, ovat
+    huomionarvoisia: karkeampi pinta, jonka openkoutsi löysi mutta jota se ei
+    pystynyt varmistamaan.
 
 ### Osuudet, joista sinua varoitetaan
 
