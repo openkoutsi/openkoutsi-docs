@@ -303,6 +303,13 @@ Riippumatta käyttämästäsi ominaisuudesta openkoutsi **ei** lähetä:
 - tallennettua **API-avaintasi** minnekään muualle kuin sille päätepisteelle, jota
   se todentaa (ja avaimet säilytetään **salattuina**)
 
+!!! note "Tienpinnat pysyvät myös palvelimellasi"
+    Jos palvelimesi luokittelee reitin alla olevan tienpinnan, sovitus tarvitsee
+    koordinaatit — ja se ajetaan reitityspalvelua vasten **omalla
+    palvelimellasi**, jonka sen ylläpitäjä on pystyttänyt. Reittiäsi ei lähetetä
+    karttayhtiölle eikä muullekaan ulkopuoliselle palvelulle. Yllä oleva lista
+    koskee sitä, mikä poistuu koneelta, eikä tämä poistu.
+
 !!! tip "Vapaan tekstin kentät"
     Ominaisuudet sisältävät *sinun* kirjoittamaasi vapaata tekstiä — aktiviteetin
     **muistiinpanot**, tavoitteiden **otsikot** ja ohjelmien **kuvaukset** — koska

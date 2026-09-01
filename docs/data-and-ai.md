@@ -294,6 +294,13 @@ Regardless of which feature you use, openkoutsi does **not** send:
 - your stored **API key** to anywhere other than the endpoint it authenticates
   against (and keys are held **encrypted** at rest)
 
+!!! note "Road surfaces stay on your server too"
+    If your server classifies the road surface under a course, that matching
+    needs the coordinates — and it runs against a routing container **on your
+    own server**, set up by whoever runs it. Your route is not sent to a mapping
+    company or any other outside service. The list above is about what leaves
+    the box, and this does not.
+
 !!! tip "Free-text fields"
     The features do include free text *you* wrote — activity **notes**, goal
     **titles**, and plan **descriptions** — because that context improves the
