@@ -84,6 +84,10 @@ Avaa mikä tahansa ajo ja vaihda pyörä **Pyörä**-kortista. Kortti kertoo my�
 - **Tunnistettu lajin perusteella** — openkoutsi liitti sen lajin perusteella.
 - **Valitsit tämän** — asetit sen itse.
 
+Valinta **Ei pyörää** on yhtä lailla valinta — vuokrapyörälle, lainatulle
+rungolle tai ajolle jota ei yksinkertaisesti tehty omalla pyörällä. Se pysyy
+samalla tavalla, ja pyörän lukemat pudottavat ajon heti.
+
 Tämä ero on koko pointti. Kun olet kerran valinnut pyörän käsin, **mikään ei
 palauta arvausta**: ei ajon uudelleenkäsittely, ei uusi synkronointi
 palveluntarjoajalta, ei aiempien ajojen liittäminen, ei se että muutat myöhemmin

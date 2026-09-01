@@ -81,6 +81,10 @@ the current bike got there:
 - **Matched by sport** — openkoutsi attached it from the ride type.
 - **You chose this** — you set it yourself.
 
+Setting it to **No bike** is a choice like any other — for a rental, a borrowed
+frame, or a ride that simply was not on one of yours. It sticks the same way, and
+the bike's totals drop the ride immediately.
+
 That distinction is the point. Once you have chosen a bike by hand, **nothing
 puts the guess back**: not reprocessing the ride, not a fresh sync from your
 provider, not attaching past rides, not changing what a bike claims later. Your
