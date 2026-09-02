@@ -42,6 +42,12 @@ below.
     table — power targets and predicted splits from your own numbers — plus a
     written pacing plan.
 
+- :material-garage-variant: **[Garage](garage.md)**
+
+    The bikes you own — how far each has gone, what has been done to it, and
+    what is fitted to it. Rides attach themselves by sport, and one click fixes
+    the ones that land on the wrong bike.
+
 - :material-trophy: **[Achievements & streaks](achievements.md)**
 
     Earn badges for milestones — long rides, big climbs, finished plans — and keep
