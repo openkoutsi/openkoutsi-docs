@@ -72,6 +72,34 @@ aerobic decoupling.
 A negative number means the second half was the *more* efficient one, which
 usually means you started conservatively and warmed into the ride.
 
+### Stops, and which part of the ride is measured
+
+Half of a ride is a strange thing to talk about once you have stopped in the
+middle of it. Stand around for an hour at lunch and your heart rate is back where
+it started; comparing what came before against what came after measures the
+lunch, not your durability.
+
+So the figure is taken over the **longest continuous block** of the ride:
+
+- **A short stop changes nothing.** Anything under ten minutes — a traffic light,
+  a puncture, a coffee — is ridden through. Your heart rate is back where it was
+  within a couple of minutes of rolling again, so the ride either side of it is
+  still one ride. A five-minute stop on a seven-hour ride is measured straight
+  across.
+- **A long stop divides the ride,** and the longest piece is the one measured.
+  The card then tells you how much of the ride the figure covers — "measured over
+  4h 12m of 7h 03m" — so a number over part of your day is never presented as the
+  whole of it.
+- **A stop is time with nothing recorded on it,** whichever way your head unit
+  writes it down: paused so that nothing at all is logged, or left running while
+  the power meter — which stops broadcasting when the cranks stop — goes quiet
+  and the strap keeps counting. Neither is a fault, and neither costs you the
+  figure any more.
+
+A heart-rate strap that drops out *while you are riding* is a different thing: the
+watts have no pulse to be paired against, and that still shows as recordings that
+don't line up.
+
 ### When openkoutsi won't show you a number
 
 A decoupling figure computed over a hard interval session is noise, and
@@ -82,10 +110,11 @@ it is missing:
 | Reason shown | What it means |
 |---|---|
 | The ride was too short | Decoupling needs roughly an hour of steady riding. |
+| Stops broke the ride up | The ride was long enough, but no continuous stretch of it lasted the hour the measurement needs — stop-start riding with long breaks in it. |
 | No power data | Both power and heart rate are required. |
 | No heart-rate data | As above. |
 | The heart-rate data is unusable | A flat trace, for example. |
-| The recordings don't line up | Power and heart rate have to be compared moment for moment; a long dropout on one of them makes that unreliable. |
+| The recordings don't line up | Power and heart rate have to be compared moment for moment; a heart-rate strap dropping out repeatedly while you ride makes that unreliable. |
 | This was an interval session | The measurement would describe the intervals, not your durability. |
 | The two halves were ridden differently | A ramp or a negative split produces a big number that reflects your pacing, not your durability. |
 
@@ -137,6 +166,15 @@ every activity already has, so they show up on your whole history immediately.
 Aerobic decoupling and W′ balance are derived from the per-second data streams
 when an activity is processed. Rides that were uploaded before this feature
 existed pick them up when you **reprocess** the activity from its detail page.
+
+!!! note "A reprocess re-reads the recording, it does not re-make it"
+    Reprocessing recomputes from the streams the activity was stored with, so a
+    ride keeps the recording it arrived with. Rides uploaded before openkoutsi
+    put every stream on a shared clock — where a dropout leaves a marked hole
+    rather than silently shortening the channel — keep the older shape, and on
+    those a long strap dropout genuinely does leave power and heart rate out of
+    step. **Upload the ride again** (or re-sync it from your provider) if you
+    want it read on the shared clock.
 
 ## What the AI coach sees
 

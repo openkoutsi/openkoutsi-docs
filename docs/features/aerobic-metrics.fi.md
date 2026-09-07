@@ -72,6 +72,30 @@ erkaantuma.
 Negatiivinen luku tarkoittaa, että toinen puolisko oli *tehokkaampi*, mikä
 yleensä kertoo varovaisesta aloituksesta ja lenkkiin lämpiämisestä.
 
+### Tauot ja se, mikä osa lenkistä mitataan
+
+Lenkin puolisko on omituinen käsite sen jälkeen, kun sen keskellä on pysähdytty
+pitkäksi aikaa. Seiso tunti lounaalla, ja syke on palannut lähtötasolleen: sitä
+edeltävän ja sitä seuraavan vertaaminen mittaa lounaan, ei kestävyyttäsi.
+
+Siksi luku lasketaan lenkin **pisimmästä yhtenäisestä jaksosta**:
+
+- **Lyhyt tauko ei muuta mitään.** Alle kymmenen minuutin pysähdys — liikennevalot,
+  rengasrikko, kahvi — ajetaan mittauksessa läpi. Syke on takaisin entisellään
+  parissa minuutissa liikkeelle lähdöstä, joten tauon molemmat puolet ovat yhä
+  samaa lenkkiä. Seitsemän tunnin lenkin viiden minuutin tauko mitataan suoraan yli.
+- **Pitkä tauko jakaa lenkin,** ja pisin osa on se, joka mitataan. Kortti kertoo
+  silloin, kuinka suuren osan lenkistä luku kattaa — "mitattu 4 t 12 min / 7 t 03
+  min" — jottei osaa päivästä koskaan esitetä koko päivänä.
+- **Tauko on aikaa, jolta ei ole tallennettu mitään,** kirjoitti mittari sen
+  kummin päin tahansa: pysäytettynä niin ettei riviä synny lainkaan, tai käynnissä
+  niin että tehomittari — joka lopettaa lähettämisen kampien pysähtyessä — vaikenee
+  ja sykevyö jatkaa laskemistaan. Kumpikaan ei ole vika, eikä kumpikaan enää maksa
+  sinulle lukua.
+
+Ajon aikana pätkivä sykevyö on eri asia: watteja ei ole mihin pulssiin verrata, ja
+se näkyy edelleen rekisteröinteinä, jotka eivät osu yhteen.
+
 ### Milloin openkoutsi ei näytä lukua
 
 Kovan intervalliharjoituksen yli laskettu erkaantumaluku on kohinaa, ja kohinan
@@ -82,10 +106,11 @@ kortti kertoo, miksi se puuttuu:
 | Näytetty syy | Mitä se tarkoittaa |
 |---|---|
 | Lenkki oli liian lyhyt | Erkaantuma vaatii noin tunnin tasaista ajoa. |
+| Tauot pilkkoivat lenkin | Lenkki oli kyllä riittävän pitkä, mutta yksikään yhtenäinen jakso ei kestänyt mittaukseen tarvittavaa tuntia. |
 | Ei tehodataa | Sekä teho että syke vaaditaan. |
 | Ei sykedataa | Kuten yllä. |
 | Sykedata ei ole käyttökelpoista | Esimerkiksi tasainen käyrä. |
-| Rekisteröinnit eivät osu yhteen | Tehoa ja sykettä on verrattava hetki hetkeltä; pitkä katkos toisessa tekee siitä epäluotettavaa. |
+| Rekisteröinnit eivät osu yhteen | Tehoa ja sykettä on verrattava hetki hetkeltä; ajon aikana toistuvasti pätkivä sykevyö tekee siitä epäluotettavaa. |
 | Tämä oli intervalliharjoitus | Mittaus kuvaisi intervalleja, ei kestävyyttäsi. |
 | Puoliskot ajettiin eri tavalla | Nouseva veto tai negatiivinen split tuottaa ison luvun, joka kuvaa vetoasi eikä kestävyyttäsi. |
 
@@ -140,6 +165,16 @@ Aerobinen erkaantuma ja W′-tase johdetaan sekuntikohtaisista aikasarjoista
 aktiviteetin käsittelyn yhteydessä. Lenkit, jotka ladattiin ennen tämän
 ominaisuuden olemassaoloa, saavat ne, kun **käsittelet aktiviteetin uudelleen**
 sen tarkempien tietojen sivulta.
+
+!!! note "Uudelleenkäsittely lukee tallenteen uudelleen, ei tee sitä uusiksi"
+    Uudelleenkäsittely laskee luvut niistä aikasarjoista, joiden kanssa
+    aktiviteetti tallennettiin, joten lenkki säilyttää sen tallenteen, jonka
+    mukana se saapui. Lenkit, jotka ladattiin ennen kuin openkoutsi asetti
+    kaikki aikasarjat yhteiselle kellolle — jolloin katkos jättää merkityn aukon
+    sen sijaan, että se hiljaisesti lyhentäisi kanavaa — säilyttävät vanhan
+    muodon, ja niissä pitkä sykevyön katkos todella jättää tehon ja sykkeen eri
+    tahtiin. **Lataa lenkki uudelleen** (tai synkronoi se uudelleen
+    palveluntarjoajaltasi), jos haluat sen luettavan yhteiseltä kellolta.
 
 ## Mitä tekoälyvalmentaja näkee
 
