@@ -47,6 +47,22 @@ sent it** — a GPX stays a GPX. The download button on an activity gives it bac
 in its own format, and it is the file openkoutsi re-reads if you reprocess the
 activity later.
 
+## Average speed
+
+An activity's summary shows its **average speed**, next to distance and duration.
+
+openkoutsi shows the speed your recording carried — the average of the device's
+own speed readings, which is the figure your head unit displayed and the one
+Strava and Wahoo report for the same ride. For a workout you logged by hand, or a
+file that carried no speed readings at all, the speed is worked out from distance
+and elapsed time instead.
+
+!!! note "Why the two figures can differ"
+    A ride with stops in it — traffic lights, a café, waiting at a junction — has a
+    lower average once the stopped time counts towards it. That is why openkoutsi
+    prefers the recorded figure wherever there is one, rather than recomputing it
+    and quietly disagreeing with your head unit.
+
 ## Adding activities manually
 
 Not every workout comes from a device. When you train without a head unit — or want
