@@ -51,6 +51,23 @@ sellaisena kuin sen lähetit** — GPX pysyy GPX:nä. Harjoituksen latauspainike
 antaa sen takaisin omassa muodossaan, ja se on sama tiedosto, jonka openkoutsi
 lukee uudelleen, jos käsittelet harjoituksen myöhemmin uudestaan.
 
+## Keskinopeus
+
+Harjoituksen yhteenvedossa näkyy **keskinopeus** matkan ja keston vieressä.
+
+openkoutsi näyttää sen nopeuden, jonka tallenne itse sisälsi — laitteen omien
+nopeuslukemien keskiarvon. Se on sama luku, jonka pyörätietokoneesi näytti ja
+jonka Strava ja Wahoo raportoivat samasta lenkistä. Käsin kirjatussa
+harjoituksessa — tai tiedostossa, jossa ei ollut lainkaan nopeuslukemia — nopeus
+lasketaan matkasta ja kokonaisajasta.
+
+!!! note "Miksi luvut voivat poiketa toisistaan"
+    Lenkki, jossa on pysähdyksiä — liikennevaloja, kahvitauko, odottelua
+    risteyksessä — saa matalamman keskiarvon, kun pysähdyksiin kulunut aika
+    lasketaan mukaan. Siksi openkoutsi käyttää ensisijaisesti tallennettua lukua
+    aina kun sellainen on, eikä laske omaansa, joka olisi eri kuin
+    pyörätietokoneesi näyttämä.
+
 ## Aktiviteettien lisääminen käsin
 
 Kaikki harjoitukset eivät tule laitteelta. Kun harjoittelet ilman pyörätietokonetta
