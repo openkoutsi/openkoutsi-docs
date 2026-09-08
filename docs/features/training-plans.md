@@ -61,6 +61,37 @@ Plans are not fixed once created. You can:
     Workouts you have already done are locked from editing and are preserved when
     you regenerate a plan.
 
+## When a plan finishes
+
+A plan closes itself once its last day has passed — you don't have to do
+anything. It moves out of your current plans and into **Completed plans** at the
+bottom of the plan page, showing the date it finished and the adherence score it
+ended on. Open it to look back over the calendar of the block you just did.
+
+The switch happens on your own calendar day, so a plan that ends on a Sunday
+closes when that Sunday is over where you are.
+
+A finished plan is not put away. It still counts:
+
+- an activity you upload later — a delayed sync, or a head unit you empty at the
+  weekend — is still matched to the planned workout it completes, as long as it
+  falls inside the plan's dates
+- its adherence chart is still there, and still updates if you link an activity
+  to one of its sessions after the fact
+- the AI coach can still see it, so you can ask how the block you just finished
+  went
+
+!!! tip "Not finished after all?"
+    **Reopen** puts a completed plan back at the top of the page as a plan you're
+    following, and it stays there. If you want the plan to actually run for
+    longer, edit its length or start date instead — it will then finish again on
+    its new end date.
+
+**Archiving** is different, and still yours to do by hand: it files a plan away
+whether or not it ran its course. Creating a new plan that overlaps an existing
+one archives the old one for you. Archived plans are listed separately and are
+left out of matching, charts, and what the coach sees.
+
 ## The training calendar
 
 Your dashboard calendar shows both **performed** and **planned** workouts with

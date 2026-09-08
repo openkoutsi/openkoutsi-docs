@@ -63,6 +63,37 @@ Ohjelmat eivät ole kiinteitä luomisen jälkeen. Voit:
     Jo suorittamasi harjoitukset on lukittu muokkaamiselta ja ne säilytetään, kun
     luot ohjelman uudelleen.
 
+## Kun ohjelma päättyy
+
+Ohjelma sulkeutuu itsestään, kun sen viimeinen päivä on ohi — sinun ei tarvitse
+tehdä mitään. Se siirtyy pois käynnissä olevista ohjelmista **Valmiit ohjelmat**
+-listaan ohjelmasivun alaosaan, ja siinä näkyy päättymispäivä sekä lopulliset
+toteutumapisteet. Avaa se, niin näet juuri tehdyn jakson kalenterin.
+
+Vaihto tapahtuu oman kalenteripäiväsi mukaan, joten sunnuntaihin päättyvä ohjelma
+sulkeutuu, kun sunnuntai on ohi siellä missä sinä olet.
+
+Valmis ohjelma ei ole arkistoitu. Se on yhä mukana:
+
+- myöhemmin lataamasi aktiviteetti — viivästynyt synkronointi tai viikonloppuna
+  tyhjennetty ajotietokone — yhdistetään edelleen siihen suunniteltuun
+  harjoitukseen, jonka se täyttää, kunhan se osuu ohjelman päiville
+- sen toteutumakaavio säilyy ja päivittyy yhä, jos linkität aktiviteetin johonkin
+  sen harjoituksista jälkikäteen
+- tekoälyvalmennus näkee sen edelleen, joten voit kysyä, miten juuri päättynyt
+  jakso meni
+
+!!! tip "Eikö ohjelma ollutkaan valmis?"
+    **Avaa uudelleen** palauttaa valmiin ohjelman sivun yläosaan seurattavaksi
+    ohjelmaksi, ja se pysyy siellä. Jos haluat ohjelman todella jatkuvan
+    pidempään, muokkaa sen pituutta tai alkupäivää — silloin se päättyy uudelleen
+    uuden päättymispäivänsä kohdalla.
+
+**Arkistointi** on eri asia ja edelleen sinun tehtävissäsi: se siirtää ohjelman
+syrjään riippumatta siitä, ehtikö se päättyä. Uuden ohjelman luominen samoille
+päiville arkistoi vanhan puolestasi. Arkistoidut ohjelmat listataan erikseen,
+eivätkä ne ole mukana yhdistämisessä, kaavioissa tai siinä mitä valmennus näkee.
+
 ## Harjoituskalenteri
 
 Kojelautasi kalenteri näyttää sekä **suoritetut** että **suunnitellut**
