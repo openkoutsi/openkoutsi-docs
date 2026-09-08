@@ -115,7 +115,7 @@ it is missing:
 | No heart-rate data | As above. |
 | The heart-rate data is unusable | A flat trace, for example. |
 | The recordings don't line up | Power and heart rate have to be compared moment for moment; a heart-rate strap dropping out repeatedly while you ride makes that unreliable. |
-| This was an interval session | The measurement would describe the intervals, not your durability. |
+| This was an interval session | The measurement would describe the intervals, not your durability. Judged on variability index together with how hard the ride was and how long it lasted — nobody rides intervals for three hours — so a long ride made variable by descents, junctions and stops still gets its figure. |
 | The two halves were ridden differently | A ramp or a negative split produces a big number that reflects your pacing, not your durability. |
 
 !!! warning "Heart-rate drift is not purely a fitness signal"
