@@ -111,7 +111,7 @@ kortti kertoo, miksi se puuttuu:
 | Ei sykedataa | Kuten yllä. |
 | Sykedata ei ole käyttökelpoista | Esimerkiksi tasainen käyrä. |
 | Rekisteröinnit eivät osu yhteen | Tehoa ja sykettä on verrattava hetki hetkeltä; ajon aikana toistuvasti pätkivä sykevyö tekee siitä epäluotettavaa. |
-| Tämä oli intervalliharjoitus | Mittaus kuvaisi intervalleja, ei kestävyyttäsi. Arvioidaan vaihtelukertoimen *ja* lenkin kokonaiskovuuden perusteella, joten pitkä lenkki, jonka laskut, risteykset ja tauot tekevät vaihtelevaksi, saa silti lukunsa. |
+| Tämä oli intervalliharjoitus | Mittaus kuvaisi intervalleja, ei kestävyyttäsi. Arvioidaan vaihtelukertoimen sekä lenkin kokonaiskovuuden ja keston perusteella — kukaan ei aja intervalleja neljää tuntia — joten pitkä lenkki, jonka laskut, risteykset ja tauot tekevät vaihtelevaksi, saa silti lukunsa. |
 | Puoliskot ajettiin eri tavalla | Nouseva veto tai negatiivinen split tuottaa ison luvun, joka kuvaa vetoasi eikä kestävyyttäsi. |
 
 !!! warning "Sykkeen nousu ei ole pelkkä kuntosignaali"
