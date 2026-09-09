@@ -229,6 +229,17 @@ sisään automaattisesti:
 2. Yhdistä ("valtuuta") Strava asetuksistasi.
 3. openkoutsi tuo viimeaikaisen historiasi ja pysyy ajan tasalla lenkkeillessäsi.
 
+!!! info "Jos suuri tuonti pysähtyy kesken"
+    Strava ja Wahoo rajoittavat sitä, kuinka monta pyyntöä sovellus saa tehdä, ja
+    tämä budjetti on yhteinen kaikille instanssisi käyttäjille. Kun tuonti törmää
+    rajaan, se pysähtyy sen sijaan että toisi lenkkejä ilman teho-, syke- ja
+    poljinnopeustietoja. Mitään ei katoa eikä sinun tarvitse tehdä mitään:
+    seuraava synkronointi jatkaa siitä mihin edellinen jäi, ja vaillinaisina
+    saapuneet lenkit täydennetään.
+
+    Synkronoinnin painaminen heti uudelleen ei auta — yksi tuonti kerrallaan
+    palvelua kohti, ja toinen pyyntö kesken tuonnin ohitetaan.
+
 ## Synkronointi Wahoosta
 
 Wahoon yhdistäminen toimii samalla tavalla ja mahdollistaa myös **strukturoitujen
