@@ -219,6 +219,16 @@ automatically:
 2. From your settings, connect ("authorise") Strava.
 3. openkoutsi imports your recent history and keeps up to date as you ride.
 
+!!! info "If a big import stops partway"
+    Strava and Wahoo cap how many requests an app may make, and that budget is
+    shared by everyone on your instance. When an import runs into the cap it
+    stops rather than importing rides without their power, heart-rate and cadence
+    data. Nothing is lost and there is nothing to do: the next sync carries on
+    from where it stopped, and rides that arrived incomplete are filled in.
+
+    Pressing sync again straight away does not help — one import runs at a time
+    per provider, and a second request while one is in progress is ignored.
+
 ## Syncing from Wahoo
 
 Connecting Wahoo works the same way and also enables **pushing structured
