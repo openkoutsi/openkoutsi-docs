@@ -219,15 +219,55 @@ automatically:
 2. From your settings, connect ("authorise") Strava.
 3. openkoutsi imports your recent history and keeps up to date as you ride.
 
-!!! info "If a big import stops partway"
-    Strava and Wahoo cap how many requests an app may make, and that budget is
-    shared by everyone on your instance. When an import runs into the cap it
-    stops rather than importing rides without their power, heart-rate and cadence
-    data. Nothing is lost and there is nothing to do: the next sync carries on
-    from where it stopped, and rides that arrived incomplete are filled in.
+## Knowing whether your import finished
 
-    Pressing sync again straight away does not help — one import runs at a time
-    per provider, and a second request while one is in progress is ignored.
+Bringing a decade of riding across takes a while, and it does not always get
+through in one go. Your **profile** page shows, under each connected service,
+what the last import did — so you never have to guess whether an activity list
+that stopped growing is finished or stuck.
+
+| What it says | What it means |
+|---|---|
+| *Importing your history…* | A sync is running right now. Leave it be; it updates on its own |
+| *Import finished* | It reached the end of your history. Nothing is waiting |
+| An amber line | It stopped before the end. It says why, what it did manage to bring in, and how far back it reached |
+
+When you see the amber line, **press Sync now** to carry on. The import picks up
+where it stopped rather than starting over, so each run gets further back through
+your history than the last.
+
+!!! info "Why an import stops partway"
+    Four things can end one early, and the line on your profile names which:
+
+    - **Strava or Wahoo rate-limited us.** They cap how many requests the app may
+      make, and that budget is shared by everyone on your instance. Rather than
+      import rides without their power, heart-rate and cadence data, the import
+      stops. This is the common one, and waiting an hour before pressing Sync
+      again is usually all it takes.
+    - **The service stopped sending activity data.** Usually a provider having a
+      bad afternoon.
+    - **The import hit its own safety limit** — a guard against an implausibly
+      long walk through your history.
+    - **Another import took over.** One runs at a time per service.
+
+    Nothing is ever lost to a stop: rides that arrived incomplete are filled in by
+    a later sync, and a ride the import was thrown out in the middle of is not
+    kept half-finished.
+
+!!! tip "If it keeps stopping in the same way"
+    The line tells you when the same thing has happened several runs in a row.
+    One stop is a busy afternoon; three in a row usually means your history is
+    longer than the request budget your instance has in one sitting — keep
+    pressing Sync every so often and it will work its way back — or something your
+    administrator should look at. Show them the line: it says exactly what
+    happened.
+
+!!! note "Imports are paced on purpose"
+    A big import is deliberately slowed down so it does not make the rest of
+    openkoutsi sluggish while it runs. That makes a first full import take longer
+    in real time than it otherwise would; your administrator can change the pace
+    if they would rather it finish sooner. Rides already imported are skipped at
+    full speed, so resuming a stopped import is not slowed by this.
 
 ## Syncing from Wahoo
 

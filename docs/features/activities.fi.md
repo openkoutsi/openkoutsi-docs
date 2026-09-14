@@ -229,16 +229,56 @@ sisään automaattisesti:
 2. Yhdistä ("valtuuta") Strava asetuksistasi.
 3. openkoutsi tuo viimeaikaisen historiasi ja pysyy ajan tasalla lenkkeillessäsi.
 
-!!! info "Jos suuri tuonti pysähtyy kesken"
-    Strava ja Wahoo rajoittavat sitä, kuinka monta pyyntöä sovellus saa tehdä, ja
-    tämä budjetti on yhteinen kaikille instanssisi käyttäjille. Kun tuonti törmää
-    rajaan, se pysähtyy sen sijaan että toisi lenkkejä ilman teho-, syke- ja
-    poljinnopeustietoja. Mitään ei katoa eikä sinun tarvitse tehdä mitään:
-    seuraava synkronointi jatkaa siitä mihin edellinen jäi, ja vaillinaisina
-    saapuneet lenkit täydennetään.
+## Mistä tiedät, ehtikö tuonti loppuun
 
-    Synkronoinnin painaminen heti uudelleen ei auta — yksi tuonti kerrallaan
-    palvelua kohti, ja toinen pyyntö kesken tuonnin ohitetaan.
+Vuosikymmenen lenkkien siirtäminen kestää, eikä se aina mene läpi yhdellä
+kertaa. **Profiili**-sivusi näyttää jokaisen yhdistetyn palvelun kohdalla, mitä
+viimeisin tuonti teki — niin sinun ei tarvitse arvailla, onko kasvamasta
+lakannut aktiviteettilista valmis vai jumissa.
+
+| Mitä siinä lukee | Mitä se tarkoittaa |
+|---|---|
+| *Tuodaan historiaasi…* | Synkronointi on käynnissä juuri nyt. Anna sen olla; se päivittyy itsestään |
+| *Tuonti valmis* | Se pääsi historiasi loppuun. Mitään ei jäänyt odottamaan |
+| Keltainen rivi | Se pysähtyi ennen loppua. Rivi kertoo miksi, mitä se ehti tuoda ja kuinka kauas taaksepäin se pääsi |
+
+Kun näet keltaisen rivin, **paina Synkronoi nyt** jatkaaksesi. Tuonti jatkaa
+siitä mihin se jäi eikä aloita alusta, joten jokainen ajo pääsee historiassasi
+edellistä kauemmas.
+
+!!! info "Miksi tuonti pysähtyy kesken"
+    Neljä asiaa voi päättää tuonnin ennenaikaisesti, ja profiilisi rivi kertoo,
+    mikä niistä:
+
+    - **Strava tai Wahoo rajoitti pyyntöjämme.** Ne rajoittavat sitä, kuinka
+      monta pyyntöä sovellus saa tehdä, ja budjetti on yhteinen kaikille
+      instanssisi käyttäjille. Sen sijaan että tuotaisiin lenkkejä ilman teho-,
+      syke- ja poljinnopeustietoja, tuonti pysähtyy. Tämä on yleisin syy, ja
+      yleensä riittää odottaa tunti ennen kuin painaa Synkronoi uudelleen.
+    - **Palvelu lakkasi lähettämästä harjoitusdataa.** Yleensä palvelulla on
+      huono päivä.
+    - **Tuonti osui omaan turvarajaansa** — suojaan epäuskottavan pitkää
+      historian läpikäyntiä vastaan.
+    - **Toinen tuonti otti vuoron.** Yksi tuonti kerrallaan palvelua kohti.
+
+    Mitään ei katoa pysähdykseen: vaillinaisina saapuneet lenkit täydennetään
+    myöhemmässä synkronoinnissa, eikä lenkkiä, jonka keskellä tuonti keskeytyi,
+    jätetä puolivalmiiksi.
+
+!!! tip "Jos se pysähtyy aina samalla tavalla"
+    Rivi kertoo, kun sama asia on toistunut useana ajona peräkkäin. Yksi
+    pysähdys on kiireinen iltapäivä; kolme peräkkäin tarkoittaa yleensä, että
+    historiasi on pidempi kuin instanssisi pyyntöbudjetti yhdellä istumalla —
+    paina Synkronoi silloin tällöin, niin se etenee vähitellen — tai jotain,
+    mitä ylläpitäjäsi kannattaa katsoa. Näytä hänelle rivi: siinä lukee
+    täsmälleen mitä tapahtui.
+
+!!! note "Tuonteja hidastetaan tarkoituksella"
+    Suurta tuontia hidastetaan tarkoituksella, jottei openkoutsi muuttuisi
+    kankeaksi sen ajaksi. Siksi ensimmäinen täysi tuonti kestää oikeassa ajassa
+    pidempään kuin muuten; ylläpitäjäsi voi muuttaa tahtia, jos haluaa sen
+    valmistuvan nopeammin. Jo tuodut lenkit ohitetaan täydellä nopeudella, joten
+    tämä ei hidasta pysähtyneen tuonnin jatkamista.
 
 ## Synkronointi Wahoosta
 
