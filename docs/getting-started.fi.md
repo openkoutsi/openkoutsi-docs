@@ -52,6 +52,17 @@ Tilin hankkiminen riippuu siitä, miten instanssi on määritetty.
 Jos et näe rekisteröitymisvaihtoehtoa, instanssi toimii vain kutsusta — pyydä
 ylläpitäjältä kutsu.
 
+!!! info ""Rekisteröinti on tauolla""
+    Ylläpitäjä voi keskeyttää uudet rekisteröitymiset hetkeksi — yleensä siksi,
+    että palvelin on kuormittunut tai instanssi on saavuttanut rajan jossakin
+    palvelussa, josta se synkronoi. Rekisteröitymissivu kertoo tästä ja näyttää
+    ylläpitäjän mahdollisesti kirjoittaman syyn.
+
+    Tauko on tilapäinen, joten kokeile myöhemmin uudelleen. **Kutsut toimivat
+    koko ajan**, joten jos tunnet ylläpitäjän, kutsua pyytämällä pääset sisään
+    odottamatta. Ja jos olit jo rekisteröitynyt ja sinulla on vahvistusviesti
+    odottamassa, linkki toimii yhä — avaa se tavalliseen tapaan.
+
 Kun tilisi on olemassa, kirjaudut sisään instanssin kirjautumissivulta.
 Harjoitusdatasi on kokonaan omaasi — jokaisella käyttäjällä on **yksityinen
 tietokanta**, eikä kukaan muu (ei edes ylläpitäjä) näe aktiviteettejasi tai

@@ -51,6 +51,16 @@ How you get an account depends on how the instance is configured.
 If you don't see a sign-up option, the instance is invite-only — ask an
 administrator for an invitation.
 
+!!! info ""Sign-ups are paused""
+    An administrator can pause new sign-ups for a while — usually because the
+    server is busy or the instance has hit a limit with a service it syncs from.
+    The sign-up page says so, along with any reason the administrator wrote.
+
+    It's temporary, so try again later. **Invitations still work throughout**, so
+    if you know an administrator, asking for one gets you in without waiting. And
+    if you had already signed up and have a verification email waiting, that link
+    still works — open it as usual.
+
 Once your account exists, you log in from the instance's login page. Your training
 data is entirely your own — each user has a **private database**, and no one else
 (not even an administrator) sees your activities or plans.
