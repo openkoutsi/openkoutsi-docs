@@ -38,6 +38,10 @@ your email address, and open the verification link we email you to activate your
 account. If there's no sign-up option, ask an administrator for an invitation. See
 [Getting started](getting-started.md).
 
+If the page says sign-ups are **paused**, that's temporary — the instance has
+stopped taking new accounts for the moment. Invitations still work, so an
+administrator can let you in without waiting.
+
 ### I forgot my password.
 
 On the login page, click **Forgot password?**. If the instance has email set up,

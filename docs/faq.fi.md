@@ -39,6 +39,10 @@ sähköpostiosoitteellasi ja avaa sähköpostiisi lähetetty vahvistuslinkki
 aktivoidaksesi tilisi. Jos rekisteröitymisvaihtoehtoa ei ole, pyydä ylläpitäjältä
 kutsu. Katso [Aloittaminen](getting-started.md).
 
+Jos sivu kertoo rekisteröinnin olevan **tauolla**, tauko on tilapäinen —
+instanssi ei ota juuri nyt vastaan uusia tilejä. Kutsut toimivat yhä, joten
+ylläpitäjä voi päästää sinut sisään odottamatta.
+
 ### Unohdin salasanani.
 
 Napsauta kirjautumissivulla **Unohditko salasanan?**. Jos instanssissa on
