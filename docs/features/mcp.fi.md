@@ -14,6 +14,13 @@ todellisen datasi pohjalta.
     tai poistaa mitään, ei muuttaa profiiliasi eikä nähdä toisen käyttäjän
     harjoittelua — ei edes silloin, kun ylläpidät instanssia itse.
 
+    Tämä pätee edelleen, vaikka openkoutsin sisäinen Koutsi voi nyt ehdottaa
+    sinulle harjoitusohjelmaa (katso [Kysy Koutsilta](chat.md)). Se ehdotus on
+    kortti, jonka hyväksyt openkoutsin omassa käyttöliittymässä, joten se on
+    olemassa vain siellä; ulkopuoliselle avustajalle kysymystä ei tarjota
+    lainkaan, ja sen pyytäminen nimeltä saa saman vastauksen kuin sellaisen
+    pyytäminen jota ei ole olemassa.
+
 ## Mitä avustaja voi kysyä
 
 Kymmenen kysymystä, jotka on tarkoituksella muotoiltu sellaisiksi, joita valmentaja

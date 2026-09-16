@@ -247,6 +247,29 @@ There is no question that returns your raw ride files, your location data, or
 anything belonging to another user — those are not on the list, so they cannot
 be asked for.
 
+In [Ask Koutsi](features/chat.md) — and only there — the list has two more
+entries, and they are the only ones that are not purely a question:
+
+| Koutsi can also | And what happens |
+|---|---|
+| Draft a training plan for you | A plan is **written and shown to you** as something to accept or decline |
+| Draft a change to a plan | The same, for one plan or one planned session |
+
+Neither of them changes your training. They write a *draft*, which sits waiting
+for your **Yes** — and your click is what applies it. Koutsi cannot press that
+button, and there is no other route by which it or the model behind it can reach
+your plans. See [Koutsi offers; you decide](features/chat.md#koutsi-offers-you-decide).
+
+!!! info "A drafted plan is a second AI call"
+    Writing the weeks is a proper plan generation, not a summary — so asking
+    Koutsi for a plan costs what generating one from the plan page costs, and it
+    is counted the same way, under **plan generation** rather than under chat.
+    Your daily question limit counts *questions*, so a question that drafts a
+    plan still counts as one question while costing more than one call.
+
+    If the model cannot be reached for that part, openkoutsi's own planner writes
+    the weeks instead and the card tells you so.
+
 !!! tip "You will see what it is doing"
     While Koutsi is gathering, the card tells you which question it is on —
     *"Koutsi is checking your power curve…"* — rather than showing a bare

@@ -49,6 +49,34 @@ training before the next block.
     scheduled back-to-back and caps how many land in a week, easing any extras to
     tempo. Each day's description matches its actual duration and target Load.
 
+### Asking Koutsi for one
+
+You can also just ask. In [Ask Koutsi](chat.md), *"could you build me eight weeks
+for a hilly gran fondo in October?"* gets you a drafted plan shown as a card with
+**Yes** and **No** under Koutsi's reply — and nothing at all happens to your
+training until you press **Yes**.
+
+It is the same generator the form above uses, with the same AI model behind it,
+so the plan you approve is the plan you get. The difference is only how you asked
+for it: the form is where you set every parameter yourself, and Koutsi is where
+you describe the event and let it choose them from what it knows about your
+training.
+
+!!! warning "Accepting archives an overlapping plan"
+    Creating a plan — from the form or from a card — **archives any plan you are
+    currently following whose dates overlap it**. That is not new behaviour, but
+    the card says so before you click, naming the plans it would file away.
+    Nothing is lost: you can unarchive a plan from this page at any time.
+
+Koutsi can also draft a change to a plan you already have: moving its start date,
+renaming it, changing its length or goal, archiving or reopening it, or editing a
+single planned session — including marking one skipped, with a reason. Each of
+those arrives the same way, as something to approve.
+
+An offer stands for 24 hours. If your plans have moved on in the meantime —
+another plan created, the start date now in the past, the session already done —
+accepting is refused rather than applied, and you ask Koutsi for a fresh draft.
+
 ## Editing a plan
 
 Plans are not fixed once created. You can:

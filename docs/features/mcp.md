@@ -13,6 +13,12 @@ from your real data.
     upload, edit or delete anything, cannot change your profile, and cannot see
     another user's training — not even if you administer the instance.
 
+    This stays true even though Koutsi inside openkoutsi can now offer to build
+    you a training plan (see [Ask Koutsi](chat.md)). That offer is a card you
+    accept in openkoutsi's own interface, so it exists only there; an outside
+    assistant is not offered the question at all, and asking for it by name gets
+    the same answer as asking for something that does not exist.
+
 ## What the assistant can ask for
 
 Ten questions, deliberately shaped like the things a coach actually wants to

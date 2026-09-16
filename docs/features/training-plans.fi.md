@@ -50,6 +50,36 @@ jotta keho ehtii sopeutua harjoitteluun ennen seuraavaa jaksoa.
     peräkkäisiksi ja rajoittaa niiden määrää viikossa keventäen ylimääräiset
     tempoksi. Kunkin päivän kuvaus vastaa sen todellista kestoa ja tavoitekuormaa.
 
+### Ohjelman pyytäminen Koutsilta
+
+Voit myös vain kysyä. [Kysy Koutsilta](chat.md) -sivulla *"voisitko tehdä minulle
+kahdeksan viikkoa lokakuun mäkiseen gran fondoon?"* tuottaa luonnostellun ohjelman,
+joka näytetään korttina **Kyllä**- ja **Ei**-painikkeineen Koutsin vastauksen alla
+— eikä harjoittelullesi tapahdu yhtään mitään ennen kuin painat **Kyllä**.
+
+Kyseessä on sama generaattori kuin yllä olevassa lomakkeessa ja sama tekoälymalli
+sen takana, joten hyväksymäsi ohjelma on se ohjelma jonka saat. Ero on vain siinä,
+miten sitä pyydettiin: lomakkeessa asetat jokaisen parametrin itse, ja Koutsilta
+kuvailet tapahtuman ja annat sen valita parametrit harjoittelustasi tietämänsä
+perusteella.
+
+!!! warning "Hyväksyminen arkistoi päällekkäisen ohjelman"
+    Ohjelman luominen — lomakkeesta tai kortista — **arkistoi seuraamasi ohjelmat,
+    joiden ajanjakso menee sen kanssa päällekkäin**. Tämä ei ole uutta toimintaa,
+    mutta kortti kertoo siitä ennen kuin klikkaat ja nimeää arkistoitavat ohjelmat.
+    Mitään ei menetetä: voit palauttaa ohjelman arkistosta tältä sivulta milloin
+    tahansa.
+
+Koutsi voi myös luonnostella muutoksen olemassa olevaan ohjelmaan: aloituspäivän
+siirtämisen, nimen vaihdon, keston tai tavoitteen muuttamisen, arkistoinnin tai
+uudelleenavaamisen, tai yksittäisen suunnitellun harjoituksen muokkaamisen —
+mukaan lukien sen merkitsemisen väliin jätetyksi perusteluineen. Jokainen näistä
+saapuu samalla tavalla, hyväksyttäväksi.
+
+Tarjous on voimassa 24 tuntia. Jos ohjelmasi ovat sillä välin muuttuneet — toinen
+ohjelma luotu, aloituspäivä jo mennyt, harjoitus jo tehty — hyväksyminen hylätään
+sen sijaan että se toteutettaisiin, ja pyydät Koutsilta uuden luonnoksen.
+
 ## Ohjelman muokkaaminen
 
 Ohjelmat eivät ole kiinteitä luomisen jälkeen. Voit:
