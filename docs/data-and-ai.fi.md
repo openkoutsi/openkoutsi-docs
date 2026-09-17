@@ -254,6 +254,30 @@ Yhdelläkään kysymyksellä ei saa raakoja harjoitustiedostojasi, sijaintitieto
 eikä kenenkään muun käyttäjän tietoja — ne eivät ole listalla, joten niitä ei voi
 kysyä.
 
+[Kysy Koutsilta](features/chat.md) -sivulla — ja vain siellä — listalla on kaksi
+kohtaa lisää, ja ne ovat ainoat jotka eivät ole pelkkiä kysymyksiä:
+
+| Koutsi voi myös | Ja mitä tapahtuu |
+|---|---|
+| Luonnostella sinulle harjoitusohjelman | Ohjelma **kirjoitetaan ja näytetään sinulle** hyväksyttäväksi tai hylättäväksi |
+| Luonnostella muutoksen ohjelmaan | Sama, yhdelle ohjelmalle tai yhdelle suunnitellulle harjoitukselle |
+
+Kumpikaan ei muuta harjoitteluasi. Ne kirjoittavat *luonnoksen*, joka jää odottamaan
+**Kyllä**-vastaustasi — ja klikkauksesi on se mikä toteuttaa sen. Koutsi ei voi
+painaa sitä painiketta, eikä ole mitään muuta reittiä jolla se tai sen takana oleva
+malli pääsisi käsiksi ohjelmiisi. Katso
+[Koutsi ehdottaa, sinä päätät](features/chat.md#koutsi-ehdottaa-sina-paatat).
+
+!!! info "Luonnosteltu ohjelma on toinen tekoälykutsu"
+    Viikkojen kirjoittaminen on oikea ohjelman generointi, ei yhteenveto — joten
+    ohjelman pyytäminen Koutsilta maksaa saman kuin sen generointi ohjelmasivulta,
+    ja se lasketaan samalla tavalla, **ohjelman generoinniksi** eikä chatiksi.
+    Päivittäinen kysymysrajasi laskee *kysymyksiä*, joten ohjelman luonnosteleva
+    kysymys on edelleen yksi kysymys, vaikka se maksaa enemmän kuin yhden kutsun.
+
+    Jos malliin ei saada yhteyttä tähän osaan, viikot kirjoittaa openkoutsin oma
+    ohjelmageneraattori, ja kortti kertoo siitä.
+
 !!! tip "Näet, mitä se tekee"
     Kun Koutsi kerää tietoja, kortti kertoo, missä kysymyksessä se on menossa —
     *"Koutsi tarkistaa tehokäyrääsi…"* — sen sijaan että näyttäisi pelkkää

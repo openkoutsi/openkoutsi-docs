@@ -100,11 +100,45 @@ Yhden keskustelun pituudelle on raja. Kun saavutat sen, aloita uusi — et menet
 mitään, koska Koutsi hakee harjoittelutietosi joka tapauksessa uudestaan joka
 kerta.
 
-### Koutsi neuvoo, sinä päätät
+### Koutsi ehdottaa, sinä päätät
 
-Koutsi ei voi muuttaa mitään. Se ei voi siirtää harjoitusta, muokata ohjelmaasi
-tai merkitä harjoitusta tehdyksi — se voi vain kertoa mitä itse tekisi. Kun vastaus
-koskee ohjelmaasi, mukana on linkki jolla voit avata sen ja tehdä muutoksen itse.
+Koutsi voi **ehdottaa** sinulle harjoitusohjelmaa tai muutosta siihen — eikä
+muuta.
+
+Pyydä sellaista — *"voisitko tehdä minulle kahdeksan viikkoa lokakuun mäkiseen
+gran fondoon?"*, *"siirrä koko juttu viikolla eteenpäin"*, *"tee torstaista
+kevyempi"* — niin se luonnostelee ehdotuksensa ja näyttää sen korttina vastauksensa
+alla, **Kyllä**- ja **Ei**-painikkeineen. Siinä vaiheessa harjoittelullesi ei ole
+tapahtunut mitään. Vain **Kyllä** muuttaa jotain, ja jos et koskaan vastaa,
+mikään ei muutu.
+
+Muutama asia kortista kannattaa tietää:
+
+- **Se kertoo mitä hyväksyminen arkistoi.** Uusi ohjelma arkistoi seuraamasi
+  ohjelmat, joiden ajanjakso menee sen kanssa päällekkäin, joten kortti nimeää ne
+  ennen kuin klikkaat — ei jälkeenpäin. Mitään ei menetetä: voit palauttaa
+  arkistoidun ohjelman ohjelmasivulta. Mutta sinun kuuluu tietää sen tapahtuvan.
+- **Luonnostelu vie hetken.** Koutsi kirjoittaa viikot kunnolla eikä vain hahmottele
+  niitä, joten odota muutamaa sekuntia. Toisinaan se ei saa yhteyttä tekoälymalliin
+  tähän osaan, jolloin viikot kirjoittaa openkoutsin oma ohjelmageneraattori;
+  kortti kertoo, kun näin käy.
+- **Tarjous on voimassa vuorokauden.** Nuku yön yli, jos haluat. Vuorokauden
+  jälkeen se vanhenee ja pyydät uuden.
+- **Voit jatkaa keskustelua ensin.** Jatkokysymyksen esittäminen ei peru tarjousta
+  — voit palata hyväksymään sen myöhemmin. *Uusi* tarjous korvaa vanhan.
+- **Vastaus on painike, ei kirjoitettu "kyllä".** Tämä on tarkoituksellista:
+  päätöksen on oltava keskustelun ulkopuolella, jotta mitään keskustelussa
+  sanottua ei voi erehtyä pitämään suostumuksenasi.
+
+Jos harjoittelusi on ehtinyt muuttua sen jälkeen kun Koutsi luonnosteli jotain —
+loit toisen ohjelman, aloituspäivä on mennyt, muutettava harjoitus on jo tehty —
+hyväksyminen hylätään sen sijaan että se toteutettaisiin, ja Koutsi luonnostelee
+uuden kun pyydät.
+
+Kaikki muu on edelleen neuvoja. Koutsi ei voi merkitä harjoitusta tehdyksi, ei voi
+liittää lenkkiä suunniteltuun harjoitukseen eikä voi rakentaa ohjelman loppuviikkoja
+uudelleen. Kun vastaus koskee ohjelmaasi, mukana on linkki jolla voit avata sen ja
+tehdä muut muutokset itse.
 
 ## Rajat
 

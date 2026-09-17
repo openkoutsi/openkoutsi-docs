@@ -101,11 +101,45 @@ There is a limit on how long a single conversation can get. When you reach it,
 start a new one — you lose nothing by doing so, because Koutsi looks your training
 up fresh each time anyway.
 
-### Koutsi advises; you decide
+### Koutsi offers; you decide
 
-Koutsi cannot change anything. It cannot move a session, edit your plan or mark a
-workout done — it can only tell you what it would do. When an answer is about your
-plan, there is a link to open it so you can make the change yourself.
+Koutsi can **offer** you a training plan, or a change to one, and nothing more.
+
+Ask it for one — *"could you build me eight weeks for a hilly gran fondo in
+October?"*, *"push the whole thing back a week"*, *"make Thursday easier"* — and
+it drafts what it is suggesting and shows it to you as a card under its reply,
+with **Yes** and **No**. Nothing has happened to your training at that point.
+Your **Yes** is the only thing that changes anything, and if you never answer,
+nothing ever does.
+
+A few things worth knowing about the card:
+
+- **It tells you what accepting would archive.** A new plan files away any plan
+  you are following whose dates overlap it, so the card names those plans before
+  you click rather than after. Nothing is lost — you can bring an archived plan
+  back from the plan page — but you should know it is going to happen.
+- **Drafting takes a moment.** Koutsi writes the weeks properly rather than
+  sketching them, so expect a few seconds. Occasionally it cannot reach the AI
+  model for that part and openkoutsi's own planner writes the weeks instead; the
+  card says so when that happens.
+- **An offer stands for a day.** Sleep on it if you want. After 24 hours it
+  lapses and you ask again.
+- **You can carry on talking first.** Asking a follow-up question does not cancel
+  an offer — you can go back and accept it afterwards. A *new* offer replaces the
+  old one.
+- **The answer is a button, never typing "yes".** That is deliberate: the
+  decision has to sit outside the conversation, so nothing said inside it can be
+  mistaken for your consent.
+
+If your training has moved on since Koutsi drafted something — you created
+another plan, the start date has passed, the session it was going to change has
+been done — accepting is refused rather than applied, and Koutsi will draft a
+fresh one when you ask.
+
+Everything else is still advice. Koutsi cannot mark a workout done, cannot link a
+ride to a planned session, and cannot rebuild the rest of a plan's weeks. When an
+answer is about your plan there is a link to open it, so you can make any other
+change yourself.
 
 ## Limits
 
