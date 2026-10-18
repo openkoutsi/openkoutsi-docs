@@ -71,6 +71,18 @@ Se katsoo jokaisen ajon, jolla ei ole pyörää, ja liittää ne joiden laji on
 otettu omaksi. Ajoihin joilla jo on pyörä — liitti openkoutsi ne tai valitsit
 sinä itse — ei kosketa lainkaan.
 
+Ennen kuin mitään muuttuu, openkoutsi pyytää vahvistuksen ja näyttää, montako
+ajoa liitettäisiin ja mihin pyörään. Jos peruutat, mitään ei tapahdu.
+
+### Liittämisen peruminen
+
+Tuliko katumus? Kun aiempia ajoja on liitetty, autotallissa näkyy painike **Peru
+liitetyt ajot**. Vahvistuksen jälkeen — siinä kerrotaan, montako ajoa se koskee —
+jokainen painikkeen liittämä ajo jää taas ilman pyörää.
+
+Se peruu vain sen, minkä painike teki. Itse jälkikäteen muuttamasi ajot
+ja saapuessaan tunnistetut ajot pysyvät ennallaan.
+
 !!! note "Miksi tämä on painike eikä automaattinen"
     Se käy läpi koko historiasi, mikä vuosikymmenen ajoilla on paljon ajoja. Se
     on sinun päätöksesi, ei jotain mitä pitäisi tapahtua hiljaa samalla kun

@@ -68,6 +68,18 @@ It looks at every ride with no bike on it and attaches the ones whose type is
 claimed. Rides that already have a bike — whether openkoutsi matched them or you
 chose it yourself — are left exactly as they are.
 
+Before anything changes, openkoutsi asks you to confirm and shows how many rides
+would be attached, and to which bike. Cancel and nothing happens.
+
+### Undoing it
+
+Changed your mind? Once past rides have been attached, the garage shows **Undo
+attached rides**. After a confirmation that says how many rides it covers, every
+ride the button attached goes back to having no bike.
+
+It only takes back what the button did. Rides you have changed by hand since, and
+rides that were matched as they arrived, stay as they are.
+
 !!! note "Why this is a button and not automatic"
     It walks your entire history, which for a decade of riding is a lot of rides.
     That is your call to make, not something that should happen quietly while you
