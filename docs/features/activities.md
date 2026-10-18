@@ -210,6 +210,25 @@ by itself:
 You decide what, if anything, to change. Only you know whether that 9 km ride was the
 commute or the long way home.
 
+## Editing many activities at once
+
+To label, re-categorise or move a batch of activities to a different bike, press
+**Select** above the activity list. Click activities to pick them, or use **Select this
+page**. Your selection is kept while you change pages or filters, so you can filter
+down to, say, last spring's short rides and pick them a page at a time.
+
+Then press **Edit selected**. For each thing you can change, choose what should happen:
+
+- **Labels** — *Add* or *Remove* each label. Other labels on each activity are kept,
+  so adding *Commute* never takes *Race* off the one that was also a race.
+- **Bike** — a bike, or *No bike*. This counts as your own choice, exactly as if you
+  had set it on each activity, so automatic matching will not change it later.
+- **Category** — a workout category, or *None* to clear it.
+
+Anything you leave at **Leave as is** stays exactly as it is on every activity. The
+button tells you how many activities the change applies to; nothing changes until you
+press it.
+
 ## Syncing from Strava
 
 Connect your Strava account to import your history and have new rides flow in
