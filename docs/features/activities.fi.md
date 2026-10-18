@@ -220,6 +220,29 @@ Asetuskortti tarkkailee kahta asiaa ja kertoo niistä muuttamatta itse mitään:
 Sinä päätät mitä, jos mitään, muutat. Vain sinä tiedät oliko se 9 kilometrin lenkki työmatka
 vai pidempi reitti kotiin.
 
+## Usean harjoituksen muokkaaminen kerralla
+
+Kun haluat merkitä, luokitella uudelleen tai siirtää joukon harjoituksia toiselle
+pyörälle, paina harjoituslistan yläpuolelta **Valitse**. Napsauta harjoituksia
+valitaksesi ne tai käytä painiketta **Valitse tämä sivu**. Valinta säilyy, kun vaihdat
+sivua tai suodatinta, joten voit esimerkiksi suodattaa esiin viime kevään lyhyet lenkit
+ja valita ne sivu kerrallaan.
+
+Paina sitten **Muokkaa valittuja**. Valitse jokaiselle muutettavalle asialle, mitä
+tapahtuu:
+
+- **Tunnisteet** — *Lisää* tai *Poista* kukin tunniste. Harjoitusten muut tunnisteet
+  säilyvät, joten *Työmatkaliikunnan* lisääminen ei koskaan poista *Kilpailua* siltä, joka
+  oli myös kilpailu.
+- **Pyörä** — jokin pyöristäsi tai *Ei pyörää*. Tämä on oma valintasi, aivan kuin olisit
+  asettanut sen jokaiseen harjoitukseen erikseen, joten automaattinen tunnistus ei muuta
+  sitä myöhemmin.
+- **Kategoria** — harjoituskategoria, tai *Ei mitään* sen tyhjentämiseksi.
+
+Kaikki, minkä jätät kohtaan **Jätä ennalleen**, pysyy jokaisessa harjoituksessa
+sellaisenaan. Painike kertoo, moneenko harjoitukseen muutos kohdistuu; mikään ei muutu
+ennen kuin painat sitä.
+
 ## Synkronointi Stravasta
 
 Yhdistä Strava-tilisi tuodaksesi historiasi ja antaaksesi uusien lenkkien virrata
