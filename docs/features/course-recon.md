@@ -218,25 +218,6 @@ Courses are kept, which is what makes them worth uploading:
 - **Delete any course**, which removes the analysis and the original file
   together.
 
-## Sending a course to your Karoo
-
-With Hammerhead connected (see
-[Syncing from Hammerhead](activities.md#syncing-from-hammerhead-karoo)), a course
-shows **Send to Karoo**. It sends the very GPX file you uploaded to your Hammerhead
-account as a route, ready to ride on your Karoo.
-
-- After the first time the button reads **Update on Karoo**: pressing it again
-  replaces that route rather than adding a second copy.
-- **Deleting the course** here also deletes the route openkoutsi created on your
-  Karoo.
-- If you deleted the route on the Karoo yourself, **Update on Karoo** simply sends
-  it again.
-
-!!! note "One direction only"
-    Hammerhead does not let apps download routes, so routes you made on the Karoo
-    or in the Hammerhead app do not appear here. Courses travel from openkoutsi to
-    the Karoo, not back.
-
 ## Your data
 
 Course recon is the one place openkoutsi keeps a route, and it does so
@@ -251,8 +232,6 @@ deliberately — see [Your data & AI](../data-and-ai.md) for the full picture:
 - The **coach is given the derived table, never the track**.
 - Working out road surfaces matches your route **on your own server**, against a
   routing container it runs itself. The route goes nowhere else.
-- The one exception is one you make yourself: **Send to Karoo** sends that
-  course's GPX to *your* Hammerhead account, and only when you press it.
 
 !!! note "Requires AI to be available"
     The segment table and the pacing numbers need no AI at all — they are

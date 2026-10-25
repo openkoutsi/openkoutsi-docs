@@ -316,46 +316,18 @@ harjoitusten siirtämisen** takaisin Wahoo-tilillesi (katso
 
 ## Synkronointi Hammerheadista (Karoo)
 
-Hammerhead toimii **molempiin suuntiin**. Lenkkisi tulevat Karoo-laitteeltasi, ja
-harjoitusarvosi sekä reittisi menevät sille:
-
-- **Lenkit** — yhdistä Hammerhead profiilistasi ja paina **Synkronoi nyt**
-  tuodaksesi historiasi. Jos palvelimellasi on Hammerheadin webhook-palvelu, jokainen
-  uusi lenkki saapuu sen jälkeen itsestään noin minuutin kuluttua siitä, kun se on
-  Hammerheadissa.
-- **Arvot** — katso [Arvojen lähettäminen Karoo-laitteelle](#sending-your-metrics-to-the-karoo).
-- **Reitit** — katso [Reitin lähettäminen Karoo-laitteelle](course-recon.md#sending-a-course-to-your-karoo).
+Yhdistä Hammerhead profiilistasi ja paina **Synkronoi nyt** tuodaksesi historiasi
+Karoo-laitteeltasi. Jos palvelimellasi on Hammerheadin webhook-palvelu, jokainen uusi
+lenkki saapuu sen jälkeen itsestään noin minuutin kuluttua siitä, kun se on
+Hammerheadissa.
 
 Karoon lenkkitiedosto on laitteen oma tallenne, joten jos sama lenkki saapuu myös
 Stravasta, openkoutsi pitää yhden aktiviteetin ja täyttää sen Karoon tiedostosta.
 
-!!! info "Sinä päätät, mitä Hammerhead jakaa"
-    Hammerheadin suostumusnäkymässä voit sallia vain osan siitä, mitä openkoutsi
-    pyytää. Se on täysin kunnossa: kukin ominaisuus toimii, jos sallit sen, ja
-    kehottaa yhdistämään uudelleen, jos et sallinut. Jos hylkäät koko näkymän,
-    Hammerhead jää vain yhdistämättä.
-
-!!! warning "Yhteyden katkaiseminen poistaa openkoutsin lähettämät tiedot"
-    Hammerhead-yhteyden katkaiseminen poistaa myös **Hammerheadin puolelta** kaikki
-    reitit ja harjoitukset, jotka openkoutsi on lähettänyt tilillesi. Lenkkisi
-    säilyvät Karoossa. openkoutsi pyytää vahvistuksen ennen yhteyden katkaisemista.
-
-### Arvojen lähettäminen Karoo-laitteelle { #sending-your-metrics-to-the-karoo }
-
-Profiilisi Hammerhead-kortin alla **Lähetä Karoo-laitteelle** lähettää FTP:si,
-painosi, maksimi- ja leposykkeesi sekä syke- ja tehoalueesi Karoo-laitteellesi.
-Vain openkoutsissa asettamasi arvot lähetetään; asettamattomat pysyvät Karoossa
-ennallaan, ja voit edelleen muokata niitä siellä.
-
-Ota käyttöön **Lähetä Karoo-laitteelle automaattisesti aina, kun nämä muuttuvat**,
-niin jokainen muutos — uusi FTP, uusi punnitus — menee Karoolle ilman napin
-painamista. Asetus on pois päältä, kunnes otat sen käyttöön, koska se muuttaa
-laitteesi tietoja.
-
-!!! note "Hammerhead vain vastaanottaa arvoja"
-    Hammerhead ei tarjoa tapaa lukea alueita takaisin, joten toisin kuin Stravan
-    kohdalla, *alueiden synkronointia Hammerheadista* ei ole. openkoutsi on näiden
-    arvojen koti.
+!!! note "Vain luku"
+    openkoutsi vain lukee lenkkisi Hammerheadista. Se ei lähetä Karoo-laitteellesi
+    mitään — ei alueita, reittejä eikä harjoituksia — eikä alueita ja FTP:tä voi
+    synkronoida Hammerheadista.
 
 ## Alueiden ja FTP:n synkronointi
 

@@ -44,8 +44,7 @@ Wahooon ja Hammerheadiin silloin, kun *sinä* yhdistät ne).
     Molemmat ovat tarkoituksellisia tekoja, eikä kumpikaan tapahdu itsestään:
 
     - **Stravan, Wahoon tai Hammerheadin yhdistäminen**, mikä on koko synkronoinnin
-      edellytys. Hammerheadin kanssa openkoutsi myös lähettää harjoitusarvosi ja
-      valitsemasi reitit Hammerhead-tilillesi.
+      edellytys.
     - **[Henkilökohtaisen käyttöoikeustunnisteen](features/personal-access-tokens.md)
       luominen** — pitkäikäinen tunniste, jonka annat omille työkaluillesi, jotta
       ne voivat lukea (ja jos niin myönnät, kirjoittaa) dataasi selaimen

@@ -42,8 +42,6 @@ your browser and your own server (and to Strava/Wahoo/Hammerhead when *you* conn
     Both are deliberate acts, and neither happens on its own:
 
     - **Connecting Strava, Wahoo or Hammerhead**, which is what makes the sync work.
-      With Hammerhead, openkoutsi also sends your training metrics and the
-      courses you choose *to* your Hammerhead account.
     - **Creating a [personal access token](features/personal-access-tokens.md)** —
       a long-lived credential you hand to your own tooling so it can read (and,
       if you grant it, write) your data from outside the browser. Whatever holds

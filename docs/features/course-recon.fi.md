@@ -219,24 +219,6 @@ Reitit säilytetään, ja juuri se tekee niiden lataamisesta kannattavaa:
 - **Poista mikä tahansa reitti**, jolloin analyysi ja alkuperäinen tiedosto
   poistuvat yhdessä.
 
-## Reitin lähettäminen Karoo-laitteelle { #sending-a-course-to-your-karoo }
-
-Kun Hammerhead on yhdistetty (katso
-[Synkronointi Hammerheadista](activities.md#synkronointi-hammerheadista-karoo)),
-reitillä näkyy **Lähetä Karoo-laitteelle**. Se lähettää juuri lataamasi GPX-tiedoston
-Hammerhead-tilillesi reittinä, valmiina ajettavaksi Karoolla.
-
-- Ensimmäisen kerran jälkeen painike on **Päivitä Karoossa**: sen painaminen
-  korvaa reitin sen sijaan, että lisäisi toisen kopion.
-- **Reitin poistaminen** täällä poistaa myös openkoutsin Karoolle luoman reitin.
-- Jos poistit reitin Karoosta itse, **Päivitä Karoossa** lähettää sen yksinkertaisesti
-  uudelleen.
-
-!!! note "Vain yhteen suuntaan"
-    Hammerhead ei salli sovellusten ladata reittejä, joten Karoossa tai
-    Hammerhead-sovelluksessa tekemäsi reitit eivät näy täällä. Reitit kulkevat
-    openkoutsista Karoolle, eivät takaisin.
-
 ## Datasi
 
 Reittianalyysi on ainoa paikka, jossa openkoutsi säilyttää reitin, ja se tekee sen
@@ -251,8 +233,6 @@ tarkoituksella — koko kuva löytyy sivulta [Datasi ja tekoäly](../data-and-ai
 - **Valmentaja saa lasketun taulukon, ei koskaan reittijälkeä.**
 - Tienpintojen selvittäminen sovittaa reittisi **omalla palvelimellasi**,
   reitityspalvelua vasten, jota se itse ajaa. Reitti ei mene minnekään muualle.
-- Ainoa poikkeus on sellainen, jonka teet itse: **Lähetä Karoo-laitteelle** lähettää
-  reitin GPX:n *omalle* Hammerhead-tilillesi, ja vain kun painat sitä.
 
 !!! note "Vaatii tekoälyn käytettävyyden"
     Osuustaulukko ja tahdituslukemat eivät tarvitse tekoälyä lainkaan — ne

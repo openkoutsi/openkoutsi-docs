@@ -301,44 +301,18 @@ workouts** back to your Wahoo account (see
 
 ## Syncing from Hammerhead (Karoo)
 
-Hammerhead works in **both directions**. Your rides come *from* your Karoo, and
-your training numbers and courses go *to* it:
-
-- **Rides** — connect Hammerhead from your profile and press **Sync now** to bring
-  in your history. If your server runs the Hammerhead webhook service, every new
-  ride then arrives on its own a minute or so after it reaches Hammerhead.
-- **Metrics** — see [Sending your metrics to the Karoo](#sending-your-metrics-to-the-karoo).
-- **Courses** — see [Sending a course to your Karoo](course-recon.md#sending-a-course-to-your-karoo).
+Connect Hammerhead from your profile and press **Sync now** to bring in your
+history from your Karoo. If your server runs the Hammerhead webhook service, every
+new ride then arrives on its own a minute or so after it reaches Hammerhead.
 
 The ride file from your Karoo is the head unit's own recording, so if the same ride
 also arrives from Strava, openkoutsi keeps a single activity and fills it from the
 Karoo's file.
 
-!!! info "You choose what Hammerhead shares"
-    Hammerhead's consent screen lets you allow only some of what openkoutsi asks
-    for. That is fine: each feature works if you allowed it, and tells you to
-    reconnect if you did not. Declining the whole screen simply leaves Hammerhead
-    unconnected.
-
-!!! warning "Disconnecting removes what openkoutsi sent"
-    Disconnecting Hammerhead also deletes, **on Hammerhead's side**, every route
-    and workout openkoutsi sent to your account. Your rides stay on your Karoo.
-    openkoutsi asks you to confirm before it disconnects.
-
-### Sending your metrics to the Karoo
-
-Under the Hammerhead card on your profile, **Push to Karoo** sends your FTP,
-weight, max and resting heart rate, and heart-rate and power zones to your Karoo.
-Only what you have set in openkoutsi is sent; anything you have not set stays
-whatever it is on the Karoo, and you can still edit it there.
-
-Turn on **Send to the Karoo automatically whenever these change** to have every
-change to those numbers — a new FTP, a new weigh-in — go to the Karoo without
-pressing anything. It is off until you turn it on, because it changes your device.
-
-!!! note "Hammerhead only receives metrics"
-    Hammerhead offers no way to read zones back, so unlike Strava there is no
-    *sync zones from Hammerhead*. openkoutsi is where these numbers live.
+!!! note "Read-only"
+    openkoutsi only reads your rides from Hammerhead. It does not send anything to
+    your Karoo — no zones, routes or workouts — and Hammerhead is not one of the
+    services you can sync zones and FTP from.
 
 ## Syncing zones and FTP
 
