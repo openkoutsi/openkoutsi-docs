@@ -87,7 +87,7 @@ Harjoitus- ja terveystietosi ovat **omassa yksityisessä tietokannassasi** ja
 näkyvät vain sinulle — eivät muille käyttäjille eivätkä ylläpitäjälle. Ladatut
 FIT-tiedostot ja profiilikuvat tallennetaan salattuina. Normaali käyttö ei lähetä
 tietojasi minnekään muualle kuin selaimesi ja oman palvelimesi välillä (ja
-Stravalle/Wahoolle tai tekoälypalvelulle vain, kun *sinä* päätät yhdistää ne).
+Stravalle/Wahoolle/Hammerheadille tai tekoälypalvelulle vain, kun *sinä* päätät yhdistää ne).
 
 !!! info "Isännöitkö itse? Olet rekisterinpitäjä"
     Tämä sivu kuvaa ohjelmiston toimintaa. Jos **ylläpidät** openkoutsi-palvelua,

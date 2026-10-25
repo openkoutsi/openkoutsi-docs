@@ -83,7 +83,7 @@ app — see [Your data & AI](data-and-ai.md).
 Your training and health data lives in your **own private database** and is
 visible only to you — not to other users, and not to an administrator. Uploaded
 FIT files and avatars are stored encrypted. Normal use never sends your data
-anywhere except between your browser and your own server (and to Strava/Wahoo, or
+anywhere except between your browser and your own server (and to Strava/Wahoo/Hammerhead, or
 an AI provider, only when *you* choose to connect them).
 
 !!! info "Self-hosting? You're the data controller"

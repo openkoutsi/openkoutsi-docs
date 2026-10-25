@@ -35,15 +35,17 @@ Kaikki, mitä syötät openkoutsiin, pysyy instanssiasi pyörittävällä palvel
     on sinun.
 - Voit **viedä datasi tai poistaa tilisi** milloin tahansa.
 
-openkoutsin tavallinen käyttö — lenkkien lataaminen, synkronointi Stravasta ja
-Wahoosta, mittareidesi ja ohjelmiesi katselu — ei koskaan lähetä harjoitusdataasi
-minnekään muualle kuin selaimesi ja oman palvelimesi välillä (sekä Stravaan ja
-Wahooon silloin, kun *sinä* yhdistät ne).
+openkoutsin tavallinen käyttö — lenkkien lataaminen, synkronointi Stravasta,
+Wahoosta ja Hammerheadista, mittareidesi ja ohjelmiesi katselu — ei koskaan lähetä harjoitusdataasi
+minnekään muualle kuin selaimesi ja oman palvelimesi välillä (sekä Stravaan,
+Wahooon ja Hammerheadiin silloin, kun *sinä* yhdistät ne).
 
 !!! warning "Kaksi asiaa, jotka voit tehdä ja jotka lähettävät dataa muualle"
     Molemmat ovat tarkoituksellisia tekoja, eikä kumpikaan tapahdu itsestään:
 
-    - **Stravan tai Wahoon yhdistäminen**, mikä on koko synkronoinnin edellytys.
+    - **Stravan, Wahoon tai Hammerheadin yhdistäminen**, mikä on koko synkronoinnin
+      edellytys. Hammerheadin kanssa openkoutsi myös lähettää harjoitusarvosi ja
+      valitsemasi reitit Hammerhead-tilillesi.
     - **[Henkilökohtaisen käyttöoikeustunnisteen](features/personal-access-tokens.md)
       luominen** — pitkäikäinen tunniste, jonka annat omille työkaluillesi, jotta
       ne voivat lukea (ja jos niin myönnät, kirjoittaa) dataasi selaimen
