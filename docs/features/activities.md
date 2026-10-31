@@ -258,7 +258,7 @@ your history than the last.
 !!! info "Why an import stops partway"
     Four things can end one early, and the line on your profile names which:
 
-    - **Strava or Wahoo rate-limited us.** They cap how many requests the app may
+    - **Strava, Wahoo or Hammerhead rate-limited us.** They cap how many requests the app may
       make, and that budget is shared by everyone on your instance. Rather than
       import rides without their power, heart-rate and cadence data, the import
       stops. This is the common one, and waiting an hour before pressing Sync
@@ -298,6 +298,21 @@ workouts** back to your Wahoo account (see
     Some features need additional Wahoo permissions. If you connected Wahoo before
     a feature was added, you may need to disconnect and reconnect to grant the new
     access.
+
+## Syncing from Hammerhead (Karoo)
+
+Connect Hammerhead from your profile and press **Sync now** to bring in your
+history from your Karoo. If your server runs the Hammerhead webhook service, every
+new ride then arrives on its own a minute or so after it reaches Hammerhead.
+
+The ride file from your Karoo is the head unit's own recording, so if the same ride
+also arrives from Strava, openkoutsi keeps a single activity and fills it from the
+Karoo's file.
+
+!!! note "Read-only"
+    openkoutsi only reads your rides from Hammerhead. It does not send anything to
+    your Karoo — no zones, routes or workouts — and Hammerhead is not one of the
+    services you can sync zones and FTP from.
 
 ## Syncing zones and FTP
 

@@ -273,7 +273,7 @@ edellistä kauemmas.
     Neljä asiaa voi päättää tuonnin ennenaikaisesti, ja profiilisi rivi kertoo,
     mikä niistä:
 
-    - **Strava tai Wahoo rajoitti pyyntöjämme.** Ne rajoittavat sitä, kuinka
+    - **Strava, Wahoo tai Hammerhead rajoitti pyyntöjämme.** Ne rajoittavat sitä, kuinka
       monta pyyntöä sovellus saa tehdä, ja budjetti on yhteinen kaikille
       instanssisi käyttäjille. Sen sijaan että tuotaisiin lenkkejä ilman teho-,
       syke- ja poljinnopeustietoja, tuonti pysähtyy. Tämä on yleisin syy, ja
@@ -313,6 +313,21 @@ harjoitusten siirtämisen** takaisin Wahoo-tilillesi (katso
     Jotkin ominaisuudet tarvitsevat lisää Wahoo-oikeuksia. Jos yhdistit Wahoon
     ennen ominaisuuden lisäämistä, saatat joutua katkaisemaan yhteyden ja
     yhdistämään uudelleen myöntääksesi uuden pääsyn.
+
+## Synkronointi Hammerheadista (Karoo)
+
+Yhdistä Hammerhead profiilistasi ja paina **Synkronoi nyt** tuodaksesi historiasi
+Karoo-laitteeltasi. Jos palvelimellasi on Hammerheadin webhook-palvelu, jokainen uusi
+lenkki saapuu sen jälkeen itsestään noin minuutin kuluttua siitä, kun se on
+Hammerheadissa.
+
+Karoon lenkkitiedosto on laitteen oma tallenne, joten jos sama lenkki saapuu myös
+Stravasta, openkoutsi pitää yhden aktiviteetin ja täyttää sen Karoon tiedostosta.
+
+!!! note "Vain luku"
+    openkoutsi vain lukee lenkkisi Hammerheadista. Se ei lähetä Karoo-laitteellesi
+    mitään — ei alueita, reittejä eikä harjoituksia — eikä alueita ja FTP:tä voi
+    synkronoida Hammerheadista.
 
 ## Alueiden ja FTP:n synkronointi
 

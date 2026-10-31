@@ -34,14 +34,14 @@ Everything you put into openkoutsi stays on the server your instance runs on:
     regular Sunday loop, don't upload it as a course — that stays your choice.
 - You can **export your data or delete your account** at any time.
 
-Normal use of openkoutsi — uploading rides, syncing from Strava/Wahoo, viewing
+Normal use of openkoutsi — uploading rides, syncing from Strava/Wahoo/Hammerhead, viewing
 your metrics and plans — never sends your training data anywhere except between
-your browser and your own server (and to Strava/Wahoo when *you* connect them).
+your browser and your own server (and to Strava/Wahoo/Hammerhead when *you* connect them).
 
 !!! warning "Two things you can do that send data elsewhere"
     Both are deliberate acts, and neither happens on its own:
 
-    - **Connecting Strava or Wahoo**, which is what makes the sync work.
+    - **Connecting Strava, Wahoo or Hammerhead**, which is what makes the sync work.
     - **Creating a [personal access token](features/personal-access-tokens.md)** —
       a long-lived credential you hand to your own tooling so it can read (and,
       if you grant it, write) your data from outside the browser. Whatever holds
