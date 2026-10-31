@@ -26,6 +26,13 @@ full **privacy policy**.
 Because health data is treated as sensitive, this consent is explicit and
 separate — you tick the box yourself, and nothing is processed until you do.
 
+### You must be 18 or older
+
+openkoutsi is for adults only. On the same consent screen you also confirm that
+you are **at least 18 years old**, and you can't continue without ticking that
+box too. Processing a minor's health data would need a parent's consent, which
+the app has no way to collect.
+
 ### If you decline
 
 You can't use the service without accepting the terms, but declining is not a

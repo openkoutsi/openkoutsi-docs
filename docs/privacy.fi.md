@@ -26,6 +26,13 @@ harjoitukset, yhdistämiesi palveluiden tiedot ja käyttöön ottamasi tekoälya
 Koska terveystietoja pidetään arkaluonteisina, tämä suostumus on nimenomainen ja
 erillinen — rastitat ruudun itse, eikä mitään käsitellä ennen sitä.
 
+### Sinun on oltava vähintään 18-vuotias
+
+openkoutsi on tarkoitettu vain täysi-ikäisille. Samassa suostumusnäkymässä
+vahvistat myös olevasi **vähintään 18-vuotias**, etkä voi jatkaa rastittamatta
+myös tätä ruutua. Alaikäisen terveystietojen käsittely vaatisi huoltajan
+suostumuksen, jota sovellus ei pysty keräämään.
+
 ### Jos et hyväksy
 
 Palvelua ei voi käyttää hyväksymättä ehtoja, mutta hylkääminen ei ole umpikuja.
